@@ -11,10 +11,23 @@ import numpy as np
 from datetime import datetime, timedelta
 from dateutil.relativedelta import relativedelta
 import os
-
 auth_token = '6482338a76be3774d91cc9b0_31de04c6-0a75-4e5f-a052-b71416c97bdd'
 user_url = "https://api.us.lighthouse.io/applications/64788f940b7634da94ffdcbd/users"
 user_agent = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.3"
+
+# Get the absolute path of the script
+script_path = os.path.dirname(os.path.abspath(__file__))
+
+# Define the data folder paths
+data_folder = os.path.join(script_path, 'data/raw_tasks')
+processed_folder = os.path.join(script_path, 'data/processed')
+
+# Check if the data folders exist, if not, create them
+os.makedirs(data_folder, exist_ok=True)
+os.makedirs(processed_folder, exist_ok=True)
+
+# Get the list of existing json files in the data folder
+existing_files = os.listdir(data_folder)
 
 def get_user_data(url):
     headers = {"Authorization":auth_token, "User-Agent":user_agent}
@@ -56,10 +69,6 @@ def load_data(filename):
         data = json.load(f)
     return data
 
-# Get the list of existing json files in the data folder
-data_folder = './data/raw_tasks'
-existing_files = os.listdir(data_folder)
-
 # Define the start and end dates for data collection
 start_date = datetime.strptime('2023-10-01', '%Y-%m-%d')
 end_date = datetime.now().replace(day=1) - timedelta(days=1)
@@ -93,12 +102,9 @@ existing_files = os.listdir(data_folder)
 for file in existing_files:
     if file.endswith('.json'):
         data = load_data(os.path.join(data_folder,file))
-        all_data.extend(data)
+        all_data.append(data)
 
-len(all_data)
-
-# Convert json data to dataframe
-df = pd.json_normalize(data)
+df = pd.concat([pd.json_normalize(data) for data in all_data])
 
 # Filter and rename columns
 column_mapping = {
@@ -129,9 +135,9 @@ df.drop(columns=['user','uid'], inplace=True)
 # Convert the datetime columns to string readable format
 df['Datetime'] = pd.to_datetime(df['Datetime']).dt.strftime('%Y-%m-%d %H:%M:%S')
 
+df.sort_values(by='Datetime', inplace=True)
 
 # Save the data as a csv file in processed folder with timestamp
 timestamp = datetime.now().strftime('%Y%m%d%H%M%S')
 filename = f'task_data_{timestamp}.csv'
-data_folder = './data/processed'
-df.to_csv(os.path.join(data_folder,filename), index=False)
+df.to_csv(os.path.join(processed_folder,filename), index=False)

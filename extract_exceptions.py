@@ -102,12 +102,9 @@ existing_files = os.listdir(data_folder)
 for file in existing_files:
     if file.endswith('.json'):
         data = load_data(os.path.join(data_folder,file))
-        all_data.extend(data)
+        all_data.append(data)
 
-len(all_data)
-
-# Convert json data to dataframe
-df = pd.json_normalize(data)
+df = pd.concat([pd.json_normalize(data) for data in all_data])
 
 # Filter and rename columns
 column_mapping = {
@@ -131,9 +128,12 @@ df['Resolved Datetime'] = pd.to_datetime(df['Resolved Datetime']).dt.strftime('%
 # Convert the duration from ms to hours
 df['Duration'] = df['Duration'] / 3600000
 
+# Filter out bad data
+df.drop(df[(df['Opened Datetime'] < '2023-11-01') & (df['Location 1'].str.contains('IDF'))].index, inplace=True)
+
+df.sort_values(by='Opened Datetime', inplace=True)
 
 # Save the data as a csv file in processed folder with timestamp
 timestamp = datetime.now().strftime('%Y%m%d%H%M%S')
 filename = f'exception_data_{timestamp}.csv'
-data_folder = './data/processed'
-df.to_csv(os.path.join(data_folder,filename), index=False)
+df.to_csv(os.path.join(processed_folder,filename), index=False)
