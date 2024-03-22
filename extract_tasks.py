@@ -126,6 +126,10 @@ df = df.merge(user_df, on='user', how='left')
 
 df.drop(columns=['user','uid'], inplace=True)
 
+# Convert the datetime columns to string readable format
+df['Datetime'] = pd.to_datetime(df['Datetime']).dt.strftime('%Y-%m-%d %H:%M:%S')
+
+
 # Save the data as a csv file in processed folder with timestamp
 timestamp = datetime.now().strftime('%Y%m%d%H%M%S')
 filename = f'task_data_{timestamp}.csv'

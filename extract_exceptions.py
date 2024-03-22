@@ -111,29 +111,26 @@ df = pd.json_normalize(data)
 
 # Filter and rename columns
 column_mapping = {
-    'sequenceId':'ID',
-    'title':'Title',
-    'user':'user',
-    'uid':'uid',
-    'createdAt':'Datetime',
-    'gps.reverseGeocoded.shortLabel':'GPS Location',
-    'gps.geometry.coordinates':'LatLong',
-    'area.location.name':'Location 1',
-    'area.point.name':'Location 2',
+    'opened': 'Opened Datetime',
+    'duration': 'Duration',
+    'resolved': 'Resolved Datetime',
+    'area.shortLabel':'Location 1'
 }
 
 df = df.rename(columns=column_mapping)
 df = df[column_mapping.values()]
 
-# Map username to uid
-user_data = get_user_data(user_url)
-user_df = pd.json_normalize(user_data)
+# Reorder the columns
+column_order = ['Location 1','Opened Datetime','Resolved Datetime','Duration']
+df = df[column_order]
 
-user_df = user_df[['user._id', 'user.fullName']].rename(columns={'user._id':'user', 'user.fullName':'Name'})
+# Convert the datetime columns to string readable format
+df['Opened Datetime'] = pd.to_datetime(df['Opened Datetime']).dt.strftime('%Y-%m-%d %H:%M:%S')
+df['Resolved Datetime'] = pd.to_datetime(df['Resolved Datetime']).dt.strftime('%Y-%m-%d %H:%M:%S')
 
-df = df.merge(user_df, on='user', how='left')
+# Convert the duration from ms to hours
+df['Duration'] = df['Duration'] / 3600000
 
-df.drop(columns=['user','uid'], inplace=True)
 
 # Save the data as a csv file in processed folder with timestamp
 timestamp = datetime.now().strftime('%Y%m%d%H%M%S')
