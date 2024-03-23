@@ -14,6 +14,8 @@ tasks = [file for file in files if 'task' in file]
 latest_tasks = sorted(tasks, reverse=True)[0]
 exceptions = [file for file in files if 'exception' in file]
 latest_exceptions = sorted(exceptions, reverse=True)[0]
+summary = [file for file in files if 'summary' in file]
+latest_summary = sorted(summary, reverse=True)[0]
 
 
 # Set up credentials
@@ -33,5 +35,11 @@ exceptions = pd.read_csv(os.path.join(data_path,latest_exceptions))
 worksheet = sh.get_worksheet(1)
 worksheet.clear()
 set_with_dataframe(worksheet=worksheet, dataframe=exceptions, include_index=False,include_column_header=True, resize=True)
+
+# Write summary data to Google Sheets
+summary = pd.read_csv(os.path.join(data_path,latest_summary))
+worksheet = sh.get_worksheet(2)
+worksheet.clear()
+set_with_dataframe(worksheet=worksheet, dataframe=summary, include_index=False,include_column_header=True, resize=True)
 
 print("Data written to Google Sheets successfully!")

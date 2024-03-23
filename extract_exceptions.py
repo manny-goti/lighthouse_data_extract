@@ -43,7 +43,7 @@ def get_exception_data(url):
 
 def get_monthly_data(start_date, end_date):
     page = 1
-    exceptions_url = f"https://api.us.lighthouse.io/applications/64788f940b7634da94ffdcbd/exceptions?from={start_date}&to={end_date}&page={page}&perPage=50&sort=-createdAt"
+    exceptions_url = f"https://api.us.lighthouse.io/applications/64788f940b7634da94ffdcbd/exceptions?from={start_date.date()}T04%3A00%3A00.000Z&to={end_date.date()}T03%3A59%3A59.999Z&page={page}&perPage=50&sort=-createdAt"
     all_data = []
     
     while True:
@@ -54,7 +54,7 @@ def get_monthly_data(start_date, end_date):
             break
         
         page += 1
-        exceptions_url = f"https://api.us.lighthouse.io/applications/64788f940b7634da94ffdcbd/exceptions?from={start_date}&to={end_date}&page={page}&perPage=50&sort=-createdAt"
+        exceptions_url = f"https://api.us.lighthouse.io/applications/64788f940b7634da94ffdcbd/exceptions?from={start_date.date()}T04%3A00%3A00.000Z&to={end_date.date()}T03%3A59%3A59.999Z&page={page}&perPage=50&sort=-createdAt"
     
     return all_data
 
