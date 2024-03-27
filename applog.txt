@@ -1,0 +1,40 @@
+2024-03-27 19:59:44,063 - root - INFO - **************Starting IFP Data Extraction/Update**************
+2024-03-27 19:59:44,063 - root - INFO - 2023_10.json already exists
+2024-03-27 19:59:44,063 - root - INFO - 2023_11.json already exists
+2024-03-27 19:59:44,063 - root - INFO - 2023_12.json already exists
+2024-03-27 19:59:44,063 - root - INFO - 2024_01.json already exists
+2024-03-27 19:59:44,063 - root - INFO - 2024_02.json already exists
+2024-03-27 19:59:44,233 - root - INFO - Task data saved successfully! Filename: task_data_20240327195944.csv
+2024-03-27 19:59:44,236 - root - INFO - 2023_10.json already exists
+2024-03-27 19:59:44,236 - root - INFO - 2023_11.json already exists
+2024-03-27 19:59:44,236 - root - INFO - 2023_12.json already exists
+2024-03-27 19:59:44,236 - root - INFO - 2024_01.json already exists
+2024-03-27 19:59:44,236 - root - INFO - 2024_02.json already exists
+2024-03-27 19:59:44,247 - root - INFO - Exception data saved successfully! Filename: exception_data_20240327195944.csv
+2024-03-27 19:59:44,272 - root - INFO - Data processed successfully! Files saved in processed folder.
+2024-03-27 19:59:44,948 - root - INFO - No update in Tasks Data
+2024-03-27 19:59:45,218 - root - INFO - No update in Exceptions Data
+2024-03-27 19:59:45,218 - root - INFO - No update in Summary Data
+2024-03-27 19:59:45,221 - root - INFO - **************IFP Data Extraction/Update Complete**************
+2024-03-27 19:59:45,222 - root - INFO - **************Sending Email Notification**************
+2024-03-27 19:59:45,330 - root - INFO - **************Email Notification Sent**************
+2024-03-27 20:12:20,422 - root - INFO - **************Starting IFP Data Extraction/Update**************
+2024-03-27 20:12:20,422 - root - INFO - 2023_10.json already exists
+2024-03-27 20:12:20,422 - root - INFO - 2023_11.json already exists
+2024-03-27 20:12:20,422 - root - INFO - 2023_12.json already exists
+2024-03-27 20:12:20,422 - root - INFO - 2024_01.json already exists
+2024-03-27 20:12:20,422 - root - INFO - 2024_02.json already exists
+2024-03-27 20:12:21,208 - root - INFO - Task data saved successfully! Filename: task_data_20240327201221.csv
+2024-03-27 20:12:21,211 - root - INFO - 2023_10.json already exists
+2024-03-27 20:12:21,211 - root - INFO - 2023_11.json already exists
+2024-03-27 20:12:21,211 - root - INFO - 2023_12.json already exists
+2024-03-27 20:12:21,211 - root - INFO - 2024_01.json already exists
+2024-03-27 20:12:21,211 - root - INFO - 2024_02.json already exists
+2024-03-27 20:12:21,222 - root - INFO - Exception data saved successfully! Filename: exception_data_20240327201221.csv
+2024-03-27 20:12:21,277 - root - INFO - Data processed successfully! Files saved in processed folder.
+2024-03-27 20:12:22,291 - root - INFO - No update in Tasks Data
+2024-03-27 20:12:22,551 - root - INFO - No update in Exceptions Data
+2024-03-27 20:12:22,551 - root - INFO - No update in Summary Data
+2024-03-27 20:12:22,554 - root - INFO - **************IFP Data Extraction/Update Complete**************
+2024-03-27 20:12:22,555 - root - INFO - **************Sending Email Notification**************
+2024-03-27 20:12:22,640 - root - INFO - **************Email Notification Sent**************
