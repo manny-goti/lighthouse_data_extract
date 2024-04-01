@@ -6,6 +6,9 @@ from write_to_google import write_to_gsheets
 from datetime import datetime, timedelta
 import os
 
+## Cron Job:
+# 0 0 2 * * /home/mgoti/anaconda3/envs/lighthouse_api/bin/python /home/mgoti/Projects/ifp_report/main.py
+
 
 # Set up logging with time and date
 logging.basicConfig(filename='applog.txt', filemode='a', format='%(asctime)s - %(name)s - %(levelname)s - %(message)s', level=logging.INFO)
