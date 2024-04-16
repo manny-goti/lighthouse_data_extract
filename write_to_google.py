@@ -13,7 +13,7 @@ def write_to_gsheets():
 
     # Set up path to credentials
     script_path = os.path.dirname(os.path.abspath(__file__))
-    config_path = os.path.join(script_path, '.config/gspread-271615-d27c4618640f.json')
+    config_path = os.path.join(script_path, '.config/config.json')
     data_path = os.path.join(script_path, 'data/processed/')
     files = os.listdir(data_path)
     # Get the latest files based on timestamp in filename
