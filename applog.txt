@@ -38,3 +38,12 @@
 2024-03-27 20:12:22,554 - root - INFO - **************IFP Data Extraction/Update Complete**************
 2024-03-27 20:12:22,555 - root - INFO - **************Sending Email Notification**************
 2024-03-27 20:12:22,640 - root - INFO - **************Email Notification Sent**************
+2024-06-03 15:20:06,201 - root - INFO - Saved /home/mgoti/Projects/ifp_report/data/raw_issues/2023_10.json
+2024-06-03 15:20:07,675 - root - INFO - Saved /home/mgoti/Projects/ifp_report/data/raw_issues/2023_11.json
+2024-06-03 15:20:09,974 - root - INFO - Saved /home/mgoti/Projects/ifp_report/data/raw_issues/2023_12.json
+2024-06-03 15:20:12,039 - root - INFO - Saved /home/mgoti/Projects/ifp_report/data/raw_issues/2024_01.json
+2024-06-03 15:20:14,622 - root - INFO - Saved /home/mgoti/Projects/ifp_report/data/raw_issues/2024_02.json
+2024-06-03 15:20:16,295 - root - INFO - Saved /home/mgoti/Projects/ifp_report/data/raw_issues/2024_03.json
+2024-06-03 15:20:18,082 - root - INFO - Saved /home/mgoti/Projects/ifp_report/data/raw_issues/2024_04.json
+2024-06-03 15:20:18,180 - root - INFO - Saved /home/mgoti/Projects/ifp_report/data/raw_issues/2024_05.json
+2024-06-03 15:20:19,505 - root - INFO - Issue data saved successfully! Filename: issue_data_20240603152019.csv

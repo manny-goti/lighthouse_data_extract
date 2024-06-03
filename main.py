@@ -1,6 +1,7 @@
 import logging
 from extract_tasks import extract_tasks
 from extract_exceptions import extract_exceptions
+from extract_issues import extract_issues
 from process_data import process_lighthouse_data
 from write_to_google import write_to_gsheets
 from datetime import datetime, timedelta
@@ -24,6 +25,7 @@ def main():
     logging.info('**************Starting IFP Data Extraction/Update**************')
     extract_tasks(start_date, end_date,auth_token,user_agent)
     extract_exceptions(start_date, end_date,auth_token)
+    extract_issues(start_date, end_date,auth_token,user_agent)
     process_lighthouse_data()
     write_to_gsheets()
     logging.info('**************IFP Data Extraction/Update Complete**************')

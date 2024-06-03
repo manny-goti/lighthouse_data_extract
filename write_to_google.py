@@ -23,6 +23,8 @@ def write_to_gsheets():
     latest_exceptions = sorted(exceptions, reverse=True)[0]
     summary = [file for file in files if 'summary' in file]
     latest_summary = sorted(summary, reverse=True)[0]
+    issues = os.listdir(os.path.join(data_path, 'issues'))
+    latest_issues = sorted(issues, reverse=True)[0]
 
 
     # Set up credentials
@@ -36,8 +38,9 @@ def write_to_gsheets():
     # Write tasks to Google Sheets
     tasks = pd.read_csv(os.path.join(data_path,latest_tasks))
     worksheet = sh.get_worksheet(0)
-    # If Length of the dataframe == length of the worksheet, clear the worksheet
-    if len(tasks) > len(worksheet.get_all_values()):
+    assert worksheet.title == 'Tasks'
+    # If Length of the dataframe > length of the worksheet, clear the worksheet
+    if len(tasks)+1 > len(worksheet.get_all_values()):
         worksheet.clear()
         set_with_dataframe(worksheet=worksheet, dataframe=tasks, include_index=False,include_column_header=True, resize=True)
         data_updated = True
@@ -48,8 +51,9 @@ def write_to_gsheets():
     # Write exceptions to Google Sheets
     exceptions = pd.read_csv(os.path.join(data_path,latest_exceptions))
     worksheet = sh.get_worksheet(1)
-    # If Length of the dataframe == length of the worksheet, clear the worksheet
-    if len(exceptions) > len(worksheet.get_all_values()):
+    assert worksheet.title == 'Exceptions'
+    # If Length of the dataframe > length of the worksheet, clear the worksheet
+    if len(exceptions)+1 > len(worksheet.get_all_values()):
         worksheet.clear()
         set_with_dataframe(worksheet=worksheet, dataframe=exceptions, include_index=False,include_column_header=True, resize=True)
         data_updated = True
@@ -61,8 +65,22 @@ def write_to_gsheets():
     if data_updated:
         summary = pd.read_csv(os.path.join(data_path,latest_summary))
         worksheet = sh.get_worksheet(2)
+        assert worksheet.title == 'Summary Data'
         worksheet.clear()
         set_with_dataframe(worksheet=worksheet, dataframe=summary, include_index=False,include_column_header=True, resize=True)
         logging.info('Summary data updated in Google Sheets')
     else:
         logging.info('No update in Summary Data')
+
+    # Write issues data to Google Sheets
+    issues = pd.read_csv(os.path.join(data_path,'issues',latest_issues))
+    worksheet = sh.get_worksheet(3)
+    assert worksheet.title == 'Issues'
+    # If Length of the dataframe + headerRow > length of the worksheet, clear the worksheet
+    if len(issues)+1 > len(worksheet.get_all_values()):
+        worksheet.clear()
+        set_with_dataframe(worksheet=worksheet, dataframe=issues, include_index=False,include_column_header=True, resize=True)
+        logging.info('Issues updated in Google Sheets')
+    else:
+        logging.info('No update in Issues Data')
+
