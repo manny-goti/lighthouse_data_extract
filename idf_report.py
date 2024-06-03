@@ -22,6 +22,9 @@ try:
     # Clean Data
     tasks = tasks[tasks['Location 2'].notnull()]
 
+    # Remove duplicates
+    tasks.drop_duplicates(subset=['Location 2','Year/Month'],inplace=True)
+
     # Write to Gsheets
     script_path = os.path.dirname(os.path.abspath(__file__))
     config_path = os.path.join(script_path, '.config/config.json')

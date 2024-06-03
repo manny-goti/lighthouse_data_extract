@@ -47,3 +47,11 @@
 2024-06-03 15:20:18,082 - root - INFO - Saved /home/mgoti/Projects/ifp_report/data/raw_issues/2024_04.json
 2024-06-03 15:20:18,180 - root - INFO - Saved /home/mgoti/Projects/ifp_report/data/raw_issues/2024_05.json
 2024-06-03 15:20:19,505 - root - INFO - Issue data saved successfully! Filename: issue_data_20240603152019.csv
+2024-06-03 16:00:28,662 - root - INFO - 2023_10.json already exists
+2024-06-03 16:00:28,662 - root - INFO - 2023_11.json already exists
+2024-06-03 16:00:28,662 - root - INFO - 2023_12.json already exists
+2024-06-03 16:00:28,662 - root - INFO - 2024_01.json already exists
+2024-06-03 16:00:28,662 - root - INFO - 2024_02.json already exists
+2024-06-03 16:00:28,663 - root - INFO - 2024_03.json already exists
+2024-06-03 16:00:28,663 - root - INFO - 2024_04.json already exists
+2024-06-03 16:00:28,663 - root - INFO - 2024_05.json already exists

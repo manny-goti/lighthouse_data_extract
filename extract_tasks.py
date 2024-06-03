@@ -138,6 +138,9 @@ def extract_tasks(start_date,end_date,auth_token,user_agent):
 
     df.sort_values(by='Datetime', inplace=True)
 
+    # Drop Duplicate Location 2
+    df.drop_duplicates(subset=['Location 2'], keep='first', inplace=True)
+
     # Save the data as a csv file in processed folder with timestamp
     timestamp = datetime.now().strftime('%Y%m%d%H%M%S')
     filename = f'task_data_{timestamp}.csv'
