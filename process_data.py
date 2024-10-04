@@ -23,7 +23,7 @@ def process_lighthouse_data():
 
     # Load the data
     tasks = pd.read_csv(os.path.join(data_path,latest_tasks))
-    tasks.rename(columns={'ID': 'Task ID'}, inplace=True)
+    # tasks.rename(columns={'ID': 'Task ID'}, inplace=True)
     exceptions = pd.read_csv(os.path.join(data_path,latest_exceptions))
     exceptions = exceptions.reset_index(names=['Exception ID'])
 
@@ -32,7 +32,7 @@ def process_lighthouse_data():
 
 
     # Convert Datetime column to datetime object
-    tasks['Datetime'] = pd.to_datetime(tasks['Datetime'])
+    # tasks['Datetime'] = pd.to_datetime(tasks['Datetime'])
     exceptions['Opened Datetime'] = pd.to_datetime(exceptions['Opened Datetime'])
     exceptions['Resolved Datetime'] = pd.to_datetime(exceptions['Resolved Datetime'])
 
@@ -40,7 +40,7 @@ def process_lighthouse_data():
     exceptions['Duration'] = (exceptions['Resolved Datetime'] - exceptions['Opened Datetime']).dt.total_seconds() / 3600
 
     # Add Year/Month column
-    tasks['Year/Month'] = tasks['Datetime'].dt.year.astype(str)+"-"+tasks['Datetime'].dt.month.astype(str)
+    # tasks['Year/Month'] = tasks['Datetime'].dt.year.astype(str)+"-"+tasks['Datetime'].dt.month.astype(str)
     exceptions['OpenedYear/Month'] = exceptions['Opened Datetime'].dt.year.astype(str)+"-"+exceptions['Opened Datetime'].dt.month.astype(str)
 
     # Add Flag for exceptions duration under 12 hours
@@ -56,16 +56,13 @@ def process_lighthouse_data():
     joined.drop(columns=['OpenedYear/Month'], inplace=True)
     joined.rename(columns={'Task ID': 'Number of Tasks', 'Exception ID': 'Number of Exceptions','Duration':'Median Time to Close'}, inplace=True)
 
-    joined['Total Tasks'] = joined['Number of Tasks'] + joined['Number of Exceptions']
+    joined['Total Tasks'] = (joined['Number of Tasks']-joined['Under 24 Hours']) + joined['Number of Exceptions']
     joined['Completion Rate'] = joined['Number of Tasks'] / joined['Total Tasks']
 
     # Write to processed folder
     timestamp = datetime.now().strftime('%Y%m%d%H%M%S')
     filename = f'summary_data_{timestamp}.csv'
     joined.to_csv(os.path.join(processed_folder,filename), index=False)
-
-    filename = f'task_data_{timestamp}.csv'
-    tasks.to_csv(os.path.join(processed_folder,filename), index=False)
 
     filename = f'exception_data_{timestamp}.csv'
     exceptions.to_csv(os.path.join(processed_folder,filename), index=False)

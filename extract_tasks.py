@@ -16,6 +16,11 @@ import logging
 # Set up logging
 logging.basicConfig(filename='applog.txt', filemode='a', format='%(asctime)s - %(name)s - %(levelname)s - %(message)s', level=logging.INFO)
 
+# Get the absolute path of the script
+script_path = os.path.dirname(os.path.abspath(__file__))
+# Define the data folder paths
+data_folder = os.path.join(script_path, 'data/raw_tasks')
+processed_folder = os.path.join(script_path, 'data/processed')
 
 def get_user_data(url,auth_token,user_agent):
     headers = {"Authorization":auth_token, "User-Agent":user_agent}
@@ -57,44 +62,7 @@ def load_data(filename):
         data = json.load(f)
     return data
 
-def extract_tasks(start_date,end_date,auth_token,user_agent):
-    # Get the absolute path of the script
-    script_path = os.path.dirname(os.path.abspath(__file__))
-
-    # Define the data folder paths
-    data_folder = os.path.join(script_path, 'data/raw_tasks')
-    processed_folder = os.path.join(script_path, 'data/processed')
-
-    # Check if the data folders exist, if not, create them
-    os.makedirs(data_folder, exist_ok=True)
-    os.makedirs(processed_folder, exist_ok=True)
-
-    # Get the list of existing json files in the data folder
-    existing_files = os.listdir(data_folder)
-
-    # Loop through each month and check if the data file exists
-    current_date = start_date
-    while current_date < end_date:
-        # Format the month and year
-        month_year = current_date.strftime('%Y_%m')
-        
-        # Check if the data file already exists
-        if f'{month_year}.json' not in existing_files:
-            # Collect the data for the current month
-            data = get_monthly_data(current_date, current_date + relativedelta(months=1),auth_token)
-            
-            # Save the data as a json file
-            filename = os.path.join(data_folder, f'{month_year}.json')
-            save_data(data, filename)
-            logging.info(f'Saved {filename}')
-        else:
-            logging.info(f'{month_year}.json already exists')
-        
-        # Move to the next month
-        current_date += relativedelta(months=1)
-
-
-
+def process_tasks(auth_token,user_agent):
     # Load all data and combine into a single list
     all_data = []
     existing_files = os.listdir(data_folder)
@@ -107,7 +75,7 @@ def extract_tasks(start_date,end_date,auth_token,user_agent):
 
     # Filter and rename columns
     column_mapping = {
-        'sequenceId':'ID',
+        'sequenceId':'Task ID',
         'title':'Title',
         'user':'user',
         'uid':'uid',
@@ -133,16 +101,67 @@ def extract_tasks(start_date,end_date,auth_token,user_agent):
 
     df.drop(columns=['user','uid'], inplace=True)
 
-    # Convert the datetime columns to string readable format
-    df['Datetime'] = pd.to_datetime(df['Datetime']).dt.strftime('%Y-%m-%d %H:%M:%S')
+    df['Datetime'] = pd.to_datetime(df['Datetime'])
 
     df.sort_values(by='Datetime', inplace=True)
 
     # Drop Duplicate Location 2
-    df.drop_duplicates(subset=['Location 2'], keep='first', inplace=True)
+    df['date_only'] = df['Datetime'].dt.date
+    df.drop_duplicates(subset=['date_only','Location 2'], keep='first', inplace=True)
+    df.drop(columns=['date_only'], inplace=True)
+
+    # Add Year/Month column
+    df['Year/Month'] = df['Datetime'].dt.year.astype(str)+"-"+df['Datetime'].dt.month.astype(str)
+
+    # Remove rows with blank Location 2
+    df = df[df['Location 2'].notnull()]
+
+    # Convert the datetime columns to string readable format
+    df['Datetime'] = pd.to_datetime(df['Datetime']).dt.strftime('%Y-%m-%d %H:%M:%S')
 
     # Save the data as a csv file in processed folder with timestamp
     timestamp = datetime.now().strftime('%Y%m%d%H%M%S')
     filename = f'task_data_{timestamp}.csv'
     df.to_csv(os.path.join(processed_folder,filename), index=False)
     logging.info(f"Task data saved successfully! Filename: {filename}")
+
+def extract_tasks(start_date,end_date,auth_token,user_agent):
+
+    # Check if the data folders exist, if not, create them
+    os.makedirs(data_folder, exist_ok=True)
+    os.makedirs(processed_folder, exist_ok=True)
+
+    # Get the list of existing json files in the data folder
+    existing_files = os.listdir(data_folder)
+
+    # Loop through each month and check if the data file exists
+    current_date = start_date
+    while current_date < end_date:
+        # Format the month and year
+        month_year = current_date.strftime('%Y_%m')
+        
+        # Check if the data file already exists
+        if f'{month_year}.json' not in existing_files:
+            # Collect the data for the current month
+            data = get_monthly_data(current_date, current_date + relativedelta(months=1),auth_token)
+            assert len(data) > 0, f"No data found for {month_year}"
+            # Save the data as a json file
+            filename = os.path.join(data_folder, f'{month_year}.json')
+            save_data(data, filename)
+            logging.info(f'Saved {filename}')
+        else:
+            logging.info(f'{month_year}.json already exists')
+        
+        # Move to the next month
+        current_date += relativedelta(months=1)
+
+    process_tasks(auth_token,user_agent)
+
+# def adjust_createdAt(date_str, days):
+#     original_date = datetime.strptime(date_str, '%Y-%m-%dT%H:%M:%S.%fZ')
+#     new_date = original_date - timedelta(days=days)
+#     return new_date.strftime('%Y-%m-%dT%H:%M:%S.%f')[:-3] + 'Z'
+
+# Adjusting 7/24 idf tasks to correct date from 7/1/24 to 6/28/24
+# for item in idf_june:
+#     item['createdAt'] = adjust_date(item['createdAt'], 3)

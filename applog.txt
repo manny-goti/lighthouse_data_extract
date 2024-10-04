@@ -55,3 +55,324 @@
 2024-06-03 16:00:28,663 - root - INFO - 2024_03.json already exists
 2024-06-03 16:00:28,663 - root - INFO - 2024_04.json already exists
 2024-06-03 16:00:28,663 - root - INFO - 2024_05.json already exists
+2024-07-08 19:28:51,299 - root - INFO - 2023_10.json already exists
+2024-07-08 19:28:51,299 - root - INFO - 2023_11.json already exists
+2024-07-08 19:28:51,299 - root - INFO - 2023_12.json already exists
+2024-07-08 19:28:51,299 - root - INFO - 2024_01.json already exists
+2024-07-08 19:28:51,299 - root - INFO - 2024_02.json already exists
+2024-07-08 19:28:51,299 - root - INFO - 2024_03.json already exists
+2024-07-08 19:28:51,299 - root - INFO - 2024_04.json already exists
+2024-07-08 19:28:51,299 - root - INFO - 2024_05.json already exists
+2024-07-08 19:28:51,299 - root - INFO - 2024_06.json already exists
+2024-07-08 20:17:16,565 - root - INFO - Task data saved successfully! Filename: task_data_20240708201711.csv
+2024-07-08 20:18:33,601 - root - INFO - No update in Tasks Data
+2024-07-08 20:20:00,346 - root - INFO - Task data saved successfully! Filename: task_data_20240708201956.csv
+2024-07-08 20:22:13,582 - root - INFO - Task data saved successfully! Filename: task_data_20240708202213.csv
+2024-07-08 20:29:49,929 - root - INFO - 2023_10.json already exists
+2024-07-08 20:29:49,929 - root - INFO - 2023_11.json already exists
+2024-07-08 20:29:49,929 - root - INFO - 2023_12.json already exists
+2024-07-08 20:29:49,929 - root - INFO - 2024_01.json already exists
+2024-07-08 20:29:49,929 - root - INFO - 2024_02.json already exists
+2024-07-08 20:29:49,929 - root - INFO - 2024_03.json already exists
+2024-07-08 20:29:49,929 - root - INFO - 2024_04.json already exists
+2024-07-08 20:29:49,929 - root - INFO - 2024_05.json already exists
+2024-07-08 20:29:49,929 - root - INFO - 2024_06.json already exists
+2024-07-08 20:29:50,303 - root - INFO - Task data saved successfully! Filename: task_data_20240708202950.csv
+2024-07-08 20:32:38,987 - root - INFO - 2023_10.json already exists
+2024-07-08 20:32:38,988 - root - INFO - 2023_11.json already exists
+2024-07-08 20:32:38,988 - root - INFO - 2023_12.json already exists
+2024-07-08 20:32:38,988 - root - INFO - 2024_01.json already exists
+2024-07-08 20:32:38,988 - root - INFO - 2024_02.json already exists
+2024-07-08 20:32:38,988 - root - INFO - 2024_03.json already exists
+2024-07-08 20:32:38,988 - root - INFO - 2024_04.json already exists
+2024-07-08 20:32:38,988 - root - INFO - 2024_05.json already exists
+2024-07-08 20:32:38,988 - root - INFO - 2024_06.json already exists
+2024-07-08 20:33:21,529 - root - INFO - 2023_10.json already exists
+2024-07-08 20:33:21,529 - root - INFO - 2023_11.json already exists
+2024-07-08 20:33:21,529 - root - INFO - 2023_12.json already exists
+2024-07-08 20:33:21,529 - root - INFO - 2024_01.json already exists
+2024-07-08 20:33:21,529 - root - INFO - 2024_02.json already exists
+2024-07-08 20:33:21,529 - root - INFO - 2024_03.json already exists
+2024-07-08 20:33:21,529 - root - INFO - 2024_04.json already exists
+2024-07-08 20:33:21,529 - root - INFO - 2024_05.json already exists
+2024-07-08 20:33:21,529 - root - INFO - 2024_06.json already exists
+2024-07-08 20:33:22,313 - root - INFO - Issue data saved successfully! Filename: issue_data_20240708203322.csv
+2024-07-08 20:33:32,156 - root - INFO - Data processed successfully! Files saved in processed folder.
+2024-07-08 20:33:41,142 - root - INFO - Tasks updated in Google Sheets
+2024-07-08 20:33:41,560 - root - INFO - No update in Exceptions Data
+2024-07-08 20:33:42,401 - root - INFO - Summary data updated in Google Sheets
+2024-07-08 20:33:42,781 - root - INFO - No update in Issues Data
+2024-07-08 21:01:36,897 - root - INFO - 2023_10.json already exists
+2024-07-08 21:01:36,897 - root - INFO - 2023_11.json already exists
+2024-07-08 21:01:36,897 - root - INFO - 2023_12.json already exists
+2024-07-08 21:01:36,897 - root - INFO - 2024_01.json already exists
+2024-07-08 21:01:36,897 - root - INFO - 2024_02.json already exists
+2024-07-08 21:01:36,897 - root - INFO - 2024_03.json already exists
+2024-07-08 21:01:36,897 - root - INFO - 2024_04.json already exists
+2024-07-08 21:01:36,897 - root - INFO - 2024_05.json already exists
+2024-07-08 21:01:36,897 - root - INFO - 2024_06.json already exists
+2024-07-08 21:30:53,543 - root - INFO - 2023_10.json already exists
+2024-07-08 21:30:53,543 - root - INFO - 2023_11.json already exists
+2024-07-08 21:30:53,543 - root - INFO - 2023_12.json already exists
+2024-07-08 21:30:53,543 - root - INFO - 2024_01.json already exists
+2024-07-08 21:30:53,543 - root - INFO - 2024_02.json already exists
+2024-07-08 21:30:53,543 - root - INFO - 2024_03.json already exists
+2024-07-08 21:30:53,543 - root - INFO - 2024_04.json already exists
+2024-07-08 21:30:53,543 - root - INFO - 2024_05.json already exists
+2024-07-08 21:30:53,543 - root - INFO - 2024_06.json already exists
+2024-07-08 21:30:53,563 - root - INFO - Exception data saved successfully! Filename: exception_data_20240708213053.csv
+2024-07-08 21:30:55,122 - root - INFO - Data processed successfully! Files saved in processed folder.
+2024-07-08 21:30:58,619 - root - INFO - No update in Tasks Data
+2024-07-08 21:30:58,951 - root - INFO - No update in Exceptions Data
+2024-07-08 21:30:58,951 - root - INFO - No update in Summary Data
+2024-07-08 21:30:59,256 - root - INFO - No update in Issues Data
+2024-07-08 21:34:20,805 - root - INFO - 2023_10.json already exists
+2024-07-08 21:34:20,805 - root - INFO - 2023_11.json already exists
+2024-07-08 21:34:20,806 - root - INFO - 2023_12.json already exists
+2024-07-08 21:34:20,806 - root - INFO - 2024_01.json already exists
+2024-07-08 21:34:20,806 - root - INFO - 2024_02.json already exists
+2024-07-08 21:34:20,806 - root - INFO - 2024_03.json already exists
+2024-07-08 21:34:20,806 - root - INFO - 2024_04.json already exists
+2024-07-08 21:34:20,806 - root - INFO - 2024_05.json already exists
+2024-07-08 21:34:20,806 - root - INFO - 2024_06.json already exists
+2024-07-08 21:34:21,074 - root - INFO - Task data saved successfully! Filename: task_data_20240708213421.csv
+2024-07-08 21:34:35,508 - root - INFO - 2023_10.json already exists
+2024-07-08 21:34:35,508 - root - INFO - 2023_11.json already exists
+2024-07-08 21:34:35,508 - root - INFO - 2023_12.json already exists
+2024-07-08 21:34:35,508 - root - INFO - 2024_01.json already exists
+2024-07-08 21:34:35,508 - root - INFO - 2024_02.json already exists
+2024-07-08 21:34:35,508 - root - INFO - 2024_03.json already exists
+2024-07-08 21:34:35,508 - root - INFO - 2024_04.json already exists
+2024-07-08 21:34:35,508 - root - INFO - 2024_05.json already exists
+2024-07-08 21:34:35,508 - root - INFO - 2024_06.json already exists
+2024-07-08 21:34:35,529 - root - INFO - Exception data saved successfully! Filename: exception_data_20240708213435.csv
+2024-07-08 21:34:38,671 - root - INFO - 2023_10.json already exists
+2024-07-08 21:34:38,671 - root - INFO - 2023_11.json already exists
+2024-07-08 21:34:38,671 - root - INFO - 2023_12.json already exists
+2024-07-08 21:34:38,671 - root - INFO - 2024_01.json already exists
+2024-07-08 21:34:38,671 - root - INFO - 2024_02.json already exists
+2024-07-08 21:34:38,671 - root - INFO - 2024_03.json already exists
+2024-07-08 21:34:38,671 - root - INFO - 2024_04.json already exists
+2024-07-08 21:34:38,671 - root - INFO - 2024_05.json already exists
+2024-07-08 21:34:38,671 - root - INFO - 2024_06.json already exists
+2024-07-08 21:34:39,688 - root - INFO - Issue data saved successfully! Filename: issue_data_20240708213439.csv
+2024-07-08 21:34:39,724 - root - INFO - Data processed successfully! Files saved in processed folder.
+2024-07-08 21:35:20,638 - root - INFO - Tasks updated in Google Sheets
+2024-07-08 21:35:21,223 - root - INFO - No update in Exceptions Data
+2024-07-08 21:35:21,917 - root - INFO - Summary data updated in Google Sheets
+2024-07-08 21:35:22,275 - root - INFO - No update in Issues Data
+2024-07-08 21:37:48,344 - root - INFO - 2023_10.json already exists
+2024-07-08 21:37:48,344 - root - INFO - 2023_11.json already exists
+2024-07-08 21:37:48,344 - root - INFO - 2023_12.json already exists
+2024-07-08 21:37:48,344 - root - INFO - 2024_01.json already exists
+2024-07-08 21:37:48,344 - root - INFO - 2024_02.json already exists
+2024-07-08 21:37:48,344 - root - INFO - 2024_03.json already exists
+2024-07-08 21:37:48,344 - root - INFO - 2024_04.json already exists
+2024-07-08 21:37:48,344 - root - INFO - 2024_05.json already exists
+2024-07-08 21:37:48,344 - root - INFO - 2024_06.json already exists
+2024-07-08 21:37:50,237 - root - INFO - Task data saved successfully! Filename: task_data_20240708213750.csv
+2024-07-08 21:37:54,920 - root - INFO - Tasks updated in Google Sheets
+2024-07-08 21:37:55,311 - root - INFO - No update in Exceptions Data
+2024-07-08 21:37:56,360 - root - INFO - Summary data updated in Google Sheets
+2024-07-08 21:37:56,822 - root - INFO - No update in Issues Data
+2024-07-09 17:33:21,542 - root - INFO - 2023_10.json already exists
+2024-07-09 17:33:21,542 - root - INFO - 2023_11.json already exists
+2024-07-09 17:33:21,543 - root - INFO - 2023_12.json already exists
+2024-07-09 17:33:21,543 - root - INFO - 2024_01.json already exists
+2024-07-09 17:33:21,543 - root - INFO - 2024_02.json already exists
+2024-07-09 17:33:21,543 - root - INFO - 2024_03.json already exists
+2024-07-09 17:33:21,543 - root - INFO - 2024_04.json already exists
+2024-07-09 17:33:21,543 - root - INFO - 2024_05.json already exists
+2024-07-09 17:33:21,543 - root - INFO - 2024_06.json already exists
+2024-07-09 17:33:33,707 - root - INFO - 2023_10.json already exists
+2024-07-09 17:33:33,707 - root - INFO - 2023_11.json already exists
+2024-07-09 17:33:33,707 - root - INFO - 2023_12.json already exists
+2024-07-09 17:33:33,707 - root - INFO - 2024_01.json already exists
+2024-07-09 17:33:33,708 - root - INFO - 2024_02.json already exists
+2024-07-09 17:33:33,708 - root - INFO - 2024_03.json already exists
+2024-07-09 17:33:33,708 - root - INFO - 2024_04.json already exists
+2024-07-09 17:33:33,708 - root - INFO - 2024_05.json already exists
+2024-07-09 17:33:33,708 - root - INFO - 2024_06.json already exists
+2024-07-09 17:34:09,857 - root - INFO - 2023_10.json already exists
+2024-07-09 17:34:09,858 - root - INFO - 2023_11.json already exists
+2024-07-09 17:34:09,858 - root - INFO - 2023_12.json already exists
+2024-07-09 17:34:09,858 - root - INFO - 2024_01.json already exists
+2024-07-09 17:34:09,858 - root - INFO - 2024_02.json already exists
+2024-07-09 17:34:09,858 - root - INFO - 2024_03.json already exists
+2024-07-09 17:34:09,858 - root - INFO - 2024_04.json already exists
+2024-07-09 17:34:09,858 - root - INFO - 2024_05.json already exists
+2024-07-09 17:34:09,858 - root - INFO - 2024_06.json already exists
+2024-07-09 17:34:22,988 - root - INFO - 2023_10.json already exists
+2024-07-09 17:34:22,988 - root - INFO - 2023_11.json already exists
+2024-07-09 17:34:22,988 - root - INFO - 2023_12.json already exists
+2024-07-09 17:34:22,989 - root - INFO - 2024_01.json already exists
+2024-07-09 17:34:22,989 - root - INFO - 2024_02.json already exists
+2024-07-09 17:34:22,989 - root - INFO - 2024_03.json already exists
+2024-07-09 17:34:22,989 - root - INFO - 2024_04.json already exists
+2024-07-09 17:34:22,989 - root - INFO - 2024_05.json already exists
+2024-07-09 17:34:22,989 - root - INFO - 2024_06.json already exists
+2024-07-09 17:34:24,984 - root - INFO - Task data saved successfully! Filename: task_data_20240709173424.csv
+2024-07-09 17:34:26,039 - root - INFO - 2023_10.json already exists
+2024-07-09 17:34:26,039 - root - INFO - 2023_11.json already exists
+2024-07-09 17:34:26,039 - root - INFO - 2023_12.json already exists
+2024-07-09 17:34:26,039 - root - INFO - 2024_01.json already exists
+2024-07-09 17:34:26,039 - root - INFO - 2024_02.json already exists
+2024-07-09 17:34:26,039 - root - INFO - 2024_03.json already exists
+2024-07-09 17:34:26,040 - root - INFO - 2024_04.json already exists
+2024-07-09 17:34:26,040 - root - INFO - 2024_05.json already exists
+2024-07-09 17:34:26,040 - root - INFO - 2024_06.json already exists
+2024-07-09 17:34:26,060 - root - INFO - Exception data saved successfully! Filename: exception_data_20240709173426.csv
+2024-07-09 17:34:27,368 - root - INFO - 2023_10.json already exists
+2024-07-09 17:34:27,368 - root - INFO - 2023_11.json already exists
+2024-07-09 17:34:27,368 - root - INFO - 2023_12.json already exists
+2024-07-09 17:34:27,368 - root - INFO - 2024_01.json already exists
+2024-07-09 17:34:27,368 - root - INFO - 2024_02.json already exists
+2024-07-09 17:34:27,369 - root - INFO - 2024_03.json already exists
+2024-07-09 17:34:27,369 - root - INFO - 2024_04.json already exists
+2024-07-09 17:34:27,369 - root - INFO - 2024_05.json already exists
+2024-07-09 17:34:27,369 - root - INFO - 2024_06.json already exists
+2024-07-09 17:34:28,148 - root - INFO - Issue data saved successfully! Filename: issue_data_20240709173428.csv
+2024-07-09 17:35:05,139 - root - INFO - Data processed successfully! Files saved in processed folder.
+2024-07-09 17:35:07,843 - root - INFO - No update in Tasks Data
+2024-07-09 17:35:08,389 - root - INFO - No update in Exceptions Data
+2024-07-09 17:35:08,389 - root - INFO - No update in Summary Data
+2024-07-09 17:35:08,651 - root - INFO - No update in Issues Data
+2024-07-09 17:35:46,508 - root - INFO - No update in Tasks Data
+2024-07-09 17:35:46,756 - root - INFO - No update in Exceptions Data
+2024-07-09 17:35:46,756 - root - INFO - No update in Summary Data
+2024-07-09 17:35:46,997 - root - INFO - No update in Issues Data
+2024-08-02 15:44:13,229 - root - INFO - **************Starting IFP Data Extraction/Update**************
+2024-08-02 15:44:13,839 - root - INFO - 2023_10.json already exists
+2024-08-02 15:44:13,839 - root - INFO - 2023_11.json already exists
+2024-08-02 15:44:13,839 - root - INFO - 2023_12.json already exists
+2024-08-02 15:44:13,840 - root - INFO - 2024_01.json already exists
+2024-08-02 15:44:13,840 - root - INFO - 2024_02.json already exists
+2024-08-02 15:44:13,840 - root - INFO - 2024_03.json already exists
+2024-08-02 15:44:13,840 - root - INFO - 2024_04.json already exists
+2024-08-02 15:44:13,840 - root - INFO - 2024_05.json already exists
+2024-08-02 15:44:13,840 - root - INFO - 2024_06.json already exists
+2024-08-02 15:44:15,843 - root - INFO - Saved /home/mgoti/Projects/ifp_report/data/raw_tasks/2024_07.json
+2024-08-02 15:44:16,494 - root - INFO - Task data saved successfully! Filename: task_data_20240802154416.csv
+2024-08-02 15:44:31,770 - root - INFO - 2023_10.json already exists
+2024-08-02 15:44:31,771 - root - INFO - 2023_11.json already exists
+2024-08-02 15:44:31,771 - root - INFO - 2023_12.json already exists
+2024-08-02 15:44:31,771 - root - INFO - 2024_01.json already exists
+2024-08-02 15:44:31,771 - root - INFO - 2024_02.json already exists
+2024-08-02 15:44:31,771 - root - INFO - 2024_03.json already exists
+2024-08-02 15:44:31,771 - root - INFO - 2024_04.json already exists
+2024-08-02 15:44:31,771 - root - INFO - 2024_05.json already exists
+2024-08-02 15:44:31,771 - root - INFO - 2024_06.json already exists
+2024-08-02 15:44:32,278 - root - INFO - Saved /home/mgoti/Projects/ifp_report/data/raw_exceptions/2024_07.json
+2024-08-02 15:44:32,378 - root - INFO - Exception data saved successfully! Filename: exception_data_20240802154432.csv
+2024-08-02 15:44:41,450 - root - INFO - 2023_10.json already exists
+2024-08-02 15:44:41,451 - root - INFO - 2023_11.json already exists
+2024-08-02 15:44:41,451 - root - INFO - 2023_12.json already exists
+2024-08-02 15:44:41,451 - root - INFO - 2024_01.json already exists
+2024-08-02 15:44:41,451 - root - INFO - 2024_02.json already exists
+2024-08-02 15:44:41,452 - root - INFO - 2024_03.json already exists
+2024-08-02 15:44:41,452 - root - INFO - 2024_04.json already exists
+2024-08-02 15:44:41,452 - root - INFO - 2024_05.json already exists
+2024-08-02 15:44:41,452 - root - INFO - 2024_06.json already exists
+2024-08-02 15:44:42,204 - root - INFO - Saved /home/mgoti/Projects/ifp_report/data/raw_issues/2024_07.json
+2024-08-02 15:44:42,836 - root - INFO - Issue data saved successfully! Filename: issue_data_20240802154442.csv
+2024-08-02 15:44:46,659 - root - INFO - Data processed successfully! Files saved in processed folder.
+2024-08-02 15:44:51,417 - root - INFO - Tasks updated in Google Sheets
+2024-08-02 15:44:52,382 - root - INFO - Exceptions updated in Google Sheets
+2024-08-02 15:44:52,969 - root - INFO - Summary data updated in Google Sheets
+2024-08-02 15:44:53,227 - root - INFO - No update in Issues Data
+2024-08-02 15:44:56,385 - root - INFO - **************IFP Data Extraction/Update Complete**************
+2024-08-02 15:44:57,184 - root - INFO - **************Sending Email Notification**************
+2024-08-02 15:44:58,939 - root - INFO - **************Email Notification Sent**************
+2024-09-05 15:30:42,724 - root - INFO - **************Starting IFP Data Extraction/Update**************
+2024-09-05 15:30:42,733 - root - INFO - 2023_10.json already exists
+2024-09-05 15:30:42,733 - root - INFO - 2023_11.json already exists
+2024-09-05 15:30:42,733 - root - INFO - 2023_12.json already exists
+2024-09-05 15:30:42,733 - root - INFO - 2024_01.json already exists
+2024-09-05 15:30:42,733 - root - INFO - 2024_02.json already exists
+2024-09-05 15:30:42,733 - root - INFO - 2024_03.json already exists
+2024-09-05 15:30:42,733 - root - INFO - 2024_04.json already exists
+2024-09-05 15:30:42,733 - root - INFO - 2024_05.json already exists
+2024-09-05 15:30:42,734 - root - INFO - 2024_06.json already exists
+2024-09-05 15:30:42,734 - root - INFO - 2024_07.json already exists
+2024-09-05 15:30:50,826 - root - INFO - Saved /home/mgoti/Projects/ifp_report/data/raw_tasks/2024_08.json
+2024-09-05 15:30:52,245 - root - INFO - Task data saved successfully! Filename: task_data_20240905153052.csv
+2024-09-05 15:30:52,252 - root - INFO - 2023_10.json already exists
+2024-09-05 15:30:52,252 - root - INFO - 2023_11.json already exists
+2024-09-05 15:30:52,252 - root - INFO - 2023_12.json already exists
+2024-09-05 15:30:52,252 - root - INFO - 2024_01.json already exists
+2024-09-05 15:30:52,252 - root - INFO - 2024_02.json already exists
+2024-09-05 15:30:52,252 - root - INFO - 2024_03.json already exists
+2024-09-05 15:30:52,252 - root - INFO - 2024_04.json already exists
+2024-09-05 15:30:52,252 - root - INFO - 2024_05.json already exists
+2024-09-05 15:30:52,252 - root - INFO - 2024_06.json already exists
+2024-09-05 15:30:52,252 - root - INFO - 2024_07.json already exists
+2024-09-05 15:30:55,406 - root - INFO - Saved /home/mgoti/Projects/ifp_report/data/raw_exceptions/2024_08.json
+2024-09-05 15:30:55,497 - root - INFO - Exception data saved successfully! Filename: exception_data_20240905153055.csv
+2024-09-05 15:30:55,498 - root - INFO - 2023_10.json already exists
+2024-09-05 15:30:55,498 - root - INFO - 2023_11.json already exists
+2024-09-05 15:30:55,498 - root - INFO - 2023_12.json already exists
+2024-09-05 15:30:55,498 - root - INFO - 2024_01.json already exists
+2024-09-05 15:30:55,498 - root - INFO - 2024_02.json already exists
+2024-09-05 15:30:55,498 - root - INFO - 2024_03.json already exists
+2024-09-05 15:30:55,498 - root - INFO - 2024_04.json already exists
+2024-09-05 15:30:55,498 - root - INFO - 2024_05.json already exists
+2024-09-05 15:30:55,498 - root - INFO - 2024_06.json already exists
+2024-09-05 15:30:55,498 - root - INFO - 2024_07.json already exists
+2024-09-05 15:30:57,433 - root - INFO - Saved /home/mgoti/Projects/ifp_report/data/raw_issues/2024_08.json
+2024-09-05 15:30:58,611 - root - INFO - Issue data saved successfully! Filename: issue_data_20240905153058.csv
+2024-09-05 15:30:58,662 - root - INFO - Data processed successfully! Files saved in processed folder.
+2024-09-05 15:31:01,325 - root - INFO - Tasks updated in Google Sheets
+2024-09-05 15:31:02,140 - root - INFO - Exceptions updated in Google Sheets
+2024-09-05 15:31:02,658 - root - INFO - Summary data updated in Google Sheets
+2024-09-05 15:31:03,055 - root - INFO - No update in Issues Data
+2024-09-05 15:31:03,058 - root - INFO - **************IFP Data Extraction/Update Complete**************
+2024-09-05 15:31:03,059 - root - INFO - **************Sending Email Notification**************
+2024-09-05 15:31:03,442 - root - INFO - **************Email Notification Sent**************
+2024-10-04 15:28:54,508 - root - INFO - **************Starting IFP Data Extraction/Update**************
+2024-10-04 15:28:54,526 - root - INFO - 2023_10.json already exists
+2024-10-04 15:28:54,526 - root - INFO - 2023_11.json already exists
+2024-10-04 15:28:54,526 - root - INFO - 2023_12.json already exists
+2024-10-04 15:28:54,526 - root - INFO - 2024_01.json already exists
+2024-10-04 15:28:54,526 - root - INFO - 2024_02.json already exists
+2024-10-04 15:28:54,527 - root - INFO - 2024_03.json already exists
+2024-10-04 15:28:54,527 - root - INFO - 2024_04.json already exists
+2024-10-04 15:28:54,527 - root - INFO - 2024_05.json already exists
+2024-10-04 15:28:54,527 - root - INFO - 2024_06.json already exists
+2024-10-04 15:28:54,527 - root - INFO - 2024_07.json already exists
+2024-10-04 15:28:54,527 - root - INFO - 2024_08.json already exists
+2024-10-04 15:28:55,995 - root - INFO - Saved /home/mgoti/Projects/ifp_report/data/raw_tasks/2024_09.json
+2024-10-04 15:28:56,594 - root - INFO - Task data saved successfully! Filename: task_data_20241004152856.csv
+2024-10-04 15:28:56,600 - root - INFO - 2023_10.json already exists
+2024-10-04 15:28:56,600 - root - INFO - 2023_11.json already exists
+2024-10-04 15:28:56,600 - root - INFO - 2023_12.json already exists
+2024-10-04 15:28:56,600 - root - INFO - 2024_01.json already exists
+2024-10-04 15:28:56,600 - root - INFO - 2024_02.json already exists
+2024-10-04 15:28:56,600 - root - INFO - 2024_03.json already exists
+2024-10-04 15:28:56,600 - root - INFO - 2024_04.json already exists
+2024-10-04 15:28:56,601 - root - INFO - 2024_05.json already exists
+2024-10-04 15:28:56,601 - root - INFO - 2024_06.json already exists
+2024-10-04 15:28:56,601 - root - INFO - 2024_07.json already exists
+2024-10-04 15:28:56,601 - root - INFO - 2024_08.json already exists
+2024-10-04 15:28:57,037 - root - INFO - Saved /home/mgoti/Projects/ifp_report/data/raw_exceptions/2024_09.json
+2024-10-04 15:28:57,168 - root - INFO - Exception data saved successfully! Filename: exception_data_20241004152857.csv
+2024-10-04 15:28:57,168 - root - INFO - 2023_10.json already exists
+2024-10-04 15:28:57,168 - root - INFO - 2023_11.json already exists
+2024-10-04 15:28:57,168 - root - INFO - 2023_12.json already exists
+2024-10-04 15:28:57,168 - root - INFO - 2024_01.json already exists
+2024-10-04 15:28:57,168 - root - INFO - 2024_02.json already exists
+2024-10-04 15:28:57,168 - root - INFO - 2024_03.json already exists
+2024-10-04 15:28:57,168 - root - INFO - 2024_04.json already exists
+2024-10-04 15:28:57,168 - root - INFO - 2024_05.json already exists
+2024-10-04 15:28:57,168 - root - INFO - 2024_06.json already exists
+2024-10-04 15:28:57,168 - root - INFO - 2024_07.json already exists
+2024-10-04 15:28:57,168 - root - INFO - 2024_08.json already exists
+2024-10-04 15:28:57,266 - root - INFO - Saved /home/mgoti/Projects/ifp_report/data/raw_issues/2024_09.json
+2024-10-04 15:28:57,436 - root - INFO - Issue data saved successfully! Filename: issue_data_20241004152857.csv
+2024-10-04 15:28:57,516 - root - INFO - Data processed successfully! Files saved in processed folder.
+2024-10-04 15:28:59,717 - root - INFO - Tasks updated in Google Sheets
+2024-10-04 15:29:00,440 - root - INFO - Exceptions updated in Google Sheets
+2024-10-04 15:29:00,912 - root - INFO - Summary data updated in Google Sheets
+2024-10-04 15:29:01,086 - root - INFO - No update in Issues Data
+2024-10-04 15:29:01,090 - root - INFO - **************IFP Data Extraction/Update Complete**************
+2024-10-04 15:29:01,091 - root - INFO - **************Sending Email Notification**************
+2024-10-04 15:29:01,248 - root - INFO - **************Email Notification Sent**************

@@ -6,6 +6,7 @@ from process_data import process_lighthouse_data
 from write_to_google import write_to_gsheets
 from datetime import datetime, timedelta
 import os
+import json
 
 ## Cron Job:
 # 0 0 2 * * /home/mgoti/anaconda3/envs/lighthouse_api/bin/python /home/mgoti/Projects/ifp_report/main.py
@@ -14,8 +15,11 @@ import os
 # Set up logging with time and date
 logging.basicConfig(filename='applog.txt', filemode='a', format='%(asctime)s - %(name)s - %(levelname)s - %(message)s', level=logging.INFO)
 
-auth_token = '6482338a76be3774d91cc9b0_31de04c6-0a75-4e5f-a052-b71416c97bdd'
-user_agent = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.3"
+# Load auth token and user agent from json file
+with open('.config/lighthouse.json') as f:
+    data = json.load(f)
+    auth_token = data['auth_token']
+    user_agent = data['user_agent']
 
 # Define the start and end dates for data collection
 start_date = datetime.strptime('2023-10-01', '%Y-%m-%d')

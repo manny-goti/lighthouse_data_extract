@@ -1,0 +1,39 @@
+ID,Title,Datetime,GPS Location,LatLong,Location 1,Location 2,Name
+00000786,Warehouse Daily Tasks (Form 181514),2023-10-01 18:58:38,"Powhatan Road, North Carolina","[-78.40944272931667, 35.62047739057568]",Novo Nordisk - IFP,Book 4 Warehouse (8.77),Kevin Mixon
+00000787,Warehouse Daily Tasks (Form 181514),2023-10-01 19:00:15,"Powhatan Road, North Carolina","[-78.4096774540376, 35.62002354473735]",Novo Nordisk - IFP,Book 1 Warehouse (8.72),Kevin Mixon
+00000788,Warehouse Daily Tasks (Form 181514),2023-10-01 19:01:31,"Powhatan Road, North Carolina","[-78.40988529380412, 35.61974262695152]",Novo Nordisk - IFP,"Book 2 Warehouse (8.71,8.46,8.47)",Kevin Mixon
+00000789,Warehouse Daily Tasks (Form 181514),2023-10-02 14:53:32,"Powhatan Road, North Carolina","[-78.41087185952348, 35.618435664482746]",Novo Nordisk - IFP,"Book 7 Warehouse (1.02,1.08,5.29)",Jhony Brizuela
+00000792,Warehouse Daily Tasks (Form 181514),2023-10-02 14:56:39,"Powhatan Road, North Carolina","[-78.41045473935083, 35.61866435102671]",Novo Nordisk - IFP,Book 6 Warehouse (1.58),Jhony Brizuela
+00000794,Warehouse Daily Tasks (Form 181514),2023-10-02 15:00:57,"Powhatan Road, North Carolina","[-78.41016367776321, 35.61912805037934]",Novo Nordisk - IFP,Book 5 Warehouse (7.00-7.03),Jhony Brizuela
+00000797,Warehouse Daily Tasks (Form 181514),2023-10-02 15:04:23,"Powhatan Road, North Carolina","[-78.41032718773933, 35.61940493321931]",Novo Nordisk - IFP,"Book 3 Warehouse (7.08,7.09,7.17,7.19,7.20)",Jhony Brizuela
+00000801,Production Weekly Tasks (Form 181515),2023-10-03 14:33:22,"Powhatan Road, North Carolina","[-78.41070490620591, 35.61822644098956]",Novo Nordisk - IFP,"Book 4 Production (1.18,1.20,1.50)",Jhony Brizuela
+00000804,Production Weekly Tasks (Form 181515),2023-10-03 14:36:35,"Powhatan Road, North Carolina","[-78.41086761094631, 35.61868493704218]",Novo Nordisk - IFP,Book 6 Production (1.95),Jhony Brizuela
+00000805,Production Weekly Tasks (Form 181515),2023-10-03 14:37:41,"Powhatan Road, North Carolina","[-78.41056240489708, 35.61845480263312]",Novo Nordisk - IFP,"Book 5 Production (1.94,1.97)",Jhony Brizuela
+00000812,Production Weekly Tasks (Form 181515),2023-10-03 14:48:45,"Powhatan Road, North Carolina","[-78.41018451726997, 35.619840062089516]",Novo Nordisk - IFP,Book 3 Production (8.17),Jhony Brizuela
+00000820,Production Weekly Tasks (Form 181515),2023-10-03 14:58:44,"Powhatan Road, North Carolina","[-78.40992190176623, 35.62022847280068]",Novo Nordisk - IFP,Book 1 Production (8.70),Jhony Brizuela
+00000821,Production Weekly Tasks (Form 181515),2023-10-03 15:01:13,"Powhatan Road, North Carolina","[-78.4093624149682, 35.619750147517536]",Novo Nordisk - IFP,"Book 2 Production (8.51,8.73)",Jhony Brizuela
+00000822,Warehouse Daily Tasks (Form 181514),2023-10-04 14:21:35,"Powhatan Road, North Carolina","[-78.41081816332711, 35.61866110841167]",Novo Nordisk - IFP,,Jhony Brizuela
+00001295,IDF/Server Room Tasks,2023-11-27 19:28:30,"Powhatan Road, North Carolina","[-78.41144084930421, 35.61834286304683]",Novo Nordisk - IFP,IDF/Server Room (5.04),Jhony Brizuela
+00001296,IDF/Server Room Tasks,2023-11-27 19:31:03,"Powhatan Road, North Carolina","[-78.41116001347474, 35.61894140408958]",Novo Nordisk - IFP, IDF/Server Room (0.97),Jhony Brizuela
+00001300,IDF/Server Room Tasks,2023-11-27 19:35:34,"Powhatan Road, North Carolina","[-78.4112946689129, 35.618662609771825]",Novo Nordisk - IFP,IDF/Server Room (6.54),Jhony Brizuela
+00001301,IDF/Server Room Tasks,2023-11-27 19:37:06,"Powhatan Road, North Carolina","[-78.41126140127017, 35.61828534026099]",Novo Nordisk - IFP,IDF/Server Room (6.42),Jhony Brizuela
+00001302,IDF/Server Room Tasks,2023-11-27 19:38:50,"Powhatan Road, North Carolina","[-78.41074742278353, 35.61805011898424]",Novo Nordisk - IFP,IDF/Server Room (2.24/2.25),Jhony Brizuela
+00001306,IDF/Server Room Tasks,2023-11-27 19:41:58,"Powhatan Road, North Carolina","[-78.41059058904649, 35.61826526468997]",Novo Nordisk - IFP,IDF/Server Room (2.38),Jhony Brizuela
+00001307,IDF/Server Room Tasks,2023-11-27 19:42:54,"Powhatan Road, North Carolina","[-78.41034650802614, 35.61834396661355]",Novo Nordisk - IFP,IDF/Server Room (4.01),Jhony Brizuela
+00001308,IDF/Server Room Tasks,2023-11-27 19:45:58,"Powhatan Road, North Carolina","[-78.41054225918926, 35.61802238500181]",Novo Nordisk - IFP,"IDF/Server Room (0.42,0.43)",Jhony Brizuela
+00001309,IDF/Server Room Tasks,2023-11-27 19:47:10,"Powhatan Road, North Carolina","[-78.41034454670991, 35.61841155628484]",Novo Nordisk - IFP,IDF/Server Room (7.04),Jhony Brizuela
+00001310,IDF/Server Room Tasks,2023-11-27 19:48:58,"Powhatan Road, North Carolina","[-78.40967181524321, 35.61940731221123]",Novo Nordisk - IFP,IDF/Server Room (8.59),Jhony Brizuela
+00001312,IDF/Server Room Tasks,2023-11-27 19:50:38,"Powhatan Road, North Carolina","[-78.40949770199587, 35.61956570705202]",Novo Nordisk - IFP,IDF/Server Room (9.20),Jhony Brizuela
+00001313,IDF/Server Room Tasks,2023-11-27 19:52:13,"Powhatan Road, North Carolina","[-78.40923205018045, 35.62005775230336]",Novo Nordisk - IFP,IDF/Server Room (9.93),Jhony Brizuela
+00001314,IDF/Server Room Tasks,2023-11-27 19:53:30,"Powhatan Road, North Carolina","[-78.4096335936829, 35.6203998799404]",Novo Nordisk - IFP,IDF/Server Room (9.71),Jhony Brizuela
+00001315,IDF/Server Room Tasks,2023-11-27 19:54:58,"Powhatan Road, North Carolina","[-78.41017484664918, 35.62015795069399]",Novo Nordisk - IFP,IDF/Server Room (9.05),Jhony Brizuela
+00001316,IDF/Server Room Tasks,2023-11-27 19:57:00,"Powhatan Road, North Carolina","[-78.40997513520053, 35.6200378007629]",Novo Nordisk - IFP,IDF/Server Room (9.44),Jhony Brizuela
+00001317,IDF/Server Room Tasks,2023-11-27 19:58:58,"Powhatan Road, North Carolina","[-78.41014014548819, 35.619675462750564]",Novo Nordisk - IFP,IDF/Server Room (9.48),Jhony Brizuela
+00001318,IDF/Server Room Tasks,2023-11-27 20:05:30,"Powhatan Road, North Carolina","[-78.4101238846779, 35.62015585051709]",Novo Nordisk - IFP,IDF/Server Room (8.33),Jhony Brizuela
+00001319,IDF/Server Room Tasks,2023-11-27 20:08:42,"Powhatan Road, North Carolina","[-78.40941846370697, 35.61978952805411]",Novo Nordisk - IFP,IDF/Server Room (8.68),Jhony Brizuela
+00001320,IDF/Server Room Tasks,2023-11-27 20:11:07,"Powhatan Road, North Carolina","[-78.4103035926819, 35.61968263706153]",Novo Nordisk - IFP,IDF/Server Room (8.07),Jhony Brizuela
+00001321,IDF/Server Room Tasks,2023-11-27 20:21:41,"Powhatan Road, North Carolina","[-78.40926289558412, 35.62003151663036]",Novo Nordisk - IFP,IDF/Server Room (8.74),Jhony Brizuela
+00001323,IDF/Server Room Tasks,2023-11-27 20:26:02,"Powhatan Road, North Carolina","[-78.41036260128023, 35.6193577184542]",Novo Nordisk - IFP,IDF/Server Room (7.14),Jhony Brizuela
+00001325,IDF/Server Room Tasks,2023-11-27 20:30:05,"Powhatan Road, North Carolina","[-78.41108143329622, 35.61822798593868]",Novo Nordisk - IFP,IDF/Server Room (1.92),Jhony Brizuela
+00001327,IDF/Server Room Tasks,2023-11-27 20:31:47,"Powhatan Road, North Carolina","[-78.41028749942781, 35.61856375617043]",Novo Nordisk - IFP,IDF/Server Room (1.68),Jhony Brizuela
+00001328,IDF/Server Room Tasks,2023-11-27 20:34:48,"Powhatan Road, North Carolina","[-78.41074477415533, 35.618627695029964]",Novo Nordisk - IFP,IDF/Server Room (1.53),Jhony Brizuela
