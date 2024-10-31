@@ -1,1 +1,6 @@
 .config/
+venv/
+*.pyc
+*.pyc~
+*.pyo
+*.pyo~
