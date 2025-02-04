@@ -1,6 +1,8 @@
 .config/
-venv/
+lighthouse-env/
 *.pyc
 *.pyc~
 *.pyo
 *.pyo~
+data/
+.DS_Store

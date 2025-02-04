@@ -1,0 +1,40 @@
+{
+    "Warehouse": {
+        "Daily": {
+            "description": "Dust mop floor, empty trash/replace liners, clean corners, wipe down walls/windows/door frames, change dust mop head weekly, inspect walls/windows for damage",
+            "columns": [
+                "8.72",
+                "8.71,8.46,8.47",
+                "7.08, 7.09, 7.17, 7.19, 7.20",
+                "8.77A, 8.77B",
+                "7.00-7.03",
+                "1.58",
+                "1.02,1.08,5.29"
+            ]
+        },
+        "2x Weekly": {
+            "description": "Scrub/Mop Floor",
+            "columns": [
+                "8.72",
+                "8.71,8.46,8.47",
+                "7.08, 7.09, 7.17, 7.19, 7.20",
+                "8.77A, 8.77B",
+                "7.00-7.03",
+                "1.58",
+                "1.02,1.08,5.29"
+            ]
+        },
+        "Monthly": {
+            "description": "Deep clean storage",
+            "columns": [
+                "8.72",
+                "8.71,8.46,8.47",
+                "7.08, 7.09, 7.17, 7.19, 7.20",
+                "8.77A, 8.77B",
+                "7.00-7.03",
+                "1.58",
+                "1.02,1.08,5.29"
+            ]
+        }
+    }
+}

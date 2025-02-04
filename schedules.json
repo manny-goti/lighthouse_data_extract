@@ -1,0 +1,2195 @@
+[
+  {
+    "areas": ["66886181b4f6ed132f3f3402"],
+    "createdAt": "2023-08-31T14:04:46.647Z",
+    "createdBy": {
+      "type": "user",
+      "id": "6482338a76be3774d91cc9b0",
+      "label": "Unknown User"
+    },
+    "enabled": true,
+    "endAt": null,
+    "id": "7fddee82-e142-47ff-83c7-193c38e08fc2",
+    "locations": ["6688396cb4f6ed18dc2a6734"],
+    "name": "IDF/Server Room (9.93)",
+    "roles": ["64788f940b763433c9ffdcc2", "64788f940b7634129dffdceb"],
+    "serviceHours": null,
+    "startAt": "2024-07-29T04:00:00.000Z",
+    "strategy": {
+      "type": "stopwatch",
+      "options": {
+        "duration": {
+          "value": 1,
+          "unit": "month"
+        },
+        "frequency": {
+          "value": 1,
+          "unit": "month"
+        }
+      }
+    },
+    "template": "64b99f270a92a54428203674",
+    "type": "task",
+    "updatedAt": "2024-07-26T18:02:32.573Z",
+    "updatedBy": {
+      "type": "user",
+      "id": "6482338a76be3774d91cc9b0",
+      "label": "Unknown User"
+    }
+  },
+  {
+    "areas": ["66886171cefcd8c44c1c258f"],
+    "createdAt": "2023-08-31T14:04:05.883Z",
+    "createdBy": {
+      "type": "user",
+      "id": "6482338a76be3774d91cc9b0",
+      "label": "Unknown User"
+    },
+    "enabled": true,
+    "endAt": null,
+    "id": "608b989b-eecc-43a0-8a8d-5837ce1eb928",
+    "locations": ["6688396cb4f6ed18dc2a6734"],
+    "name": "IDF/Server Room (9.71)",
+    "roles": ["64788f940b763433c9ffdcc2", "64788f940b7634129dffdceb"],
+    "serviceHours": null,
+    "startAt": "2024-07-29T04:00:00.000Z",
+    "strategy": {
+      "type": "stopwatch",
+      "options": {
+        "duration": {
+          "value": 1,
+          "unit": "month"
+        },
+        "frequency": {
+          "value": 1,
+          "unit": "month"
+        }
+      }
+    },
+    "template": "64b99f270a92a54428203674",
+    "type": "task",
+    "updatedAt": "2024-07-26T18:02:53.549Z",
+    "updatedBy": {
+      "type": "user",
+      "id": "6482338a76be3774d91cc9b0",
+      "label": "Unknown User"
+    }
+  },
+  {
+    "areas": ["668860beb4f6ed76e43ed273"],
+    "createdAt": "2023-08-31T14:03:30.054Z",
+    "createdBy": {
+      "type": "user",
+      "id": "6482338a76be3774d91cc9b0",
+      "label": "Unknown User"
+    },
+    "enabled": true,
+    "endAt": null,
+    "id": "ef1e6f21-545f-420d-8789-0c21e4195073",
+    "locations": ["6688396cb4f6ed18dc2a6734"],
+    "name": "IDF/Server Room (9.48)",
+    "roles": ["64788f940b763433c9ffdcc2", "64788f940b7634129dffdceb"],
+    "serviceHours": null,
+    "startAt": "2024-07-29T04:00:00.000Z",
+    "strategy": {
+      "type": "stopwatch",
+      "options": {
+        "duration": {
+          "value": 1,
+          "unit": "month"
+        },
+        "frequency": {
+          "value": 1,
+          "unit": "month"
+        }
+      }
+    },
+    "template": "64b99f270a92a54428203674",
+    "type": "task",
+    "updatedAt": "2024-07-26T18:03:36.184Z",
+    "updatedBy": {
+      "type": "user",
+      "id": "6482338a76be3774d91cc9b0",
+      "label": "Unknown User"
+    }
+  },
+  {
+    "areas": ["6688613acefcd8e61f1bd482"],
+    "createdAt": "2023-08-31T14:02:34.737Z",
+    "createdBy": {
+      "type": "user",
+      "id": "6482338a76be3774d91cc9b0",
+      "label": "Unknown User"
+    },
+    "enabled": true,
+    "endAt": null,
+    "id": "a7a64a21-2997-4ee3-96ce-974b6cf18da6",
+    "locations": ["6688396cb4f6ed18dc2a6734"],
+    "name": "IDF/Server Room (9.44)",
+    "roles": ["64788f940b763433c9ffdcc2", "64788f940b7634129dffdceb"],
+    "serviceHours": null,
+    "startAt": "2024-07-29T04:00:00.000Z",
+    "strategy": {
+      "type": "stopwatch",
+      "options": {
+        "duration": {
+          "value": 1,
+          "unit": "month"
+        },
+        "frequency": {
+          "value": 1,
+          "unit": "month"
+        }
+      }
+    },
+    "template": "64b99f270a92a54428203674",
+    "type": "task",
+    "updatedAt": "2024-07-26T18:03:49.259Z",
+    "updatedBy": {
+      "type": "user",
+      "id": "6482338a76be3774d91cc9b0",
+      "label": "Unknown User"
+    }
+  },
+  {
+    "areas": ["668860ec925a233efba3a335"],
+    "createdAt": "2023-08-31T14:02:01.831Z",
+    "createdBy": {
+      "type": "user",
+      "id": "6482338a76be3774d91cc9b0",
+      "label": "Unknown User"
+    },
+    "enabled": true,
+    "endAt": null,
+    "id": "ab38838a-3588-43f2-9046-14c0df857cb1",
+    "locations": ["6688396cb4f6ed18dc2a6734"],
+    "name": "IDF/Server Room (9.20)",
+    "roles": ["64788f940b763433c9ffdcc2", "64788f940b7634129dffdceb"],
+    "serviceHours": null,
+    "startAt": "2024-07-29T04:00:00.000Z",
+    "strategy": {
+      "type": "stopwatch",
+      "options": {
+        "duration": {
+          "value": 1,
+          "unit": "month"
+        },
+        "frequency": {
+          "value": 1,
+          "unit": "month"
+        }
+      }
+    },
+    "template": "64b99f270a92a54428203674",
+    "type": "task",
+    "updatedAt": "2024-07-26T18:03:59.315Z",
+    "updatedBy": {
+      "type": "user",
+      "id": "6482338a76be3774d91cc9b0",
+      "label": "Unknown User"
+    }
+  },
+  {
+    "areas": ["66886119cefcd8f19e1bb3cb"],
+    "createdAt": "2023-08-31T14:01:28.615Z",
+    "createdBy": {
+      "type": "user",
+      "id": "6482338a76be3774d91cc9b0",
+      "label": "Unknown User"
+    },
+    "enabled": true,
+    "endAt": null,
+    "id": "9f3c239c-8605-45ab-a7ce-ccc305f6a7f8",
+    "locations": ["6688396cb4f6ed18dc2a6734"],
+    "name": "IDF/Server Room (9.05)",
+    "roles": ["64788f940b763433c9ffdcc2", "64788f940b7634129dffdceb"],
+    "serviceHours": null,
+    "startAt": "2024-07-29T04:00:00.000Z",
+    "strategy": {
+      "type": "stopwatch",
+      "options": {
+        "duration": {
+          "value": 1,
+          "unit": "month"
+        },
+        "frequency": {
+          "value": 1,
+          "unit": "month"
+        }
+      }
+    },
+    "template": "64b99f270a92a54428203674",
+    "type": "task",
+    "updatedAt": "2024-07-26T18:04:07.135Z",
+    "updatedBy": {
+      "type": "user",
+      "id": "6482338a76be3774d91cc9b0",
+      "label": "Unknown User"
+    }
+  },
+  {
+    "areas": ["6688618db4f6ed93e93f3ee0"],
+    "createdAt": "2023-08-31T14:00:53.699Z",
+    "createdBy": {
+      "type": "user",
+      "id": "6482338a76be3774d91cc9b0",
+      "label": "Unknown User"
+    },
+    "enabled": true,
+    "endAt": null,
+    "id": "aa2f6722-220d-43e9-a1a6-1a5c047a5d7a",
+    "locations": ["6688396cb4f6ed18dc2a6734"],
+    "name": "IDF/Server Room (8.74)",
+    "roles": ["64788f940b7634129dffdceb", "64788f940b763433c9ffdcc2"],
+    "serviceHours": null,
+    "startAt": "2024-07-29T04:00:00.000Z",
+    "strategy": {
+      "type": "stopwatch",
+      "options": {
+        "duration": {
+          "value": 1,
+          "unit": "month"
+        },
+        "frequency": {
+          "value": 1,
+          "unit": "month"
+        }
+      }
+    },
+    "template": "64b99f270a92a54428203674",
+    "type": "task",
+    "updatedAt": "2024-07-26T18:04:17.602Z",
+    "updatedBy": {
+      "type": "user",
+      "id": "6482338a76be3774d91cc9b0",
+      "label": "Unknown User"
+    }
+  },
+  {
+    "areas": ["6688619ccefcd819b51c4d44"],
+    "createdAt": "2023-08-31T14:00:15.196Z",
+    "createdBy": {
+      "type": "user",
+      "id": "6482338a76be3774d91cc9b0",
+      "label": "Unknown User"
+    },
+    "enabled": true,
+    "endAt": null,
+    "id": "1ab60604-d61b-418c-94b5-26b8a6282080",
+    "locations": ["6688396cb4f6ed18dc2a6734"],
+    "name": "IDF/Server Room (8.68)",
+    "roles": ["64788f940b763433c9ffdcc2", "64788f940b7634129dffdceb"],
+    "serviceHours": null,
+    "startAt": "2024-07-29T04:00:00.000Z",
+    "strategy": {
+      "type": "stopwatch",
+      "options": {
+        "duration": {
+          "value": 1,
+          "unit": "month"
+        },
+        "frequency": {
+          "value": 1,
+          "unit": "month"
+        }
+      }
+    },
+    "template": "64b99f270a92a54428203674",
+    "type": "task",
+    "updatedAt": "2024-07-26T18:04:26.034Z",
+    "updatedBy": {
+      "type": "user",
+      "id": "6482338a76be3774d91cc9b0",
+      "label": "Unknown User"
+    }
+  },
+  {
+    "areas": ["668860cfcefcd8fe5a1b52dc"],
+    "createdAt": "2023-08-31T13:59:36.869Z",
+    "createdBy": {
+      "type": "user",
+      "id": "6482338a76be3774d91cc9b0",
+      "label": "Unknown User"
+    },
+    "enabled": true,
+    "endAt": null,
+    "id": "fb0c71c3-9576-4b26-bf03-8c72bfaa7a1d",
+    "locations": ["6688396cb4f6ed18dc2a6734"],
+    "name": "IDF/Server Room (8.59)",
+    "roles": ["64788f940b763433c9ffdcc2", "64788f940b7634129dffdceb"],
+    "serviceHours": null,
+    "startAt": "2024-07-29T04:00:00.000Z",
+    "strategy": {
+      "type": "stopwatch",
+      "options": {
+        "duration": {
+          "value": 1,
+          "unit": "month"
+        },
+        "frequency": {
+          "value": 1,
+          "unit": "month"
+        }
+      }
+    },
+    "template": "64b99f270a92a54428203674",
+    "type": "task",
+    "updatedAt": "2024-07-26T18:04:34.244Z",
+    "updatedBy": {
+      "type": "user",
+      "id": "6482338a76be3774d91cc9b0",
+      "label": "Unknown User"
+    }
+  },
+  {
+    "areas": ["6688612bcefcd849441bc556"],
+    "createdAt": "2023-08-31T13:58:56.395Z",
+    "createdBy": {
+      "type": "user",
+      "id": "6482338a76be3774d91cc9b0",
+      "label": "Unknown User"
+    },
+    "enabled": true,
+    "endAt": null,
+    "id": "e1c475e4-ce2c-4906-913c-9d06d515497d",
+    "locations": ["6688396cb4f6ed18dc2a6734"],
+    "name": "IDF/Server Room (8.33)",
+    "roles": ["64788f940b763433c9ffdcc2", "64788f940b7634129dffdceb"],
+    "serviceHours": null,
+    "startAt": "2024-07-29T04:00:00.000Z",
+    "strategy": {
+      "type": "stopwatch",
+      "options": {
+        "duration": {
+          "value": 1,
+          "unit": "month"
+        },
+        "frequency": {
+          "value": 1,
+          "unit": "month"
+        }
+      }
+    },
+    "template": "64b99f270a92a54428203674",
+    "type": "task",
+    "updatedAt": "2024-07-26T18:04:48.680Z",
+    "updatedBy": {
+      "type": "user",
+      "id": "6482338a76be3774d91cc9b0",
+      "label": "Unknown User"
+    }
+  },
+  {
+    "areas": ["668860b2cefcd818441b2ddf"],
+    "createdAt": "2023-08-31T13:58:22.493Z",
+    "createdBy": {
+      "type": "user",
+      "id": "6482338a76be3774d91cc9b0",
+      "label": "Unknown User"
+    },
+    "enabled": true,
+    "endAt": null,
+    "id": "193949f3-fb4e-409f-b270-128c445fd07e",
+    "locations": ["6688396cb4f6ed18dc2a6734"],
+    "name": "IDF/Server Room (8.07)",
+    "roles": ["64788f940b763433c9ffdcc2", "64788f940b7634129dffdceb"],
+    "serviceHours": null,
+    "startAt": "2024-07-29T04:00:00.000Z",
+    "strategy": {
+      "type": "stopwatch",
+      "options": {
+        "duration": {
+          "value": 1,
+          "unit": "month"
+        },
+        "frequency": {
+          "value": 1,
+          "unit": "month"
+        }
+      }
+    },
+    "template": "64b99f270a92a54428203674",
+    "type": "task",
+    "updatedAt": "2024-07-26T18:05:04.104Z",
+    "updatedBy": {
+      "type": "user",
+      "id": "6482338a76be3774d91cc9b0",
+      "label": "Unknown User"
+    }
+  },
+  {
+    "areas": ["668860a2cefcd8046b1b16c7"],
+    "createdAt": "2023-08-31T13:57:43.650Z",
+    "createdBy": {
+      "type": "user",
+      "id": "6482338a76be3774d91cc9b0",
+      "label": "Unknown User"
+    },
+    "enabled": true,
+    "endAt": null,
+    "id": "a71bc5aa-4b1a-43f2-b937-5e3fedf25823",
+    "locations": ["6688396cb4f6ed18dc2a6734"],
+    "name": "IDF/Server Room (7.14)",
+    "roles": ["64788f940b763433c9ffdcc2", "64788f940b7634129dffdceb"],
+    "serviceHours": null,
+    "startAt": "2024-07-29T04:00:00.000Z",
+    "strategy": {
+      "type": "stopwatch",
+      "options": {
+        "duration": {
+          "value": 1,
+          "unit": "month"
+        },
+        "frequency": {
+          "value": 1,
+          "unit": "month"
+        }
+      }
+    },
+    "template": "64b99f270a92a54428203674",
+    "type": "task",
+    "updatedAt": "2024-07-26T18:05:27.572Z",
+    "updatedBy": {
+      "type": "user",
+      "id": "6482338a76be3774d91cc9b0",
+      "label": "Unknown User"
+    }
+  },
+  {
+    "areas": ["6688605ecefcd84e0f1ac7da"],
+    "createdAt": "2023-08-31T13:56:21.990Z",
+    "createdBy": {
+      "type": "user",
+      "id": "6482338a76be3774d91cc9b0",
+      "label": "Unknown User"
+    },
+    "enabled": true,
+    "endAt": null,
+    "id": "1eace6f6-6ade-4a11-8470-c9b6b041def5",
+    "locations": ["6688396cb4f6ed18dc2a6734"],
+    "name": "IDF/Server Room (7.04)",
+    "roles": ["64788f940b763433c9ffdcc2", "64788f940b7634129dffdceb"],
+    "serviceHours": null,
+    "startAt": "2024-07-29T04:00:00.000Z",
+    "strategy": {
+      "type": "stopwatch",
+      "options": {
+        "duration": {
+          "value": 1,
+          "unit": "month"
+        },
+        "frequency": {
+          "value": 1,
+          "unit": "month"
+        }
+      }
+    },
+    "template": "64b99f270a92a54428203674",
+    "type": "task",
+    "updatedAt": "2024-07-26T18:07:56.002Z",
+    "updatedBy": {
+      "type": "user",
+      "id": "6482338a76be3774d91cc9b0",
+      "label": "Unknown User"
+    }
+  },
+  {
+    "areas": ["66885f2cb4f6eda4313dcdb6"],
+    "createdAt": "2023-08-31T13:53:14.332Z",
+    "createdBy": {
+      "type": "user",
+      "id": "6482338a76be3774d91cc9b0",
+      "label": "Unknown User"
+    },
+    "enabled": true,
+    "endAt": null,
+    "id": "4d07227c-ae27-46e0-9c5a-ba69ed6c7e18",
+    "locations": ["6688396cb4f6ed18dc2a6734"],
+    "name": "IDF/Server Room (6.54)",
+    "roles": ["64788f940b763433c9ffdcc2", "64788f940b7634129dffdceb"],
+    "serviceHours": null,
+    "startAt": "2024-07-29T04:00:00.000Z",
+    "strategy": {
+      "type": "stopwatch",
+      "options": {
+        "duration": {
+          "value": 1,
+          "unit": "month"
+        },
+        "frequency": {
+          "value": 1,
+          "unit": "month"
+        }
+      }
+    },
+    "template": "64b99f270a92a54428203674",
+    "type": "task",
+    "updatedAt": "2024-07-26T18:13:03.846Z",
+    "updatedBy": {
+      "type": "user",
+      "id": "6482338a76be3774d91cc9b0",
+      "label": "Unknown User"
+    }
+  },
+  {
+    "areas": ["66886541cefcd832d92119f1"],
+    "createdAt": "2023-08-31T13:51:17.607Z",
+    "createdBy": {
+      "type": "user",
+      "id": "6482338a76be3774d91cc9b0",
+      "label": "Unknown User"
+    },
+    "enabled": true,
+    "endAt": null,
+    "id": "f67094f0-be88-4a9e-8e32-257ac9065805",
+    "locations": ["6688396cb4f6ed18dc2a6734"],
+    "name": "IDF/Server Room (5.04)",
+    "roles": ["64788f940b763433c9ffdcc2", "64788f940b7634129dffdceb"],
+    "serviceHours": null,
+    "startAt": "2024-07-29T04:00:00.000Z",
+    "strategy": {
+      "type": "stopwatch",
+      "options": {
+        "duration": {
+          "value": 1,
+          "unit": "month"
+        },
+        "frequency": {
+          "value": 1,
+          "unit": "month"
+        }
+      }
+    },
+    "template": "64b99f270a92a54428203674",
+    "type": "task",
+    "updatedAt": "2024-07-26T18:07:30.062Z",
+    "updatedBy": {
+      "type": "user",
+      "id": "6482338a76be3774d91cc9b0",
+      "label": "Unknown User"
+    }
+  },
+  {
+    "areas": ["66885ff2cefcd874d01a44ba"],
+    "createdAt": "2023-08-31T13:50:04.260Z",
+    "createdBy": {
+      "type": "user",
+      "id": "6482338a76be3774d91cc9b0",
+      "label": "Unknown User"
+    },
+    "enabled": true,
+    "endAt": null,
+    "id": "215583f9-f0e5-43a2-85cc-ea35547d68b3",
+    "locations": ["6688396cb4f6ed18dc2a6734"],
+    "name": "IDF/Server Room (4.01)",
+    "roles": ["64788f940b763433c9ffdcc2", "64788f940b7634129dffdceb"],
+    "serviceHours": null,
+    "startAt": "2024-07-29T04:00:00.000Z",
+    "strategy": {
+      "type": "stopwatch",
+      "options": {
+        "duration": {
+          "value": 1,
+          "unit": "month"
+        },
+        "frequency": {
+          "value": 1,
+          "unit": "month"
+        }
+      }
+    },
+    "template": "64b99f270a92a54428203674",
+    "type": "task",
+    "updatedAt": "2024-07-26T18:07:18.428Z",
+    "updatedBy": {
+      "type": "user",
+      "id": "6482338a76be3774d91cc9b0",
+      "label": "Unknown User"
+    }
+  },
+  {
+    "areas": ["66886010b4f6ed272e3e864a"],
+    "createdAt": "2023-08-31T13:49:19.730Z",
+    "createdBy": {
+      "type": "user",
+      "id": "6482338a76be3774d91cc9b0",
+      "label": "Unknown User"
+    },
+    "enabled": true,
+    "endAt": null,
+    "id": "5c61fe74-86b1-489e-9051-ea1e2e5d887a",
+    "locations": ["6688396cb4f6ed18dc2a6734"],
+    "name": "IDF/Server Room (2.38)",
+    "roles": ["64788f940b763433c9ffdcc2", "64788f940b7634129dffdceb"],
+    "serviceHours": null,
+    "startAt": "2024-07-29T04:00:00.000Z",
+    "strategy": {
+      "type": "stopwatch",
+      "options": {
+        "duration": {
+          "value": 1,
+          "unit": "month"
+        },
+        "frequency": {
+          "value": 1,
+          "unit": "month"
+        }
+      }
+    },
+    "template": "64b99f270a92a54428203674",
+    "type": "task",
+    "updatedAt": "2024-07-26T18:07:03.444Z",
+    "updatedBy": {
+      "type": "user",
+      "id": "6482338a76be3774d91cc9b0",
+      "label": "Unknown User"
+    }
+  },
+  {
+    "areas": ["66885fb1cefcd8e2b519eeb6"],
+    "createdAt": "2023-08-31T13:48:47.536Z",
+    "createdBy": {
+      "type": "user",
+      "id": "6482338a76be3774d91cc9b0",
+      "label": "Unknown User"
+    },
+    "enabled": true,
+    "endAt": null,
+    "id": "ea178e91-4b33-47b9-9a0f-e1fa193a531e",
+    "locations": ["6688396cb4f6ed18dc2a6734"],
+    "name": "IDF/Server Room (2.24,2.25)",
+    "roles": ["64788f940b763433c9ffdcc2", "64788f940b7634129dffdceb"],
+    "serviceHours": null,
+    "startAt": "2024-07-29T04:00:00.000Z",
+    "strategy": {
+      "type": "stopwatch",
+      "options": {
+        "duration": {
+          "value": 1,
+          "unit": "month"
+        },
+        "frequency": {
+          "value": 1,
+          "unit": "month"
+        }
+      }
+    },
+    "template": "64b99f270a92a54428203674",
+    "type": "task",
+    "updatedAt": "2024-07-26T18:06:49.816Z",
+    "updatedBy": {
+      "type": "user",
+      "id": "6482338a76be3774d91cc9b0",
+      "label": "Unknown User"
+    },
+    "users": []
+  },
+  {
+    "areas": ["66d07a17a7637116d1ee3376"],
+    "createdAt": "2023-08-31T13:48:01.592Z",
+    "createdBy": {
+      "type": "user",
+      "id": "6482338a76be3774d91cc9b0",
+      "label": "Unknown User"
+    },
+    "enabled": true,
+    "endAt": null,
+    "id": "3ced2e7f-4d78-4024-b795-5abf90b150fb",
+    "locations": ["6688396cb4f6ed18dc2a6734"],
+    "name": "IDF/Server Room (1.92)",
+    "roles": ["64788f940b763433c9ffdcc2", "64788f940b7634129dffdceb"],
+    "serviceHours": null,
+    "startAt": "2024-07-29T04:00:00.000Z",
+    "strategy": {
+      "type": "stopwatch",
+      "options": {
+        "duration": {
+          "value": 1,
+          "unit": "month"
+        },
+        "frequency": {
+          "value": 1,
+          "unit": "month"
+        }
+      }
+    },
+    "template": "64b99f270a92a54428203674",
+    "type": "task",
+    "updatedAt": "2024-08-29T13:43:30.586Z",
+    "updatedBy": {
+      "type": "user",
+      "id": "6482338a76be3774d91cc9b0",
+      "label": "Unknown User"
+    }
+  },
+  {
+    "areas": ["66886071925a23681ea38905"],
+    "createdAt": "2023-08-31T13:45:42.567Z",
+    "createdBy": {
+      "type": "user",
+      "id": "6482338a76be3774d91cc9b0",
+      "label": "Unknown User"
+    },
+    "enabled": true,
+    "endAt": null,
+    "id": "2a0d6fe2-944f-4645-8202-55a644f01a74",
+    "locations": ["6688396cb4f6ed18dc2a6734"],
+    "name": "IDF/Server Room (1.68)",
+    "roles": ["64788f940b763433c9ffdcc2", "64788f940b7634129dffdceb"],
+    "serviceHours": null,
+    "startAt": "2024-07-29T04:00:00.000Z",
+    "strategy": {
+      "type": "stopwatch",
+      "options": {
+        "duration": {
+          "value": 1,
+          "unit": "month"
+        },
+        "frequency": {
+          "value": 1,
+          "unit": "month"
+        }
+      }
+    },
+    "template": "64b99f270a92a54428203674",
+    "type": "task",
+    "updatedAt": "2024-07-26T18:06:26.962Z",
+    "updatedBy": {
+      "type": "user",
+      "id": "6482338a76be3774d91cc9b0",
+      "label": "Unknown User"
+    }
+  },
+  {
+    "areas": ["66885f68b4f6ed0d4c3e0e17"],
+    "createdAt": "2023-08-31T13:36:31.710Z",
+    "createdBy": {
+      "type": "user",
+      "id": "6482338a76be3774d91cc9b0",
+      "label": "Unknown User"
+    },
+    "enabled": true,
+    "endAt": null,
+    "id": "636a4c05-fa32-4d6a-8a57-64370f633bfc",
+    "locations": ["6688396cb4f6ed18dc2a6734"],
+    "name": "IDF/Server Room (1.53)",
+    "roles": ["64788f940b763433c9ffdcc2", "64788f940b7634129dffdceb"],
+    "serviceHours": null,
+    "startAt": "2024-07-29T04:00:00.000Z",
+    "strategy": {
+      "type": "stopwatch",
+      "options": {
+        "duration": {
+          "value": 1,
+          "unit": "month"
+        },
+        "frequency": {
+          "value": 1,
+          "unit": "month"
+        }
+      }
+    },
+    "template": "64b99f270a92a54428203674",
+    "type": "task",
+    "updatedAt": "2024-07-26T18:06:17.858Z",
+    "updatedBy": {
+      "type": "user",
+      "id": "6482338a76be3774d91cc9b0",
+      "label": "Unknown User"
+    }
+  },
+  {
+    "areas": ["66885fdfcefcd87cd61a2b52"],
+    "createdAt": "2023-08-31T13:16:23.616Z",
+    "createdBy": {
+      "type": "user",
+      "id": "6482338a76be3774d91cc9b0",
+      "label": "Unknown User"
+    },
+    "enabled": true,
+    "endAt": null,
+    "id": "6e67cf3e-1ecb-4da9-b9e9-b93c55389377",
+    "locations": ["6688396cb4f6ed18dc2a6734"],
+    "name": "IDF/Server Room (0.42,0.43)",
+    "roles": ["64788f940b7634129dffdceb", "64788f940b763433c9ffdcc2"],
+    "serviceHours": null,
+    "startAt": "2024-07-29T04:00:00.000Z",
+    "strategy": {
+      "type": "stopwatch",
+      "options": {
+        "duration": {
+          "value": 1,
+          "unit": "month"
+        },
+        "frequency": {
+          "value": 1,
+          "unit": "month"
+        }
+      }
+    },
+    "template": "64b99f270a92a54428203674",
+    "type": "task",
+    "updatedAt": "2024-07-26T18:06:06.080Z",
+    "updatedBy": {
+      "type": "user",
+      "id": "6482338a76be3774d91cc9b0",
+      "label": "Unknown User"
+    }
+  },
+  {
+    "areas": ["66885f3eb4f6ed54853de722"],
+    "createdAt": "2023-08-30T14:50:23.474Z",
+    "createdBy": {
+      "type": "user",
+      "id": "6482338a76be3774d91cc9b0",
+      "label": "Unknown User"
+    },
+    "enabled": true,
+    "endAt": null,
+    "id": "0d72c2e0-395e-44f7-9b69-4a6112b2dc28",
+    "locations": ["6688396cb4f6ed18dc2a6734"],
+    "name": "IDF/Server Room (0.97)",
+    "roles": ["64788f940b7634129dffdceb", "64788f940b763433c9ffdcc2"],
+    "serviceHours": null,
+    "startAt": "2024-07-29T04:00:00.000Z",
+    "strategy": {
+      "type": "stopwatch",
+      "options": {
+        "duration": {
+          "value": 1,
+          "unit": "month"
+        },
+        "frequency": {
+          "value": 1,
+          "unit": "month"
+        }
+      }
+    },
+    "template": "64b99f270a92a54428203674",
+    "type": "task",
+    "updatedAt": "2024-07-26T18:05:45.375Z",
+    "updatedBy": {
+      "type": "user",
+      "id": "6482338a76be3774d91cc9b0",
+      "label": "Unknown User"
+    },
+    "users": []
+  },
+  {
+    "areas": ["66885f58b4f6ed70063e03c6"],
+    "createdAt": "2023-07-21T19:36:38.057Z",
+    "createdBy": {
+      "type": "user",
+      "id": "6482338a76be3774d91cc9b0",
+      "label": "Unknown User"
+    },
+    "enabled": true,
+    "endAt": null,
+    "id": "53421f61-979a-4118-b6bf-c88e7aacaf6c",
+    "locations": ["6688396cb4f6ed18dc2a6734"],
+    "name": "1.95 Quarterly Tasks",
+    "roles": ["64788f940b763433c9ffdcc2", "64788f940b7634129dffdceb"],
+    "serviceHours": null,
+    "startAt": "2023-09-05T04:00:00.000Z",
+    "strategy": {
+      "options": {
+        "duration": {
+          "value": 1,
+          "unit": "day"
+        },
+        "date": 5,
+        "frequency": {
+          "value": 3,
+          "unit": "month"
+        }
+      },
+      "type": "exactDateOfMonth"
+    },
+    "template": "64b9a5f40a92a5726d28bf4f",
+    "type": "task",
+    "updatedAt": "2024-07-05T21:23:03.009Z",
+    "updatedBy": {
+      "type": "user",
+      "id": "6482338a76be3774d91cc9b0",
+      "label": "Unknown User"
+    }
+  },
+  {
+    "areas": ["66885f58b4f6ed70063e03c6"],
+    "createdAt": "2023-07-21T19:35:37.572Z",
+    "createdBy": {
+      "type": "user",
+      "id": "6482338a76be3774d91cc9b0",
+      "label": "Unknown User"
+    },
+    "enabled": true,
+    "endAt": null,
+    "id": "2aee6cd7-1f41-4d15-b51e-92f4b7fba04e",
+    "locations": ["6688396cb4f6ed18dc2a6734"],
+    "name": "1.95 Weekly Tasks",
+    "roles": ["64788f940b763433c9ffdcc2", "64788f940b7634129dffdceb"],
+    "serviceHours": null,
+    "startAt": "2023-07-25T04:00:00.000Z",
+    "strategy": {
+      "options": {
+        "duration": {
+          "value": 1,
+          "unit": "day"
+        },
+        "weekdays": [2],
+        "frequency": {
+          "value": 1,
+          "unit": "isoWeek"
+        }
+      },
+      "type": "weekdays"
+    },
+    "template": "64b9a1c60a92a5fe3d23c894",
+    "type": "task",
+    "updatedAt": "2024-07-05T21:23:13.792Z",
+    "updatedBy": {
+      "type": "user",
+      "id": "6482338a76be3774d91cc9b0",
+      "label": "Unknown User"
+    }
+  },
+  {
+    "areas": ["66886024cefcd8843c1a7eb9"],
+    "createdAt": "2023-07-21T19:33:45.009Z",
+    "createdBy": {
+      "type": "user",
+      "id": "6482338a76be3774d91cc9b0",
+      "label": "Unknown User"
+    },
+    "enabled": true,
+    "endAt": null,
+    "id": "162b0490-2d21-4c3e-8e4d-892b55ee4b64",
+    "locations": ["6688396cb4f6ed18dc2a6734"],
+    "name": "1.94,1.97 Quarterly Tasks",
+    "roles": ["64788f940b763433c9ffdcc2", "64788f940b7634129dffdceb"],
+    "serviceHours": null,
+    "startAt": "2023-09-05T04:00:00.000Z",
+    "strategy": {
+      "options": {
+        "duration": {
+          "value": 1,
+          "unit": "day"
+        },
+        "date": 5,
+        "frequency": {
+          "value": 3,
+          "unit": "month"
+        }
+      },
+      "type": "exactDateOfMonth"
+    },
+    "template": "64b9a5f40a92a5726d28bf4f",
+    "type": "task",
+    "updatedAt": "2024-08-05T17:35:29.409Z",
+    "updatedBy": {
+      "type": "user",
+      "id": "6482338a76be3774d91cc9b0",
+      "label": "Unknown User"
+    }
+  },
+  {
+    "areas": ["66886024cefcd8843c1a7eb9"],
+    "createdAt": "2023-07-21T19:32:13.247Z",
+    "createdBy": {
+      "type": "user",
+      "id": "6482338a76be3774d91cc9b0",
+      "label": "Unknown User"
+    },
+    "enabled": true,
+    "endAt": null,
+    "id": "fbb37974-6c3e-4bba-8b65-dda7891c2482",
+    "locations": ["6688396cb4f6ed18dc2a6734"],
+    "name": "1.94,1.97 Weekly Tasks",
+    "roles": ["64788f940b763433c9ffdcc2", "64788f940b7634129dffdceb"],
+    "serviceHours": null,
+    "startAt": "2023-07-25T04:00:00.000Z",
+    "strategy": {
+      "options": {
+        "duration": {
+          "value": 1,
+          "unit": "day"
+        },
+        "weekdays": [2],
+        "frequency": {
+          "value": 1,
+          "unit": "isoWeek"
+        }
+      },
+      "type": "weekdays"
+    },
+    "template": "64b9a1c60a92a5fe3d23c894",
+    "type": "task",
+    "updatedAt": "2024-07-05T21:23:46.792Z",
+    "updatedBy": {
+      "type": "user",
+      "id": "6482338a76be3774d91cc9b0",
+      "label": "Unknown User"
+    }
+  },
+  {
+    "areas": ["66885f84cefcd8024919b78f"],
+    "createdAt": "2023-07-21T19:25:06.401Z",
+    "createdBy": {
+      "type": "user",
+      "id": "6482338a76be3774d91cc9b0",
+      "label": "Unknown User"
+    },
+    "enabled": true,
+    "endAt": null,
+    "id": "53ca5cd4-5884-4034-985a-5a21a6c554b3",
+    "locations": ["6688396cb4f6ed18dc2a6734"],
+    "name": "1.18,1.20,1.50 Quarterly Tasks",
+    "roles": ["64788f940b763433c9ffdcc2", "64788f940b7634129dffdceb"],
+    "serviceHours": null,
+    "startAt": "2024-09-04T04:00:00.000Z",
+    "strategy": {
+      "options": {
+        "duration": {
+          "value": 1,
+          "unit": "day"
+        },
+        "date": 4,
+        "frequency": {
+          "value": 3,
+          "unit": "month"
+        }
+      },
+      "type": "exactDateOfMonth"
+    },
+    "template": "64b9a5f40a92a5726d28bf4f",
+    "type": "task",
+    "updatedAt": "2024-09-10T20:04:34.419Z",
+    "updatedBy": {
+      "type": "user",
+      "id": "57e9395081cdb18d031eabd7",
+      "label": "Unknown User"
+    }
+  },
+  {
+    "areas": ["66885f84cefcd8024919b78f"],
+    "createdAt": "2023-07-21T19:24:06.004Z",
+    "createdBy": {
+      "type": "user",
+      "id": "6482338a76be3774d91cc9b0",
+      "label": "Unknown User"
+    },
+    "enabled": true,
+    "endAt": null,
+    "id": "fc8bfdd3-5640-4fef-ac67-b7a0d2b07179",
+    "locations": ["6688396cb4f6ed18dc2a6734"],
+    "name": "1.18,1.20,1.50 Weekly Tasks",
+    "roles": ["64788f940b763433c9ffdcc2", "64788f940b7634129dffdceb"],
+    "serviceHours": null,
+    "startAt": "2023-07-25T04:00:00.000Z",
+    "strategy": {
+      "options": {
+        "duration": {
+          "value": 1,
+          "unit": "day"
+        },
+        "weekdays": [2],
+        "frequency": {
+          "value": 1,
+          "unit": "isoWeek"
+        }
+      },
+      "type": "weekdays"
+    },
+    "template": "64b9a1c60a92a5fe3d23c894",
+    "type": "task",
+    "updatedAt": "2024-07-16T17:48:04.270Z",
+    "updatedBy": {
+      "type": "user",
+      "id": "6482338a76be3774d91cc9b0",
+      "label": "Unknown User"
+    }
+  },
+  {
+    "areas": ["66886102b4f6ed19f33eea6f"],
+    "createdAt": "2023-07-21T19:21:12.957Z",
+    "createdBy": {
+      "type": "user",
+      "id": "6482338a76be3774d91cc9b0",
+      "label": "Unknown User"
+    },
+    "enabled": true,
+    "endAt": null,
+    "id": "424f3433-7c96-4787-b9ad-ef2882a7e0bf",
+    "locations": ["6688396cb4f6ed18dc2a6734"],
+    "name": "8.17 Quarterly Tasks",
+    "roles": ["64788f940b763433c9ffdcc2", "64788f940b7634129dffdceb"],
+    "serviceHours": null,
+    "startAt": "2023-09-05T04:00:00.000Z",
+    "strategy": {
+      "options": {
+        "duration": {
+          "value": 1,
+          "unit": "day"
+        },
+        "date": 5,
+        "frequency": {
+          "value": 3,
+          "unit": "month"
+        }
+      },
+      "type": "exactDateOfMonth"
+    },
+    "template": "64b9a5f40a92a5726d28bf4f",
+    "type": "task",
+    "updatedAt": "2024-07-05T21:24:21.572Z",
+    "updatedBy": {
+      "type": "user",
+      "id": "6482338a76be3774d91cc9b0",
+      "label": "Unknown User"
+    }
+  },
+  {
+    "areas": ["66886102b4f6ed19f33eea6f"],
+    "createdAt": "2023-07-21T19:20:33.016Z",
+    "createdBy": {
+      "type": "user",
+      "id": "6482338a76be3774d91cc9b0",
+      "label": "Unknown User"
+    },
+    "enabled": true,
+    "endAt": null,
+    "id": "0378c221-b4fe-4281-960d-dc557728635d",
+    "locations": ["6688396cb4f6ed18dc2a6734"],
+    "name": "8.17 Weekly Tasks",
+    "roles": ["64788f940b763433c9ffdcc2", "64788f940b7634129dffdceb"],
+    "serviceHours": null,
+    "startAt": "2023-07-25T04:00:00.000Z",
+    "strategy": {
+      "options": {
+        "duration": {
+          "value": 1,
+          "unit": "day"
+        },
+        "weekdays": [2],
+        "frequency": {
+          "value": 1,
+          "unit": "isoWeek"
+        }
+      },
+      "type": "weekdays"
+    },
+    "template": "64b9a1c60a92a5fe3d23c894",
+    "type": "task",
+    "updatedAt": "2024-07-05T21:24:33.634Z",
+    "updatedBy": {
+      "type": "user",
+      "id": "6482338a76be3774d91cc9b0",
+      "label": "Unknown User"
+    }
+  },
+  {
+    "areas": ["668861abcefcd84dcb1c6171"],
+    "createdAt": "2023-07-21T19:18:14.035Z",
+    "createdBy": {
+      "type": "user",
+      "id": "6482338a76be3774d91cc9b0",
+      "label": "Unknown User"
+    },
+    "enabled": true,
+    "endAt": null,
+    "id": "7ef5d4f0-becb-48a4-91d8-83905a3f4cda",
+    "locations": ["6688396cb4f6ed18dc2a6734"],
+    "name": "8.51,8.73 Quarterly Tasks",
+    "roles": ["64788f940b763433c9ffdcc2", "64788f940b7634129dffdceb"],
+    "serviceHours": null,
+    "startAt": "2023-09-05T04:00:00.000Z",
+    "strategy": {
+      "options": {
+        "duration": {
+          "value": 1,
+          "unit": "day"
+        },
+        "date": 5,
+        "frequency": {
+          "value": 3,
+          "unit": "month"
+        }
+      },
+      "type": "exactDateOfMonth"
+    },
+    "template": "64b9a5f40a92a5726d28bf4f",
+    "type": "task",
+    "updatedAt": "2024-07-05T21:24:51.105Z",
+    "updatedBy": {
+      "type": "user",
+      "id": "6482338a76be3774d91cc9b0",
+      "label": "Unknown User"
+    }
+  },
+  {
+    "areas": ["668861abcefcd84dcb1c6171"],
+    "createdAt": "2023-07-21T19:17:18.992Z",
+    "createdBy": {
+      "type": "user",
+      "id": "6482338a76be3774d91cc9b0",
+      "label": "Unknown User"
+    },
+    "enabled": true,
+    "endAt": null,
+    "id": "5b8c774f-d96f-4add-98aa-146d5aa8e949",
+    "locations": ["6688396cb4f6ed18dc2a6734"],
+    "name": "8.51,8.73 Weekly Tasks",
+    "roles": [
+      "64788f940b763433c9ffdcc2",
+      "64788f940b7634129dffdceb",
+      "64788f940b76345e3cffdcee"
+    ],
+    "serviceHours": null,
+    "startAt": "2023-07-25T04:00:00.000Z",
+    "strategy": {
+      "options": {
+        "duration": {
+          "value": 1,
+          "unit": "day"
+        },
+        "weekdays": [2],
+        "frequency": {
+          "value": 1,
+          "unit": "isoWeek"
+        }
+      },
+      "type": "weekdays"
+    },
+    "template": "64b9a1c60a92a5fe3d23c894",
+    "type": "task",
+    "updatedAt": "2024-07-09T18:44:18.734Z",
+    "updatedBy": {
+      "type": "user",
+      "id": "6482338a76be3774d91cc9b0",
+      "label": "Unknown User"
+    }
+  },
+  {
+    "areas": ["6688614dcefcd86e381bf020"],
+    "createdAt": "2023-07-21T19:16:19.893Z",
+    "createdBy": {
+      "type": "user",
+      "id": "6482338a76be3774d91cc9b0",
+      "label": "Unknown User"
+    },
+    "enabled": true,
+    "endAt": null,
+    "id": "e8fe7150-b161-443d-a3cd-c11c1c8a6aed",
+    "locations": ["6688396cb4f6ed18dc2a6734"],
+    "name": "8.70 Quarterly Tasks",
+    "roles": ["64788f940b763433c9ffdcc2", "64788f940b7634129dffdceb"],
+    "serviceHours": null,
+    "startAt": "2023-09-05T04:00:00.000Z",
+    "strategy": {
+      "options": {
+        "duration": {
+          "value": 1,
+          "unit": "day"
+        },
+        "date": 5,
+        "frequency": {
+          "value": 3,
+          "unit": "month"
+        }
+      },
+      "type": "exactDateOfMonth"
+    },
+    "template": "64b9a5f40a92a5726d28bf4f",
+    "type": "task",
+    "updatedAt": "2024-07-05T21:25:24.146Z",
+    "updatedBy": {
+      "type": "user",
+      "id": "6482338a76be3774d91cc9b0",
+      "label": "Unknown User"
+    }
+  },
+  {
+    "areas": ["6688614dcefcd86e381bf020"],
+    "createdAt": "2023-07-21T19:15:08.775Z",
+    "createdBy": {
+      "type": "user",
+      "id": "6482338a76be3774d91cc9b0",
+      "label": "Unknown User"
+    },
+    "enabled": true,
+    "endAt": null,
+    "id": "794a4a9b-906a-4450-86bd-b6245891b5f5",
+    "locations": ["6688396cb4f6ed18dc2a6734"],
+    "name": "8.70 Weekly Tasks",
+    "roles": ["64788f940b763433c9ffdcc2", "64788f940b7634129dffdceb"],
+    "serviceHours": null,
+    "startAt": "2023-07-25T04:00:00.000Z",
+    "strategy": {
+      "options": {
+        "duration": {
+          "value": 1,
+          "unit": "day"
+        },
+        "weekdays": [2],
+        "frequency": {
+          "value": 1,
+          "unit": "isoWeek"
+        }
+      },
+      "type": "weekdays"
+    },
+    "template": "64b9a1c60a92a5fe3d23c894",
+    "type": "task",
+    "updatedAt": "2024-07-05T21:25:39.060Z",
+    "updatedBy": {
+      "type": "user",
+      "id": "6482338a76be3774d91cc9b0",
+      "label": "Unknown User"
+    }
+  },
+  {
+    "areas": ["668859b9925a2318f8a071a6"],
+    "createdAt": "2023-07-21T17:44:47.495Z",
+    "createdBy": {
+      "type": "user",
+      "id": "6482338a76be3774d91cc9b0",
+      "label": "Unknown User"
+    },
+    "enabled": true,
+    "endAt": null,
+    "id": "7bcaee01-0e30-42cf-b9ee-b6cd9fbe7391",
+    "locations": ["6688396cb4f6ed18dc2a6734"],
+    "name": "8.72 Monthly Tasks",
+    "roles": ["64788f940b763433c9ffdcc2", "64788f940b7634129dffdceb"],
+    "serviceHours": null,
+    "startAt": "2023-08-01T04:00:00.000Z",
+    "strategy": {
+      "options": {
+        "duration": {
+          "value": 1,
+          "unit": "day"
+        },
+        "date": 1,
+        "frequency": {
+          "value": 1,
+          "unit": "month"
+        }
+      },
+      "type": "exactDateOfMonth"
+    },
+    "template": "64b9a886e08f291309918df7",
+    "type": "task",
+    "updatedAt": "2024-07-05T20:44:23.579Z",
+    "updatedBy": {
+      "type": "user",
+      "id": "6482338a76be3774d91cc9b0",
+      "label": "Unknown User"
+    }
+  },
+  {
+    "areas": ["668859b9925a2318f8a071a6"],
+    "createdAt": "2023-07-21T17:44:06.467Z",
+    "createdBy": {
+      "type": "user",
+      "id": "6482338a76be3774d91cc9b0",
+      "label": "Unknown User"
+    },
+    "enabled": true,
+    "endAt": null,
+    "id": "7333a5b1-e4ab-4959-b142-dc07cf423045",
+    "locations": ["6688396cb4f6ed18dc2a6734"],
+    "name": "8.72 2x Weekly Tasks",
+    "roles": ["64788f940b7634129dffdceb", "64788f940b763433c9ffdcc2"],
+    "serviceHours": null,
+    "startAt": "2023-07-25T04:00:00.000Z",
+    "strategy": {
+      "options": {
+        "duration": {
+          "value": 1,
+          "unit": "day"
+        },
+        "weekdays": [2, 5],
+        "frequency": {
+          "value": 1,
+          "unit": "isoWeek"
+        }
+      },
+      "type": "weekdays"
+    },
+    "template": "64b9a85a0a92a5abfd2b9167",
+    "type": "task",
+    "updatedAt": "2024-07-05T20:44:08.797Z",
+    "updatedBy": {
+      "type": "user",
+      "id": "6482338a76be3774d91cc9b0",
+      "label": "Unknown User"
+    }
+  },
+  {
+    "areas": ["668859b9925a2318f8a071a6"],
+    "createdAt": "2023-07-21T17:43:05.113Z",
+    "createdBy": {
+      "type": "user",
+      "id": "6482338a76be3774d91cc9b0",
+      "label": "Unknown User"
+    },
+    "enabled": true,
+    "endAt": null,
+    "id": "3e93d7c1-626c-4f49-9007-d7e5d9a96113",
+    "locations": ["6688396cb4f6ed18dc2a6734"],
+    "name": "8.72 Daily Tasks",
+    "roles": [
+      "64788f940b7634129dffdceb",
+      "64788f940b76345e3cffdcee",
+      "64788f940b763433c9ffdcc2"
+    ],
+    "serviceHours": null,
+    "startAt": "2023-07-22T04:00:00.000Z",
+    "strategy": {
+      "options": {
+        "duration": {
+          "value": 1,
+          "unit": "day"
+        },
+        "frequency": {
+          "value": 1,
+          "unit": "day"
+        }
+      },
+      "type": "window"
+    },
+    "template": "64ad79479805024c0ebfbefe",
+    "type": "task",
+    "updatedAt": "2024-07-05T20:43:51.962Z",
+    "updatedBy": {
+      "type": "user",
+      "id": "6482338a76be3774d91cc9b0",
+      "label": "Unknown User"
+    }
+  },
+  {
+    "areas": ["668859a017255af64b87d5ff"],
+    "createdAt": "2023-07-21T17:41:30.410Z",
+    "createdBy": {
+      "type": "user",
+      "id": "6482338a76be3774d91cc9b0",
+      "label": "Unknown User"
+    },
+    "enabled": true,
+    "endAt": null,
+    "id": "dfc7a88e-05d1-4ab7-bd1e-9d303d8e7952",
+    "locations": ["6688396cb4f6ed18dc2a6734"],
+    "name": "8.71,8.46,8.46 Monthly Tasks",
+    "roles": ["64788f940b763433c9ffdcc2", "64788f940b7634129dffdceb"],
+    "serviceHours": null,
+    "startAt": "2024-08-23T04:00:00.000Z",
+    "strategy": {
+      "options": {
+        "duration": {
+          "value": 1,
+          "unit": "day"
+        },
+        "date": 23,
+        "frequency": {
+          "value": 1,
+          "unit": "month"
+        }
+      },
+      "type": "exactDateOfMonth"
+    },
+    "template": "64b9a886e08f291309918df7",
+    "type": "task",
+    "updatedAt": "2024-07-26T18:12:20.886Z",
+    "updatedBy": {
+      "type": "user",
+      "id": "6482338a76be3774d91cc9b0",
+      "label": "Unknown User"
+    }
+  },
+  {
+    "areas": ["668859a017255af64b87d5ff"],
+    "createdAt": "2023-07-21T17:37:19.221Z",
+    "createdBy": {
+      "type": "user",
+      "id": "6482338a76be3774d91cc9b0",
+      "label": "Unknown User"
+    },
+    "enabled": true,
+    "endAt": null,
+    "id": "2d32a360-5e64-4765-843c-d1b59fbf4491",
+    "locations": ["6688396cb4f6ed18dc2a6734"],
+    "name": "8.71,8.46,8.46 2x Weekly Tasks",
+    "roles": ["64788f940b763433c9ffdcc2", "64788f940b7634129dffdceb"],
+    "serviceHours": null,
+    "startAt": "2023-07-25T04:00:00.000Z",
+    "strategy": {
+      "options": {
+        "duration": {
+          "value": 1,
+          "unit": "day"
+        },
+        "weekdays": [5, 2],
+        "frequency": {
+          "value": 1,
+          "unit": "isoWeek"
+        }
+      },
+      "type": "weekdays"
+    },
+    "template": "64b9a85a0a92a5abfd2b9167",
+    "type": "task",
+    "updatedAt": "2024-07-05T20:43:25.476Z",
+    "updatedBy": {
+      "type": "user",
+      "id": "6482338a76be3774d91cc9b0",
+      "label": "Unknown User"
+    }
+  },
+  {
+    "areas": ["668859a017255af64b87d5ff"],
+    "createdAt": "2023-07-21T17:35:42.217Z",
+    "createdBy": {
+      "type": "user",
+      "id": "6482338a76be3774d91cc9b0",
+      "label": "Unknown User"
+    },
+    "enabled": true,
+    "endAt": null,
+    "id": "c66bc9e9-78d6-44ef-94a2-202520df3c51",
+    "locations": ["6688396cb4f6ed18dc2a6734"],
+    "name": "8.71,8.46,8.46 Daily Tasks",
+    "roles": [
+      "64788f940b763433c9ffdcc2",
+      "64788f940b7634129dffdceb",
+      "64788f940b76345e3cffdcee"
+    ],
+    "serviceHours": null,
+    "startAt": "2023-07-22T04:00:00.000Z",
+    "strategy": {
+      "options": {
+        "duration": {
+          "value": 1,
+          "unit": "day"
+        },
+        "frequency": {
+          "value": 1,
+          "unit": "day"
+        }
+      },
+      "type": "window"
+    },
+    "template": "64ad79479805024c0ebfbefe",
+    "type": "task",
+    "updatedAt": "2024-07-05T20:43:14.492Z",
+    "updatedBy": {
+      "type": "user",
+      "id": "6482338a76be3774d91cc9b0",
+      "label": "Unknown User"
+    }
+  },
+  {
+    "areas": ["66885a44925a238779a08571"],
+    "createdAt": "2023-07-21T17:33:05.588Z",
+    "createdBy": {
+      "type": "user",
+      "id": "6482338a76be3774d91cc9b0",
+      "label": "Unknown User"
+    },
+    "enabled": true,
+    "endAt": null,
+    "id": "50b5ad97-0b15-4b6f-922c-9efca9225ebc",
+    "locations": ["6688396cb4f6ed18dc2a6734"],
+    "name": "7.08-7.20 Monthly Tasks",
+    "roles": ["64788f940b763433c9ffdcc2", "64788f940b7634129dffdceb"],
+    "serviceHours": null,
+    "startAt": "2023-08-01T04:00:00.000Z",
+    "strategy": {
+      "options": {
+        "duration": {
+          "value": 1,
+          "unit": "day"
+        },
+        "date": 1,
+        "frequency": {
+          "value": 1,
+          "unit": "month"
+        }
+      },
+      "type": "exactDateOfMonth"
+    },
+    "template": "64b9a886e08f291309918df7",
+    "type": "task",
+    "updatedAt": "2024-07-05T20:41:56.743Z",
+    "updatedBy": {
+      "type": "user",
+      "id": "6482338a76be3774d91cc9b0",
+      "label": "Unknown User"
+    }
+  },
+  {
+    "areas": ["66885a44925a238779a08571"],
+    "createdAt": "2023-07-21T17:31:55.913Z",
+    "createdBy": {
+      "type": "user",
+      "id": "6482338a76be3774d91cc9b0",
+      "label": "Unknown User"
+    },
+    "enabled": true,
+    "endAt": null,
+    "id": "67a86b8a-44d2-4155-b9e4-5747735ebf8c",
+    "locations": ["6688396cb4f6ed18dc2a6734"],
+    "name": "7.08-7.20 2x Weekly Tasks",
+    "roles": ["64788f940b763433c9ffdcc2", "64788f940b7634129dffdceb"],
+    "serviceHours": null,
+    "startAt": "2023-07-25T04:00:00.000Z",
+    "strategy": {
+      "options": {
+        "duration": {
+          "value": 1,
+          "unit": "day"
+        },
+        "weekdays": [2, 5],
+        "frequency": {
+          "value": 1,
+          "unit": "isoWeek"
+        }
+      },
+      "type": "weekdays"
+    },
+    "template": "64b9a85a0a92a5abfd2b9167",
+    "type": "task",
+    "updatedAt": "2024-07-05T20:41:44.047Z",
+    "updatedBy": {
+      "type": "user",
+      "id": "6482338a76be3774d91cc9b0",
+      "label": "Unknown User"
+    }
+  },
+  {
+    "areas": ["66885a44925a238779a08571"],
+    "createdAt": "2023-07-21T17:28:34.182Z",
+    "createdBy": {
+      "type": "user",
+      "id": "6482338a76be3774d91cc9b0",
+      "label": "Unknown User"
+    },
+    "enabled": true,
+    "endAt": null,
+    "id": "f49c9778-b13e-476f-9dbb-c45edd81849c",
+    "locations": ["6688396cb4f6ed18dc2a6734"],
+    "name": "7.08-7.20 Daily Tasks",
+    "roles": [
+      "64788f940b763433c9ffdcc2",
+      "64788f940b7634129dffdceb",
+      "64788f940b76345e3cffdcee"
+    ],
+    "serviceHours": null,
+    "startAt": "2023-07-22T04:00:00.000Z",
+    "strategy": {
+      "options": {
+        "duration": {
+          "value": 1,
+          "unit": "day"
+        },
+        "frequency": {
+          "value": 1,
+          "unit": "day"
+        }
+      },
+      "type": "window"
+    },
+    "template": "64ad79479805024c0ebfbefe",
+    "type": "task",
+    "updatedAt": "2024-07-05T20:41:31.979Z",
+    "updatedBy": {
+      "type": "user",
+      "id": "6482338a76be3774d91cc9b0",
+      "label": "Unknown User"
+    }
+  },
+  {
+    "areas": ["66885ab017255a825d8908f3"],
+    "createdAt": "2023-07-21T17:27:19.385Z",
+    "createdBy": {
+      "type": "user",
+      "id": "6482338a76be3774d91cc9b0",
+      "label": "Unknown User"
+    },
+    "enabled": true,
+    "endAt": null,
+    "id": "03314e32-7861-4e20-acfe-45412995ddf0",
+    "locations": ["6688396cb4f6ed18dc2a6734"],
+    "name": "8.77 Monthly Tasks",
+    "roles": ["64788f940b763433c9ffdcc2", "64788f940b7634129dffdceb"],
+    "serviceHours": null,
+    "startAt": "2023-08-01T04:00:00.000Z",
+    "strategy": {
+      "options": {
+        "duration": {
+          "value": 1,
+          "unit": "day"
+        },
+        "date": 1,
+        "frequency": {
+          "value": 1,
+          "unit": "month"
+        }
+      },
+      "type": "exactDateOfMonth"
+    },
+    "template": "64b9a886e08f291309918df7",
+    "type": "task",
+    "updatedAt": "2024-07-05T20:44:50.206Z",
+    "updatedBy": {
+      "type": "user",
+      "id": "6482338a76be3774d91cc9b0",
+      "label": "Unknown User"
+    }
+  },
+  {
+    "areas": ["66885ab017255a825d8908f3"],
+    "createdAt": "2023-07-21T17:25:59.380Z",
+    "createdBy": {
+      "type": "user",
+      "id": "6482338a76be3774d91cc9b0",
+      "label": "Unknown User"
+    },
+    "enabled": true,
+    "endAt": null,
+    "id": "47ade881-13ae-480b-8824-6e86d56e09e3",
+    "locations": ["6688396cb4f6ed18dc2a6734"],
+    "name": "8.77 2x Weekly Tasks",
+    "roles": ["64788f940b7634129dffdceb", "64788f940b763433c9ffdcc2"],
+    "serviceHours": null,
+    "startAt": "2023-07-25T04:00:00.000Z",
+    "strategy": {
+      "options": {
+        "duration": {
+          "value": 1,
+          "unit": "day"
+        },
+        "weekdays": [2, 5],
+        "frequency": {
+          "value": 1,
+          "unit": "isoWeek"
+        }
+      },
+      "type": "weekdays"
+    },
+    "template": "64b9a85a0a92a5abfd2b9167",
+    "type": "task",
+    "updatedAt": "2024-07-05T20:44:42.439Z",
+    "updatedBy": {
+      "type": "user",
+      "id": "6482338a76be3774d91cc9b0",
+      "label": "Unknown User"
+    }
+  },
+  {
+    "areas": ["66885ab017255a825d8908f3"],
+    "createdAt": "2023-07-21T17:24:43.479Z",
+    "createdBy": {
+      "type": "user",
+      "id": "6482338a76be3774d91cc9b0",
+      "label": "Unknown User"
+    },
+    "enabled": true,
+    "endAt": null,
+    "id": "c3817808-a8bd-40a6-a96b-7968d4aec028",
+    "locations": ["6688396cb4f6ed18dc2a6734"],
+    "name": "8.77 Daily Tasks",
+    "roles": [
+      "64788f940b763433c9ffdcc2",
+      "64788f940b7634129dffdceb",
+      "64788f940b76345e3cffdcee"
+    ],
+    "serviceHours": null,
+    "startAt": "2023-07-22T04:00:00.000Z",
+    "strategy": {
+      "options": {
+        "duration": {
+          "value": 1,
+          "unit": "day"
+        },
+        "frequency": {
+          "value": 1,
+          "unit": "day"
+        }
+      },
+      "type": "window"
+    },
+    "template": "64ad79479805024c0ebfbefe",
+    "type": "task",
+    "updatedAt": "2024-07-05T20:44:31.515Z",
+    "updatedBy": {
+      "type": "user",
+      "id": "6482338a76be3774d91cc9b0",
+      "label": "Unknown User"
+    }
+  },
+  {
+    "areas": ["6688597d17255a398487b40c"],
+    "createdAt": "2023-07-21T16:13:12.604Z",
+    "createdBy": {
+      "type": "user",
+      "id": "6482338a76be3774d91cc9b0",
+      "label": "Unknown User"
+    },
+    "enabled": true,
+    "endAt": null,
+    "id": "4c8d60bb-f8f5-4293-8736-2c7bc96e817b",
+    "locations": ["6688396cb4f6ed18dc2a6734"],
+    "name": "7.00-7.03 Monthly Tasks",
+    "roles": ["64788f940b763433c9ffdcc2", "64788f940b7634129dffdceb"],
+    "serviceHours": null,
+    "startAt": "2023-08-01T04:00:00.000Z",
+    "strategy": {
+      "options": {
+        "duration": {
+          "value": 1,
+          "unit": "day"
+        },
+        "date": 1,
+        "frequency": {
+          "value": 1,
+          "unit": "month"
+        }
+      },
+      "type": "exactDateOfMonth"
+    },
+    "template": "64b9a886e08f291309918df7",
+    "type": "task",
+    "updatedAt": "2024-07-05T20:39:54.537Z",
+    "updatedBy": {
+      "type": "user",
+      "id": "6482338a76be3774d91cc9b0",
+      "label": "Unknown User"
+    }
+  },
+  {
+    "areas": ["6688597d17255a398487b40c"],
+    "createdAt": "2023-07-21T16:08:35.008Z",
+    "createdBy": {
+      "type": "user",
+      "id": "6482338a76be3774d91cc9b0",
+      "label": "Unknown User"
+    },
+    "enabled": true,
+    "endAt": null,
+    "id": "47c9108b-d1d9-4562-ae50-e26486215091",
+    "locations": ["6688396cb4f6ed18dc2a6734"],
+    "name": "7.00-7.03 2x Weekly Tasks",
+    "roles": [
+      "64788f940b763433c9ffdcc2",
+      "64788f940b7634129dffdceb",
+      "64788f940b76345e3cffdcee"
+    ],
+    "serviceHours": null,
+    "startAt": "2023-07-25T04:00:00.000Z",
+    "strategy": {
+      "options": {
+        "duration": {
+          "value": 1,
+          "unit": "day"
+        },
+        "weekdays": [2, 5],
+        "frequency": {
+          "value": 1,
+          "unit": "isoWeek"
+        }
+      },
+      "type": "weekdays"
+    },
+    "template": "64b9a85a0a92a5abfd2b9167",
+    "type": "task",
+    "updatedAt": "2024-07-09T18:44:02.724Z",
+    "updatedBy": {
+      "type": "user",
+      "id": "6482338a76be3774d91cc9b0",
+      "label": "Unknown User"
+    }
+  },
+  {
+    "areas": ["6688597d17255a398487b40c"],
+    "createdAt": "2023-07-21T16:06:45.399Z",
+    "createdBy": {
+      "type": "user",
+      "id": "6482338a76be3774d91cc9b0",
+      "label": "Unknown User"
+    },
+    "enabled": true,
+    "endAt": null,
+    "id": "88d09f5c-a346-47cb-8edc-a251f84b3dbd",
+    "locations": ["6688396cb4f6ed18dc2a6734"],
+    "name": "7.00-7.03 Daily Tasks",
+    "roles": [
+      "64788f940b763433c9ffdcc2",
+      "64788f940b7634129dffdceb",
+      "64788f940b76345e3cffdcee"
+    ],
+    "serviceHours": null,
+    "startAt": "2023-07-22T04:00:00.000Z",
+    "strategy": {
+      "options": {
+        "duration": {
+          "value": 1,
+          "unit": "day"
+        },
+        "frequency": {
+          "value": 1,
+          "unit": "day"
+        }
+      },
+      "type": "window"
+    },
+    "template": "64ad79479805024c0ebfbefe",
+    "type": "task",
+    "updatedAt": "2024-07-05T20:39:23.679Z",
+    "updatedBy": {
+      "type": "user",
+      "id": "6482338a76be3774d91cc9b0",
+      "label": "Unknown User"
+    }
+  },
+  {
+    "areas": ["668856e517255a20ab848f26"],
+    "createdAt": "2023-07-21T16:04:34.890Z",
+    "createdBy": {
+      "type": "user",
+      "id": "6482338a76be3774d91cc9b0",
+      "label": "Unknown User"
+    },
+    "enabled": true,
+    "endAt": null,
+    "id": "c3cdace6-2a63-452b-bf6a-350ba6c108fa",
+    "locations": ["6688396cb4f6ed18dc2a6734"],
+    "name": "1.58 Monthly Tasks",
+    "roles": ["64788f940b7634129dffdceb", "64788f940b763433c9ffdcc2"],
+    "serviceHours": null,
+    "startAt": "2023-08-01T04:00:00.000Z",
+    "strategy": {
+      "options": {
+        "duration": {
+          "value": 1,
+          "unit": "day"
+        },
+        "date": 1,
+        "frequency": {
+          "value": 1,
+          "unit": "month"
+        }
+      },
+      "type": "exactDateOfMonth"
+    },
+    "template": "64b9a886e08f291309918df7",
+    "type": "task",
+    "updatedAt": "2024-07-05T20:27:33.181Z",
+    "updatedBy": {
+      "type": "user",
+      "id": "6482338a76be3774d91cc9b0",
+      "label": "Unknown User"
+    }
+  },
+  {
+    "areas": ["668856e517255a20ab848f26"],
+    "createdAt": "2023-07-21T16:03:49.477Z",
+    "createdBy": {
+      "type": "user",
+      "id": "6482338a76be3774d91cc9b0",
+      "label": "Unknown User"
+    },
+    "enabled": true,
+    "endAt": null,
+    "id": "fa71a348-bbff-4240-96a3-3a7da9bc1da6",
+    "locations": ["6688396cb4f6ed18dc2a6734"],
+    "name": "1.58 2x Weekly Tasks",
+    "roles": ["64788f940b763433c9ffdcc2", "64788f940b7634129dffdceb"],
+    "serviceHours": null,
+    "startAt": "2023-07-25T04:00:00.000Z",
+    "strategy": {
+      "options": {
+        "duration": {
+          "value": 1,
+          "unit": "day"
+        },
+        "weekdays": [2, 5],
+        "frequency": {
+          "value": 1,
+          "unit": "isoWeek"
+        }
+      },
+      "type": "weekdays"
+    },
+    "template": "64b9a85a0a92a5abfd2b9167",
+    "type": "task",
+    "updatedAt": "2024-10-02T15:33:49.744Z",
+    "updatedBy": {
+      "type": "user",
+      "id": "6482338a76be3774d91cc9b0",
+      "label": "Unknown User"
+    }
+  },
+  {
+    "areas": ["668856e517255a20ab848f26"],
+    "createdAt": "2023-07-21T16:00:45.100Z",
+    "createdBy": {
+      "type": "user",
+      "id": "6482338a76be3774d91cc9b0",
+      "label": "Unknown User"
+    },
+    "enabled": true,
+    "endAt": null,
+    "id": "f35483ae-bc74-49b1-adb0-ec19fbec5cdc",
+    "locations": ["6688396cb4f6ed18dc2a6734"],
+    "name": "1.58 Daily Tasks",
+    "roles": [
+      "64788f940b763433c9ffdcc2",
+      "64788f940b7634129dffdceb",
+      "64788f940b76345e3cffdcee"
+    ],
+    "serviceHours": null,
+    "startAt": "2023-07-22T04:00:00.000Z",
+    "strategy": {
+      "options": {
+        "duration": {
+          "value": 1,
+          "unit": "day"
+        },
+        "frequency": {
+          "value": 1,
+          "unit": "day"
+        }
+      },
+      "type": "window"
+    },
+    "template": "64ad79479805024c0ebfbefe",
+    "type": "task",
+    "updatedAt": "2024-10-02T14:27:40.439Z",
+    "updatedBy": {
+      "type": "user",
+      "id": "6482338a76be3774d91cc9b0",
+      "label": "Unknown User"
+    }
+  },
+  {
+    "areas": [],
+    "createdAt": "2023-07-21T15:55:45.411Z",
+    "createdBy": {
+      "type": "user",
+      "id": "6482338a76be3774d91cc9b0",
+      "label": "Unknown User"
+    },
+    "enabled": true,
+    "endAt": null,
+    "id": "dd1bf902-0845-46c3-a99e-c866543bbcd9",
+    "locations": ["6688396cb4f6ed18dc2a6734"],
+    "name": "1.02,1.08,5.29 Monthly Tasks",
+    "roles": ["64788f940b763433c9ffdcc2", "64788f940b7634129dffdceb"],
+    "serviceHours": null,
+    "startAt": "2023-08-01T04:00:00.000Z",
+    "strategy": {
+      "options": {
+        "duration": {
+          "value": 1,
+          "unit": "day"
+        },
+        "date": 1,
+        "frequency": {
+          "value": 1,
+          "unit": "month"
+        }
+      },
+      "type": "exactDateOfMonth"
+    },
+    "template": "64b9a886e08f291309918df7",
+    "type": "task",
+    "updatedAt": "2024-08-01T19:16:02.453Z",
+    "updatedBy": {
+      "type": "user",
+      "id": "6482338a76be3774d91cc9b0",
+      "label": "Unknown User"
+    }
+  },
+  {
+    "areas": ["6688578fb4f6edcb5439c916"],
+    "createdAt": "2023-07-21T15:48:50.778Z",
+    "createdBy": {
+      "type": "user",
+      "id": "6482338a76be3774d91cc9b0",
+      "label": "Unknown User"
+    },
+    "enabled": true,
+    "endAt": null,
+    "id": "c25a46d4-38da-45e0-8b06-6ca4a05270ca",
+    "locations": ["6688396cb4f6ed18dc2a6734"],
+    "name": "1.02,1.08,5.29 2x Weekly Tasks",
+    "roles": ["64788f940b7634129dffdceb", "64788f940b763433c9ffdcc2"],
+    "serviceHours": null,
+    "startAt": "2023-07-25T04:00:00.000Z",
+    "strategy": {
+      "options": {
+        "duration": {
+          "value": 1,
+          "unit": "day"
+        },
+        "weekdays": [2, 5],
+        "frequency": {
+          "value": 1,
+          "unit": "isoWeek"
+        }
+      },
+      "type": "weekdays"
+    },
+    "template": "64b9a85a0a92a5abfd2b9167",
+    "type": "task",
+    "updatedAt": "2024-07-05T20:29:50.984Z",
+    "updatedBy": {
+      "type": "user",
+      "id": "6482338a76be3774d91cc9b0",
+      "label": "Unknown User"
+    }
+  },
+  {
+    "areas": ["6688578fb4f6edcb5439c916"],
+    "createdAt": "2023-07-06T13:48:09.376Z",
+    "createdBy": {
+      "type": "user",
+      "id": "6482338a76be3774d91cc9b0",
+      "label": "Unknown User"
+    },
+    "enabled": true,
+    "endAt": null,
+    "id": "c012a132-e9b6-457b-a5c4-d2a8d5c9c309",
+    "locations": ["6688396cb4f6ed18dc2a6734"],
+    "name": "1.02,1.08,5.29 Daily Tasks",
+    "roles": [
+      "64788f940b763433c9ffdcc2",
+      "64788f940b7634129dffdceb",
+      "64788f940b76345e3cffdcee"
+    ],
+    "serviceHours": null,
+    "startAt": "2023-07-07T04:00:00.000Z",
+    "strategy": {
+      "options": {
+        "duration": {
+          "value": 1,
+          "unit": "day"
+        },
+        "frequency": {
+          "value": 1,
+          "unit": "day"
+        }
+      },
+      "type": "window"
+    },
+    "template": "64ad79479805024c0ebfbefe",
+    "type": "task",
+    "updatedAt": "2024-07-05T20:48:26.691Z",
+    "updatedBy": {
+      "type": "user",
+      "id": "6482338a76be3774d91cc9b0",
+      "label": "Unknown User"
+    },
+    "users": []
+  }
+]

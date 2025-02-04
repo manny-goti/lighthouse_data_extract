@@ -1,0 +1,846 @@
+[
+  {
+    "template": {
+      "formGroups": [
+        {
+          "repeatable": 1,
+          "_id": "64b99f270a92a5333e203675",
+          "fieldGroups": [
+            {
+              "_id": "64b99f270a92a5a806203676",
+              "fields": [
+                {
+                  "validation": {
+                    "enum": []
+                  },
+                  "_id": "64b99f270a92a5093b203677",
+                  "label": "Dust",
+                  "fieldtype": "switch",
+                  "options": {
+                    "required": false,
+                    "showOnRead": true,
+                    "summary": false
+                  },
+                  "value": null
+                },
+                {
+                  "validation": {
+                    "enum": []
+                  },
+                  "_id": "64b99f270a92a50415203678",
+                  "label": "Sweep/Mop",
+                  "fieldtype": "switch",
+                  "options": {
+                    "showOnRead": true,
+                    "required": false,
+                    "summary": false
+                  },
+                  "value": null
+                }
+              ]
+            }
+          ],
+          "canSkip": false,
+          "label": "IDF/Server Room Tasks"
+        }
+      ]
+    },
+    "roleRestrictions": [],
+    "_id": "64b99f270a92a54428203674",
+    "location": ["6688396cb4f6ed18dc2a6734"],
+    "zones": [
+      "66885f0bcefcd833f81920fc",
+      "66885f2cb4f6ed70d13dce01",
+      "66885f3eb4f6edb1203de75a",
+      "66885f69b4f6eda6903e0e3b",
+      "66885fb1cefcd82e4119eed3",
+      "66885fe0cefcd80ff31a2d5e",
+      "66885ff2cefcd83ff21a44d5",
+      "66886010b4f6ed00c33e8652",
+      "6688605fcefcd841181ac7eb",
+      "66886071925a237b95a3891a",
+      "668860a4cefcd863c21b1943",
+      "668860b2cefcd87d5d1b2dff",
+      "668860bfb4f6ed1bc23ed2ad",
+      "668860cfcefcd88c081b53b5",
+      "668860ed925a23c1ada3a33d",
+      "66886119cefcd80f281bb3e6",
+      "6688612bcefcd8d8f21bc55f",
+      "6688613bcefcd881881bd512",
+      "66886172cefcd8a8d11c26c1",
+      "66886181b4f6ed7a2c3f3419",
+      "6688618db4f6ed440f3f3ef8",
+      "6688619dcefcd83e7e1c4d62",
+      "66886541cefcd8945e2119fd",
+      "66d07a17a7637156bcee3391"
+    ],
+    "tags": [],
+    "revision": 8,
+    "deleted": false,
+    "name": "IDF/Server Room Tasks",
+    "type": "task",
+    "application": "64788f940b7634da94ffdcbd",
+    "created": "2023-07-20T20:55:03.122Z",
+    "createdAt": "2023-07-20T20:55:03.126Z",
+    "updatedAt": "2024-08-29T13:42:36.822Z",
+    "__v": 7,
+    "locationGroups": [],
+    "locations": [
+      {
+        "id": "6688396cb4f6ed18dc2a6734",
+        "name": "Novo Nordisk, 3612, Powhatan Road",
+        "addedBy": "64788f940b76342795ffdcfc",
+        "addedAt": "2024-12-16T03:48:53.542Z"
+      }
+    ],
+    "updatedBy": "6482338a76be3774d91cc9b0",
+    "signals": [
+      {
+        "id": "66885f08cefcd864e7191b4f",
+        "name": "IDF/Server Room (6.42)",
+        "addedBy": "64788f940b76342795ffdcfc",
+        "addedAt": "2024-12-16T03:48:58.325Z"
+      },
+      {
+        "id": "66885f2bb4f6ed3f783dcc96",
+        "name": "IDF/Server Room (6.54)",
+        "addedBy": "64788f940b76342795ffdcfc",
+        "addedAt": "2024-12-16T03:48:58.325Z"
+      },
+      {
+        "id": "66885f3db4f6ed29ce3de62e",
+        "name": "IDF/Server Room (0.97)",
+        "addedBy": "64788f940b76342795ffdcfc",
+        "addedAt": "2024-12-16T03:48:58.325Z"
+      },
+      {
+        "id": "66885f67b4f6ed46cc3e0e09",
+        "name": "IDF/Server Room (1.53)",
+        "addedBy": "64788f940b76342795ffdcfc",
+        "addedAt": "2024-12-16T03:48:58.325Z"
+      },
+      {
+        "id": "66885fb0cefcd84f6019ee32",
+        "name": "IDF/Server Room (2.24,2.25)",
+        "addedBy": "64788f940b76342795ffdcfc",
+        "addedAt": "2024-12-16T03:48:58.325Z"
+      },
+      {
+        "id": "66885fdecefcd813ac1a2982",
+        "name": "IDF/Server Room (0.42,0.43)",
+        "addedBy": "64788f940b76342795ffdcfc",
+        "addedAt": "2024-12-16T03:48:58.325Z"
+      },
+      {
+        "id": "66885ff1cefcd8388f1a43d2",
+        "name": "IDF/Server Room (4.01)",
+        "addedBy": "64788f940b76342795ffdcfc",
+        "addedAt": "2024-12-16T03:48:58.325Z"
+      },
+      {
+        "id": "6688600fb4f6ed226f3e85ae",
+        "name": "IDF/Server Room (2.38)",
+        "addedBy": "64788f940b76342795ffdcfc",
+        "addedAt": "2024-12-16T03:48:58.325Z"
+      },
+      {
+        "id": "6688605ecefcd8574c1ac6ea",
+        "name": "IDF/Server Room (7.04)",
+        "addedBy": "64788f940b76342795ffdcfc",
+        "addedAt": "2024-12-16T03:48:58.326Z"
+      },
+      {
+        "id": "66886070925a23999fa38893",
+        "name": "IDF/Server Room (1.68)",
+        "addedBy": "64788f940b76342795ffdcfc",
+        "addedAt": "2024-12-16T03:48:58.326Z"
+      },
+      {
+        "id": "668860a1cefcd8e7bc1b14f0",
+        "name": "IDF/Server Room (7.14)",
+        "addedBy": "64788f940b76342795ffdcfc",
+        "addedAt": "2024-12-16T03:48:58.326Z"
+      },
+      {
+        "id": "668860b1cefcd8b1031b2d44",
+        "name": "IDF/Server Room (8.07)",
+        "addedBy": "64788f940b76342795ffdcfc",
+        "addedAt": "2024-12-16T03:48:58.326Z"
+      },
+      {
+        "id": "668860beb4f6ed270d3ed214",
+        "name": "IDF/Server Room (9.48)",
+        "addedBy": "64788f940b76342795ffdcfc",
+        "addedAt": "2024-12-16T03:48:58.326Z"
+      },
+      {
+        "id": "668860cecefcd8fe5f1b5123",
+        "name": "IDF/Server Room (8.59)",
+        "addedBy": "64788f940b76342795ffdcfc",
+        "addedAt": "2024-12-16T03:48:58.326Z"
+      },
+      {
+        "id": "668860ec925a232822a3a332",
+        "name": "IDF/Server Room (9.20)",
+        "addedBy": "64788f940b76342795ffdcfc",
+        "addedAt": "2024-12-16T03:48:58.326Z"
+      },
+      {
+        "id": "66886118cefcd8011a1bb332",
+        "name": "IDF/Server Room (9.05))",
+        "addedBy": "64788f940b76342795ffdcfc",
+        "addedAt": "2024-12-16T03:48:58.326Z"
+      },
+      {
+        "id": "6688612acefcd8fe1c1bc4f3",
+        "name": "IDF/Server Room (8.33)",
+        "addedBy": "64788f940b76342795ffdcfc",
+        "addedAt": "2024-12-16T03:48:58.326Z"
+      },
+      {
+        "id": "6688613acefcd801591bd335",
+        "name": "IDF/Server Room (9.44)",
+        "addedBy": "64788f940b76342795ffdcfc",
+        "addedAt": "2024-12-16T03:48:58.326Z"
+      },
+      {
+        "id": "66886170cefcd85db61c23e6",
+        "name": "IDF/Server Room (9.71)",
+        "addedBy": "64788f940b76342795ffdcfc",
+        "addedAt": "2024-12-16T03:48:58.326Z"
+      },
+      {
+        "id": "66886181b4f6ed2deb3f3394",
+        "name": "IDF/Server Room (9.93)",
+        "addedBy": "64788f940b76342795ffdcfc",
+        "addedAt": "2024-12-16T03:48:58.326Z"
+      },
+      {
+        "id": "6688618cb4f6ed20093f3e66",
+        "name": "IDF/Server Room (8.74)",
+        "addedBy": "64788f940b76342795ffdcfc",
+        "addedAt": "2024-12-16T03:48:58.326Z"
+      },
+      {
+        "id": "6688619ccefcd8fd101c4ca4",
+        "name": "IDF/Server Room (8.68)",
+        "addedBy": "64788f940b76342795ffdcfc",
+        "addedAt": "2024-12-16T03:48:58.326Z"
+      },
+      {
+        "id": "66886540cefcd83329211964",
+        "name": "IDF/Server Room (5.04)",
+        "addedBy": "64788f940b76342795ffdcfc",
+        "addedAt": "2024-12-16T03:48:58.327Z"
+      },
+      {
+        "id": "66d07a16a763714525ee3284",
+        "name": "IDF/Server Room (1.92)",
+        "addedBy": "64788f940b76342795ffdcfc",
+        "addedAt": "2024-12-16T03:48:58.327Z"
+      }
+    ]
+  },
+  {
+    "template": {
+      "formGroups": [
+        {
+          "repeatable": 1,
+          "_id": "64b9a5f40a92a5743728bf50",
+          "fieldGroups": [
+            {
+              "_id": "64b9a5f40a92a52cdf28bf51",
+              "fields": [
+                {
+                  "validation": {
+                    "enum": []
+                  },
+                  "_id": "64b9a5f40a92a5308d28bf52",
+                  "fieldtype": "switch",
+                  "options": {
+                    "showOnRead": true,
+                    "required": false,
+                    "summary": false
+                  },
+                  "value": null,
+                  "label": "Scrub Floors as needed"
+                }
+              ]
+            }
+          ],
+          "canSkip": false,
+          "label": "Production Quarterly Tasks"
+        }
+      ]
+    },
+    "roleRestrictions": [],
+    "_id": "64b9a5f40a92a5726d28bf4f",
+    "location": ["6688396cb4f6ed18dc2a6734"],
+    "zones": [
+      "66885f86cefcd869b219ba11",
+      "66886025cefcd82a8a1a7fb3",
+      "66886102b4f6ed277e3eeaa1",
+      "6688614ecefcd86b0c1bf289",
+      "668861abcefcd887ae1c61f9",
+      "66885f58b4f6ed288a3e03d7"
+    ],
+    "tags": [],
+    "revision": 8,
+    "deleted": false,
+    "name": "Production Quarterly Tasks (Form 181515)",
+    "type": "task",
+    "application": "64788f940b7634da94ffdcbd",
+    "created": "2023-07-20T21:24:04.917Z",
+    "createdAt": "2023-07-20T21:24:04.920Z",
+    "updatedAt": "2024-08-29T13:45:47.650Z",
+    "__v": 7,
+    "locationGroups": [],
+    "locations": [
+      {
+        "id": "6688396cb4f6ed18dc2a6734",
+        "name": "Novo Nordisk, 3612, Powhatan Road",
+        "addedBy": "64788f940b76342795ffdcfc",
+        "addedAt": "2024-12-16T03:48:55.063Z"
+      }
+    ],
+    "updatedBy": "6482338a76be3774d91cc9b0",
+    "signals": [
+      {
+        "id": "66885f58b4f6edd9513e033d",
+        "name": "Book 6 Production (1.95)",
+        "addedBy": "64788f940b76342795ffdcfc",
+        "addedAt": "2024-12-16T03:48:59.331Z"
+      },
+      {
+        "id": "66885f82cefcd8ce4919b586",
+        "name": "Book 4 Production (1.18,1.20,1.50)",
+        "addedBy": "64788f940b76342795ffdcfc",
+        "addedAt": "2024-12-16T03:48:59.331Z"
+      },
+      {
+        "id": "66886024cefcd8e6eb1a7d4a",
+        "name": "Book 5 Production (1.94,1.97)",
+        "addedBy": "64788f940b76342795ffdcfc",
+        "addedAt": "2024-12-16T03:48:59.331Z"
+      },
+      {
+        "id": "66886101b4f6edfeba3ee992",
+        "name": "Book 3 Production (8.17)",
+        "addedBy": "64788f940b76342795ffdcfc",
+        "addedAt": "2024-12-16T03:48:59.331Z"
+      },
+      {
+        "id": "6688614bcefcd804f41bedfc",
+        "name": "Book 1 Production (8.70)",
+        "addedBy": "64788f940b76342795ffdcfc",
+        "addedAt": "2024-12-16T03:48:59.331Z"
+      },
+      {
+        "id": "668861aacefcd834851c6037",
+        "name": "Book 2 Production (8.51,8.73)",
+        "addedBy": "64788f940b76342795ffdcfc",
+        "addedAt": "2024-12-16T03:48:59.331Z"
+      }
+    ]
+  },
+  {
+    "template": {
+      "formGroups": [
+        {
+          "repeatable": 1,
+          "_id": "64ad79479805028057bfbeff",
+          "fieldGroups": [
+            {
+              "_id": "64ad79479805025ac8bfbf00",
+              "fields": [
+                {
+                  "validation": {
+                    "enum": []
+                  },
+                  "_id": "64ad794798050209b4bfbf01",
+                  "fieldtype": "switch",
+                  "options": {
+                    "required": false,
+                    "showOnRead": true,
+                    "summary": false,
+                    "type": "signature"
+                  },
+                  "label": "Sweep floors",
+                  "value": null
+                },
+                {
+                  "validation": {
+                    "enum": []
+                  },
+                  "_id": "64ad7947980502291ebfbf02",
+                  "label": "Clean walls/windows/door frames",
+                  "fieldtype": "switch",
+                  "options": {
+                    "showOnRead": true,
+                    "required": false,
+                    "summary": false,
+                    "type": "signature"
+                  },
+                  "value": null
+                }
+              ]
+            }
+          ],
+          "canSkip": false,
+          "label": "Production Weekly Tasks"
+        }
+      ]
+    },
+    "roleRestrictions": [],
+    "_id": "64b9a1c60a92a5fe3d23c894",
+    "location": ["6688396cb4f6ed18dc2a6734"],
+    "zones": [
+      "66885f58b4f6ed288a3e03d7",
+      "66886025cefcd82a8a1a7fb3",
+      "66886102b4f6ed277e3eeaa1",
+      "6688614ecefcd86b0c1bf289",
+      "668861abcefcd887ae1c61f9",
+      "66885f86cefcd869b219ba11"
+    ],
+    "tags": [],
+    "revision": 9,
+    "deleted": false,
+    "application": "64788f940b7634da94ffdcbd",
+    "name": "Production Weekly Tasks (Form 181515)",
+    "type": "task",
+    "created": "2023-07-20T21:06:14.340Z",
+    "createdAt": "2023-07-20T21:06:14.347Z",
+    "updatedAt": "2024-07-16T15:41:30.160Z",
+    "__v": 8,
+    "locationGroups": [],
+    "locations": [
+      {
+        "id": "6688396cb4f6ed18dc2a6734",
+        "name": "Novo Nordisk, 3612, Powhatan Road",
+        "addedBy": "64788f940b76342795ffdcfc",
+        "addedAt": "2024-12-16T03:48:54.554Z"
+      }
+    ],
+    "signals": [
+      {
+        "id": "66885f58b4f6edd9513e033d",
+        "name": "Book 6 Production (1.95)",
+        "addedBy": "64788f940b76342795ffdcfc",
+        "addedAt": "2024-12-16T03:48:58.828Z"
+      },
+      {
+        "id": "66885f82cefcd8ce4919b586",
+        "name": "Book 4 Production (1.18,1.20,1.50)",
+        "addedBy": "64788f940b76342795ffdcfc",
+        "addedAt": "2024-12-16T03:48:58.828Z"
+      },
+      {
+        "id": "66886024cefcd8e6eb1a7d4a",
+        "name": "Book 5 Production (1.94,1.97)",
+        "addedBy": "64788f940b76342795ffdcfc",
+        "addedAt": "2024-12-16T03:48:58.829Z"
+      },
+      {
+        "id": "66886101b4f6edfeba3ee992",
+        "name": "Book 3 Production (8.17)",
+        "addedBy": "64788f940b76342795ffdcfc",
+        "addedAt": "2024-12-16T03:48:58.829Z"
+      },
+      {
+        "id": "6688614bcefcd804f41bedfc",
+        "name": "Book 1 Production (8.70)",
+        "addedBy": "64788f940b76342795ffdcfc",
+        "addedAt": "2024-12-16T03:48:58.829Z"
+      },
+      {
+        "id": "668861aacefcd834851c6037",
+        "name": "Book 2 Production (8.51,8.73)",
+        "addedBy": "64788f940b76342795ffdcfc",
+        "addedAt": "2024-12-16T03:48:58.830Z"
+      }
+    ]
+  },
+  {
+    "template": {
+      "formGroups": [
+        {
+          "repeatable": 1,
+          "_id": "64b9a85a0a92a51e472b9168",
+          "fieldGroups": [
+            {
+              "_id": "64b9a85a0a92a5b21d2b9169",
+              "fields": [
+                {
+                  "validation": {
+                    "enum": []
+                  },
+                  "_id": "64b9a85a0a92a5d79e2b916a",
+                  "fieldtype": "switch",
+                  "options": {
+                    "required": false,
+                    "showOnRead": true,
+                    "summary": false
+                  },
+                  "label": "Scrub/Mop floor",
+                  "value": null
+                }
+              ]
+            }
+          ],
+          "canSkip": false,
+          "label": "Warehouse 2x Weekly Tasks"
+        }
+      ]
+    },
+    "roleRestrictions": [],
+    "_id": "64b9a85a0a92a5abfd2b9167",
+    "location": ["6688396cb4f6ed18dc2a6734"],
+    "zones": [
+      "668856e617255a852b848fbe",
+      "6688597f17255a321b87b6e0",
+      "668859a017255aedbc87d618",
+      "668859b9925a237cb7a071b9",
+      "66885a44925a2313aca08582",
+      "66885ab217255a6454890bed",
+      "6688578fb4f6ed1b2c39c936"
+    ],
+    "tags": [],
+    "revision": 6,
+    "deleted": false,
+    "name": "Warehouse 2x Weekly Tasks (Form 181514)",
+    "type": "task",
+    "application": "64788f940b7634da94ffdcbd",
+    "created": "2023-07-20T21:34:18.731Z",
+    "createdAt": "2023-07-20T21:34:18.739Z",
+    "updatedAt": "2024-07-05T20:51:00.096Z",
+    "__v": 5,
+    "locationGroups": [],
+    "locations": [
+      {
+        "id": "6688396cb4f6ed18dc2a6734",
+        "name": "Novo Nordisk, 3612, Powhatan Road",
+        "addedBy": "64788f940b76342795ffdcfc",
+        "addedAt": "2024-12-16T03:48:55.569Z"
+      }
+    ],
+    "signals": [
+      {
+        "id": "668856e417255a4ee5848dec",
+        "name": "Book 6 Warehouse (1.58)",
+        "addedBy": "64788f940b76342795ffdcfc",
+        "addedAt": "2024-12-16T03:48:59.836Z"
+      },
+      {
+        "id": "6688578eb4f6ed547739c895",
+        "name": "Book 7 Warehouse (1.02,1.08,5.29)",
+        "addedBy": "64788f940b76342795ffdcfc",
+        "addedAt": "2024-12-16T03:48:59.836Z"
+      },
+      {
+        "id": "6688597b17255a639787b210",
+        "name": "Book 5 Warehouse (7.00-7.03)",
+        "addedBy": "64788f940b76342795ffdcfc",
+        "addedAt": "2024-12-16T03:48:59.837Z"
+      },
+      {
+        "id": "6688599f17255a4b4187d526",
+        "name": "Book 2 Warehouse (8.71,8.46,8.47)",
+        "addedBy": "64788f940b76342795ffdcfc",
+        "addedAt": "2024-12-16T03:48:59.837Z"
+      },
+      {
+        "id": "668859b8925a23cf08a07121",
+        "name": "Book 1 Warehouse (8.72)",
+        "addedBy": "64788f940b76342795ffdcfc",
+        "addedAt": "2024-12-16T03:48:59.837Z"
+      },
+      {
+        "id": "66885a43925a2339fba084f6",
+        "name": "Book 3 Warehouse (7.08,7.09,7.17,7.19,7.20)",
+        "addedBy": "64788f940b76342795ffdcfc",
+        "addedAt": "2024-12-16T03:48:59.837Z"
+      },
+      {
+        "id": "66885aaf17255a62958906a0",
+        "name": "Book 4 Warehouse (8.77)",
+        "addedBy": "64788f940b76342795ffdcfc",
+        "addedAt": "2024-12-16T03:48:59.837Z"
+      }
+    ]
+  },
+  {
+    "template": {
+      "formGroups": [
+        {
+          "label": "Warehouse Daily Tasks",
+          "canSkip": false,
+          "repeatable": 1,
+          "fieldGroups": [
+            {
+              "fields": [
+                {
+                  "validation": {
+                    "enum": []
+                  },
+                  "fieldtype": "switch",
+                  "label": "Dust mop floors",
+                  "value": null,
+                  "options": {
+                    "required": false,
+                    "showOnRead": true,
+                    "summary": false,
+                    "type": "signature"
+                  },
+                  "_id": "64ad794798050209b4bfbf01"
+                },
+                {
+                  "validation": {
+                    "enum": []
+                  },
+                  "fieldtype": "switch",
+                  "label": "Empty Trash/Replace Liners",
+                  "value": null,
+                  "options": {
+                    "showOnRead": true,
+                    "required": false,
+                    "summary": false,
+                    "type": "signature"
+                  },
+                  "_id": "64ad7947980502291ebfbf02"
+                },
+                {
+                  "validation": {
+                    "enum": []
+                  },
+                  "fieldtype": "switch",
+                  "label": "Clean corners, walls/windows/doors",
+                  "value": null,
+                  "options": {
+                    "showOnRead": true,
+                    "required": false,
+                    "summary": false
+                  },
+                  "_id": "64b9a78a80f0e4997c27da86"
+                },
+                {
+                  "validation": {
+                    "enum": []
+                  },
+                  "fieldtype": "switch",
+                  "label": "Change dust mop head weekly",
+                  "value": null,
+                  "options": {
+                    "showOnRead": true,
+                    "required": false,
+                    "summary": false
+                  },
+                  "_id": "64b9a87e0a92a545fa2bc269"
+                },
+                {
+                  "validation": {
+                    "enum": []
+                  },
+                  "fieldtype": "switch",
+                  "label": "Inspect walls for damage and report if necessary",
+                  "value": null,
+                  "options": {
+                    "showOnRead": true,
+                    "required": false,
+                    "summary": false
+                  },
+                  "_id": "6758f98a4395e90a8e1cdce4"
+                }
+              ],
+              "_id": "64ad79479805025ac8bfbf00"
+            }
+          ],
+          "_id": "64ad79479805028057bfbeff"
+        }
+      ]
+    },
+    "_id": "64ad79479805024c0ebfbefe",
+    "location": ["6688396cb4f6ed18dc2a6734"],
+    "zones": [
+      "668856e617255a852b848fbe",
+      "6688597f17255a321b87b6e0",
+      "668859a017255aedbc87d618",
+      "668859b9925a237cb7a071b9",
+      "66885a44925a2313aca08582",
+      "66885ab217255a6454890bed",
+      "6688578fb4f6ed1b2c39c936"
+    ],
+    "tags": [],
+    "revision": 18,
+    "deleted": false,
+    "name": "Warehouse Daily Tasks (Form 181514)",
+    "type": "task",
+    "application": "64788f940b7634da94ffdcbd",
+    "created": "2023-07-11T15:46:15.694Z",
+    "createdAt": "2023-07-11T15:46:15.698Z",
+    "updatedAt": "2024-12-11T02:31:38.103Z",
+    "__v": 17,
+    "locationGroups": [],
+    "locations": [
+      {
+        "id": "6688396cb4f6ed18dc2a6734",
+        "name": "Novo Nordisk, 3612, Powhatan Road",
+        "addedBy": "64788f940b76342795ffdcfc",
+        "addedAt": "2024-12-16T03:48:53.041Z"
+      }
+    ],
+    "roleRestrictions": [],
+    "signals": [
+      {
+        "id": "668856e417255a4ee5848dec",
+        "name": "Book 6 Warehouse (1.58)",
+        "addedBy": "64788f940b76342795ffdcfc",
+        "addedAt": "2024-12-16T03:48:57.823Z"
+      },
+      {
+        "id": "6688578eb4f6ed547739c895",
+        "name": "Book 7 Warehouse (1.02,1.08,5.29)",
+        "addedBy": "64788f940b76342795ffdcfc",
+        "addedAt": "2024-12-16T03:48:57.823Z"
+      },
+      {
+        "id": "6688597b17255a639787b210",
+        "name": "Book 5 Warehouse (7.00-7.03)",
+        "addedBy": "64788f940b76342795ffdcfc",
+        "addedAt": "2024-12-16T03:48:57.823Z"
+      },
+      {
+        "id": "6688599f17255a4b4187d526",
+        "name": "Book 2 Warehouse (8.71,8.46,8.47)",
+        "addedBy": "64788f940b76342795ffdcfc",
+        "addedAt": "2024-12-16T03:48:57.823Z"
+      },
+      {
+        "id": "668859b8925a23cf08a07121",
+        "name": "Book 1 Warehouse (8.72)",
+        "addedBy": "64788f940b76342795ffdcfc",
+        "addedAt": "2024-12-16T03:48:57.823Z"
+      },
+      {
+        "id": "66885a43925a2339fba084f6",
+        "name": "Book 3 Warehouse (7.08,7.09,7.17,7.19,7.20)",
+        "addedBy": "64788f940b76342795ffdcfc",
+        "addedAt": "2024-12-16T03:48:57.823Z"
+      },
+      {
+        "id": "66885aaf17255a62958906a0",
+        "name": "Book 4 Warehouse (8.77)",
+        "addedBy": "64788f940b76342795ffdcfc",
+        "addedAt": "2024-12-16T03:48:57.823Z"
+      }
+    ],
+    "updatedBy": "6482338a76be3774d91cc9b0"
+  },
+  {
+    "template": {
+      "formGroups": [
+        {
+          "repeatable": 1,
+          "_id": "64b9a85a0a92a51e472b9168",
+          "fieldGroups": [
+            {
+              "_id": "64b9a85a0a92a5b21d2b9169",
+              "fields": [
+                {
+                  "validation": {
+                    "enum": []
+                  },
+                  "_id": "64b9a85a0a92a5d79e2b916a",
+                  "fieldtype": "switch",
+                  "options": {
+                    "required": false,
+                    "showOnRead": true,
+                    "summary": false
+                  },
+                  "label": "Clean Glide Tracks in floor",
+                  "value": null
+                }
+              ]
+            }
+          ],
+          "canSkip": false,
+          "label": "Warehouse Monthly Tasks"
+        }
+      ]
+    },
+    "roleRestrictions": [],
+    "_id": "64b9a886e08f291309918df7",
+    "location": ["6688396cb4f6ed18dc2a6734"],
+    "zones": [
+      "668856e617255a852b848fbe",
+      "6688597f17255a321b87b6e0",
+      "668859a017255aedbc87d618",
+      "668859b9925a237cb7a071b9",
+      "66885a44925a2313aca08582",
+      "66885ab217255a6454890bed",
+      "6688578fb4f6ed1b2c39c936"
+    ],
+    "tags": [],
+    "revision": 6,
+    "deleted": false,
+    "application": "64788f940b7634da94ffdcbd",
+    "name": "Warehouse Monthly Tasks (Form 181514)",
+    "type": "task",
+    "created": "2023-07-20T21:35:02.121Z",
+    "createdAt": "2023-07-20T21:35:02.124Z",
+    "updatedAt": "2024-07-05T20:50:55.401Z",
+    "__v": 5,
+    "locationGroups": [],
+    "locations": [
+      {
+        "id": "6688396cb4f6ed18dc2a6734",
+        "name": "Novo Nordisk, 3612, Powhatan Road",
+        "addedBy": "64788f940b76342795ffdcfc",
+        "addedAt": "2024-12-16T03:48:56.069Z"
+      }
+    ],
+    "signals": [
+      {
+        "id": "668856e417255a4ee5848dec",
+        "name": "Book 6 Warehouse (1.58)",
+        "addedBy": "64788f940b76342795ffdcfc",
+        "addedAt": "2024-12-16T03:49:00.338Z"
+      },
+      {
+        "id": "6688578eb4f6ed547739c895",
+        "name": "Book 7 Warehouse (1.02,1.08,5.29)",
+        "addedBy": "64788f940b76342795ffdcfc",
+        "addedAt": "2024-12-16T03:49:00.338Z"
+      },
+      {
+        "id": "6688597b17255a639787b210",
+        "name": "Book 5 Warehouse (7.00-7.03)",
+        "addedBy": "64788f940b76342795ffdcfc",
+        "addedAt": "2024-12-16T03:49:00.338Z"
+      },
+      {
+        "id": "6688599f17255a4b4187d526",
+        "name": "Book 2 Warehouse (8.71,8.46,8.47)",
+        "addedBy": "64788f940b76342795ffdcfc",
+        "addedAt": "2024-12-16T03:49:00.338Z"
+      },
+      {
+        "id": "668859b8925a23cf08a07121",
+        "name": "Book 1 Warehouse (8.72)",
+        "addedBy": "64788f940b76342795ffdcfc",
+        "addedAt": "2024-12-16T03:49:00.338Z"
+      },
+      {
+        "id": "66885a43925a2339fba084f6",
+        "name": "Book 3 Warehouse (7.08,7.09,7.17,7.19,7.20)",
+        "addedBy": "64788f940b76342795ffdcfc",
+        "addedAt": "2024-12-16T03:49:00.339Z"
+      },
+      {
+        "id": "66885aaf17255a62958906a0",
+        "name": "Book 4 Warehouse (8.77)",
+        "addedBy": "64788f940b76342795ffdcfc",
+        "addedAt": "2024-12-16T03:49:00.339Z"
+      }
+    ]
+  }
+]

@@ -1,0 +1,11 @@
+{
+  "auth_token": "6482338a76be3774d91cc9b0_31de04c6-0a75-4e5f-a052-b71416c97bdd",
+  "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36",
+  "base_url": "https://api.us.lighthouse.io/applications/",
+  "project_id": "64788f940b7634da94ffdcbd",
+  "api_settings": {
+    "max_retries": 3,
+    "timeout": 30,
+    "rate_limit": 100
+  }
+}

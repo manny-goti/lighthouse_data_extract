@@ -16,7 +16,7 @@ import json
 logging.basicConfig(filename='applog.txt', filemode='a', format='%(asctime)s - %(name)s - %(levelname)s - %(message)s', level=logging.INFO)
 
 # Load auth token and user agent from json file
-with open('.config/lighthouse.json') as f:
+with open('./config/lighthouse.json') as f:
     data = json.load(f)
     auth_token = data['auth_token']
     user_agent = data['user_agent']
@@ -31,9 +31,10 @@ def main():
     extract_exceptions(start_date, end_date,auth_token)
     extract_issues(start_date, end_date,auth_token,user_agent)
     process_lighthouse_data()
-    write_to_gsheets()
+    # write_to_gsheets()
     logging.info('**************IFP Data Extraction/Update Complete**************')
-    # Send email notification using postfix attach app.log file
+    
+    # Simple email without attachment
     logging.info('**************Sending Email Notification**************')
     os.system('echo "IFP Data Extraction/Update Complete" | mail -s "IFP Data Extraction/Update Complete" -A applog.txt manny@mgcapitalmain.com')
     logging.info('**************Email Notification Sent**************')

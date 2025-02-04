@@ -1,0 +1,26 @@
+{
+  "Production": {
+    "Weekly": {
+      "description": "Sweep Floor, Clean walls/windows/door frames",
+      "columns": [
+        "1.94,1.97",
+        "1.95",
+        "1.18,1.20,1.50",
+        "8.17",
+        "8.51,8.73",
+        "8.70"
+      ]
+    },
+    "Quarterly": {
+      "description": "Scrub Floors",
+      "columns": [
+        "1.94,1.97",
+        "1.95",
+        "1.18,1.20,1.50",
+        "8.17",
+        "8.51,8.73",
+        "8.70"
+      ]
+    }
+  }
+}

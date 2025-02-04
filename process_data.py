@@ -25,7 +25,7 @@ def process_lighthouse_data():
     tasks = pd.read_csv(os.path.join(data_path,latest_tasks))
     # tasks.rename(columns={'ID': 'Task ID'}, inplace=True)
     exceptions = pd.read_csv(os.path.join(data_path,latest_exceptions))
-    exceptions = exceptions.reset_index(names=['Exception ID'])
+    exceptions = exceptions.reset_index().rename(columns={'index': 'Exception ID'})
 
     # Filter out where location 2 is missing
     exceptions = exceptions[~exceptions['Location 1'].isnull()]

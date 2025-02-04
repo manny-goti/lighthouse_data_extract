@@ -424,3 +424,129 @@
 2024-10-31 14:11:30,732 - root - INFO - **************IFP Data Extraction/Update Complete**************
 2024-10-31 14:11:30,732 - root - INFO - **************Sending Email Notification**************
 2024-10-31 14:11:31,061 - root - INFO - **************Email Notification Sent**************
+2025-01-19 10:45:23,200 - root - INFO - **************Starting IFP Data Extraction/Update**************
+2025-01-19 10:45:23,201 - root - INFO - 2023_10.json already exists
+2025-01-19 10:45:23,201 - root - INFO - 2023_11.json already exists
+2025-01-19 10:45:23,201 - root - INFO - 2023_12.json already exists
+2025-01-19 10:45:23,201 - root - INFO - 2024_01.json already exists
+2025-01-19 10:45:23,201 - root - INFO - 2024_02.json already exists
+2025-01-19 10:45:23,201 - root - INFO - 2024_03.json already exists
+2025-01-19 10:45:23,201 - root - INFO - 2024_04.json already exists
+2025-01-19 10:45:23,201 - root - INFO - 2024_05.json already exists
+2025-01-19 10:45:23,201 - root - INFO - 2024_06.json already exists
+2025-01-19 10:45:23,201 - root - INFO - 2024_07.json already exists
+2025-01-19 10:45:23,201 - root - INFO - 2024_08.json already exists
+2025-01-19 10:45:23,201 - root - INFO - 2024_09.json already exists
+2025-01-19 10:45:27,574 - root - INFO - Saved /Users/manuelgoti/Projects/lighthouse_data_extract/data/raw_tasks/2024_10.json
+2025-01-19 10:45:31,214 - root - INFO - Saved /Users/manuelgoti/Projects/lighthouse_data_extract/data/raw_tasks/2024_11.json
+2025-01-19 10:45:35,033 - root - INFO - Saved /Users/manuelgoti/Projects/lighthouse_data_extract/data/raw_tasks/2024_12.json
+2025-01-19 10:45:36,216 - root - INFO - Task data saved successfully! Filename: task_data_20250119104536.csv
+2025-01-19 10:45:36,230 - root - INFO - 2023_10.json already exists
+2025-01-19 10:45:36,230 - root - INFO - 2023_11.json already exists
+2025-01-19 10:45:36,230 - root - INFO - 2023_12.json already exists
+2025-01-19 10:45:36,230 - root - INFO - 2024_01.json already exists
+2025-01-19 10:45:36,230 - root - INFO - 2024_02.json already exists
+2025-01-19 10:45:36,230 - root - INFO - 2024_03.json already exists
+2025-01-19 10:45:36,230 - root - INFO - 2024_04.json already exists
+2025-01-19 10:45:36,230 - root - INFO - 2024_05.json already exists
+2025-01-19 10:45:36,230 - root - INFO - 2024_06.json already exists
+2025-01-19 10:45:36,230 - root - INFO - 2024_07.json already exists
+2025-01-19 10:45:36,230 - root - INFO - 2024_08.json already exists
+2025-01-19 10:45:36,230 - root - INFO - 2024_09.json already exists
+2025-01-19 10:45:37,590 - root - INFO - Saved /Users/manuelgoti/Projects/lighthouse_data_extract/data/raw_exceptions/2024_10.json
+2025-01-19 10:45:38,124 - root - INFO - Saved /Users/manuelgoti/Projects/lighthouse_data_extract/data/raw_exceptions/2024_11.json
+2025-01-19 10:45:38,556 - root - INFO - Saved /Users/manuelgoti/Projects/lighthouse_data_extract/data/raw_exceptions/2024_12.json
+2025-01-19 10:45:38,663 - root - INFO - Exception data saved successfully! Filename: exception_data_20250119104538.csv
+2025-01-19 10:45:38,664 - root - INFO - 2023_10.json already exists
+2025-01-19 10:45:38,665 - root - INFO - 2023_11.json already exists
+2025-01-19 10:45:38,665 - root - INFO - 2023_12.json already exists
+2025-01-19 10:45:38,665 - root - INFO - 2024_01.json already exists
+2025-01-19 10:45:38,665 - root - INFO - 2024_02.json already exists
+2025-01-19 10:45:38,665 - root - INFO - 2024_03.json already exists
+2025-01-19 10:45:38,665 - root - INFO - 2024_04.json already exists
+2025-01-19 10:45:38,665 - root - INFO - 2024_05.json already exists
+2025-01-19 10:45:38,665 - root - INFO - 2024_06.json already exists
+2025-01-19 10:45:38,665 - root - INFO - 2024_07.json already exists
+2025-01-19 10:45:38,665 - root - INFO - 2024_08.json already exists
+2025-01-19 10:45:38,665 - root - INFO - 2024_09.json already exists
+2025-01-19 10:45:38,773 - root - INFO - Saved /Users/manuelgoti/Projects/lighthouse_data_extract/data/raw_issues/2024_10.json
+2025-01-19 10:45:38,879 - root - INFO - Saved /Users/manuelgoti/Projects/lighthouse_data_extract/data/raw_issues/2024_11.json
+2025-01-19 10:45:39,004 - root - INFO - Saved /Users/manuelgoti/Projects/lighthouse_data_extract/data/raw_issues/2024_12.json
+2025-01-19 10:45:39,146 - root - INFO - Issue data saved successfully! Filename: issue_data_20250119104539.csv
+2025-01-19 12:05:31,327 - root - INFO - **************Starting IFP Data Extraction/Update**************
+2025-01-19 12:05:31,327 - root - INFO - 2023_10.json already exists
+2025-01-19 12:05:31,327 - root - INFO - 2023_11.json already exists
+2025-01-19 12:05:31,327 - root - INFO - 2023_12.json already exists
+2025-01-19 12:05:31,327 - root - INFO - 2024_01.json already exists
+2025-01-19 12:05:31,327 - root - INFO - 2024_02.json already exists
+2025-01-19 12:05:31,327 - root - INFO - 2024_03.json already exists
+2025-01-19 12:05:31,327 - root - INFO - 2024_04.json already exists
+2025-01-19 12:05:31,328 - root - INFO - 2024_05.json already exists
+2025-01-19 12:05:31,328 - root - INFO - 2024_06.json already exists
+2025-01-19 12:05:31,328 - root - INFO - 2024_07.json already exists
+2025-01-19 12:05:31,328 - root - INFO - 2024_08.json already exists
+2025-01-19 12:05:31,328 - root - INFO - 2024_09.json already exists
+2025-01-19 12:05:31,328 - root - INFO - 2024_10.json already exists
+2025-01-19 12:05:31,328 - root - INFO - 2024_11.json already exists
+2025-01-19 12:05:31,328 - root - INFO - 2024_12.json already exists
+2025-01-19 12:05:31,923 - root - INFO - Task data saved successfully! Filename: task_data_20250119120531.csv
+2025-01-19 12:17:48,816 - root - INFO - **************Starting IFP Data Extraction/Update**************
+2025-01-19 12:17:48,816 - root - INFO - 2023_10.json already exists
+2025-01-19 12:17:48,816 - root - INFO - 2023_11.json already exists
+2025-01-19 12:17:48,816 - root - INFO - 2023_12.json already exists
+2025-01-19 12:17:48,816 - root - INFO - 2024_01.json already exists
+2025-01-19 12:17:48,816 - root - INFO - 2024_02.json already exists
+2025-01-19 12:17:48,816 - root - INFO - 2024_03.json already exists
+2025-01-19 12:17:48,816 - root - INFO - 2024_04.json already exists
+2025-01-19 12:17:48,816 - root - INFO - 2024_05.json already exists
+2025-01-19 12:17:48,816 - root - INFO - 2024_06.json already exists
+2025-01-19 12:17:48,816 - root - INFO - 2024_07.json already exists
+2025-01-19 12:17:48,816 - root - INFO - 2024_08.json already exists
+2025-01-19 12:17:48,816 - root - INFO - 2024_09.json already exists
+2025-01-19 12:17:48,816 - root - INFO - 2024_10.json already exists
+2025-01-19 12:17:48,816 - root - INFO - 2024_11.json already exists
+2025-01-19 12:17:48,816 - root - INFO - 2024_12.json already exists
+2025-01-19 12:17:49,407 - root - INFO - Task data saved successfully! Filename: task_data_20250119121749.csv
+2025-01-19 12:17:49,419 - root - INFO - 2023_10.json already exists
+2025-01-19 12:17:49,419 - root - INFO - 2023_11.json already exists
+2025-01-19 12:17:49,419 - root - INFO - 2023_12.json already exists
+2025-01-19 12:17:49,419 - root - INFO - 2024_01.json already exists
+2025-01-19 12:17:49,420 - root - INFO - 2024_02.json already exists
+2025-01-19 12:17:49,420 - root - INFO - 2024_03.json already exists
+2025-01-19 12:17:49,420 - root - INFO - 2024_04.json already exists
+2025-01-19 12:17:49,420 - root - INFO - 2024_05.json already exists
+2025-01-19 12:17:49,420 - root - INFO - 2024_06.json already exists
+2025-01-19 12:17:49,420 - root - INFO - 2024_07.json already exists
+2025-01-19 12:17:49,420 - root - INFO - 2024_08.json already exists
+2025-01-19 12:17:49,420 - root - INFO - 2024_09.json already exists
+2025-01-19 12:17:49,420 - root - INFO - 2024_10.json already exists
+2025-01-19 12:17:49,420 - root - INFO - 2024_11.json already exists
+2025-01-19 12:17:49,420 - root - INFO - 2024_12.json already exists
+2025-01-19 12:17:49,494 - root - INFO - Exception data saved successfully! Filename: exception_data_20250119121749.csv
+2025-01-19 12:17:49,495 - root - INFO - 2023_10.json already exists
+2025-01-19 12:17:49,495 - root - INFO - 2023_11.json already exists
+2025-01-19 12:17:49,495 - root - INFO - 2023_12.json already exists
+2025-01-19 12:17:49,495 - root - INFO - 2024_01.json already exists
+2025-01-19 12:17:49,495 - root - INFO - 2024_02.json already exists
+2025-01-19 12:17:49,495 - root - INFO - 2024_03.json already exists
+2025-01-19 12:17:49,495 - root - INFO - 2024_04.json already exists
+2025-01-19 12:17:49,495 - root - INFO - 2024_05.json already exists
+2025-01-19 12:17:49,495 - root - INFO - 2024_06.json already exists
+2025-01-19 12:17:49,495 - root - INFO - 2024_07.json already exists
+2025-01-19 12:17:49,495 - root - INFO - 2024_08.json already exists
+2025-01-19 12:17:49,496 - root - INFO - 2024_09.json already exists
+2025-01-19 12:17:49,496 - root - INFO - 2024_10.json already exists
+2025-01-19 12:17:49,496 - root - INFO - 2024_11.json already exists
+2025-01-19 12:17:49,496 - root - INFO - 2024_12.json already exists
+2025-01-19 12:17:49,685 - root - INFO - Issue data saved successfully! Filename: issue_data_20250119121749.csv
+2025-01-19 12:17:49,723 - root - INFO - Data processed successfully! Files saved in processed folder.
+2025-01-19 12:17:49,723 - root - INFO - **************IFP Data Extraction/Update Complete**************
+2025-01-19 12:17:49,723 - root - INFO - **************Sending Email Notification**************
+2025-01-19 12:17:49,905 - root - INFO - **************Email Notification Sent**************
+2025-02-03 11:48:27,836 - root - INFO - Saved /Users/manuelgoti/Projects/lighthouse_data_extract/signoff_sheet/data/raw_tasks/2025_01.json
+2025-02-03 11:49:19,266 - root - INFO - Task data saved successfully! Filename: task_data_20250203114919.csv
+2025-02-03 11:50:59,102 - root - INFO - Task data saved successfully! Filename: task_data_20250203115059.csv
+2025-02-03 11:57:18,183 - root - INFO - Task data saved successfully! Filename: task_data_20250203115718.csv
+2025-02-03 12:10:00,166 - root - INFO - Task data saved successfully! Filename: task_data_20250203121000.csv
+2025-02-03 12:16:19,219 - root - INFO - Task data saved successfully! Filename: task_data_2025_01_20250203121619.csv
+2025-02-03 12:51:50,226 - root - INFO - Task data saved successfully! Filename: task_data_2025_01_20250203125150.csv
