@@ -114,7 +114,6 @@ def create_task_report(
     """
     # Create a new workbook
     wb = Workbook()
-    ws = wb.active
     
     # Define styles
     border = Border(
@@ -127,167 +126,138 @@ def create_task_report(
     center_aligned = Alignment(horizontal='center', vertical='center', wrap_text=True)
     left_aligned = Alignment(horizontal='left', vertical='center')
     
-    # Calculate column positions
-    current_col = 2  # Start from column B (A is for dates)
-    section_spans = {}
-    
-    # First pass: calculate column spans and positions
+    # Process each frequency in a separate sheet
+    first_sheet = True
     for section_name, frequencies in config.items():
-        section_start = current_col
         for freq_name, freq_config in frequencies.items():
-            num_columns = len(freq_config['columns'])
-            section_spans[(section_name, freq_name)] = {
-                'start': current_col,
-                'end': current_col + num_columns - 1
-            }
-            current_col += num_columns
-        section_spans[section_name] = {
-            'start': section_start,
-            'end': current_col - 1
-        }
-    
-    # Set up the headers
-    for section_name, frequencies in config.items():
-        section_span = section_spans[section_name]
-        start_col = get_column_letter(section_span['start'])
-        end_col = get_column_letter(section_span['end'])
-        
-        # Merge and set section header
-        ws.merge_cells(f'{start_col}1:{end_col}1')
-        ws[f'{start_col}1'] = section_name
-        ws[f'{start_col}1'].alignment = center_aligned
-        ws[f'{start_col}1'].font = Font(bold=True)
-        ws[f'{start_col}1'].border = border
-        
-        # Add frequency headers
-        for freq_name, freq_config in frequencies.items():
-            freq_span = section_spans[(section_name, freq_name)]
-            start_col = get_column_letter(freq_span['start'])
-            end_col = get_column_letter(freq_span['end'])
+            # Create a new sheet for each frequency
+            if first_sheet:
+                ws = wb.active
+                ws.title = freq_name.replace('/', '_')  # Replace invalid characters
+                first_sheet = False
+            else:
+                ws = wb.create_sheet(freq_name.replace('/', '_'))  # Replace invalid characters
             
-            # Add frequency header with description
-            header_text = f"{freq_name}\n({freq_config['description']})"
-            ws.merge_cells(f'{start_col}2:{end_col}2')
-            ws[f'{start_col}2'] = header_text
-            ws[f'{start_col}2'].alignment = center_aligned
-            ws[f'{start_col}2'].font = Font(bold=True)
+            # Add section and frequency headers
+            ws.merge_cells('A1:A2')
+            ws['A1'] = 'Date'
+            ws['A1'].alignment = center_aligned
+            ws['A1'].font = Font(bold=True)
+            ws['A1'].border = border
             
-            # Add thick border if this is the last frequency in a section
-            freq_border = border
-            if freq_span['end'] < section_spans[section_name]['end']:
-                freq_border = Border(
-                    left=Side(style='thin'),
-                    right=Side(style='medium'),
-                    top=Side(style='thin'),
-                    bottom=Side(style='thin')
-                )
-            ws[f'{start_col}2'].border = freq_border
+            # Add description header
+            description_text = f"{section_name} - {freq_name}\n({freq_config['description']})"
+            ws.merge_cells(f'B1:H1')  # Merge cells for the description
+            ws['B1'] = description_text
+            ws['B1'].alignment = center_aligned
+            ws['B1'].font = Font(bold=True)
+            ws['B1'].border = border
             
-            # Add column headers
-            for i, col_header in enumerate(freq_config['columns']):
-                col = get_column_letter(freq_span['start'] + i)
-                ws[f'{col}3'] = col_header
-                ws[f'{col}3'].alignment = center_aligned
-                ws[f'{col}3'].font = Font(bold=True)
+            # Add room number headers
+            for i, room in enumerate(freq_config['columns'], start=2):  # Start from column B
+                col = get_column_letter(i)
+                ws[f'{col}2'] = room
+                ws[f'{col}2'].alignment = center_aligned
+                ws[f'{col}2'].font = Font(bold=True)
+                ws[f'{col}2'].border = border
+            
+            # Generate dates for the month
+            num_days = calendar.monthrange(year, month)[1]
+            start_date = datetime(year, month, 1)
+            dates = [(start_date + timedelta(days=i)).strftime('%a, %b %-d %Y') 
+                     for i in range(num_days)]
+            
+            # Add dates and empty cells
+            for i, date in enumerate(dates, start=3):  # Start from row 3 (after headers)
+                # Get the day of the week (0 = Monday, 6 = Sunday)
+                current_date = start_date + timedelta(days=i-3)
+                day_of_week = current_date.weekday()
                 
-                # Add thick border between task sections in the header
-                header_border = border
-                if (freq_span['start'] + i) == freq_span['end'] and freq_span['end'] < section_spans[section_name]['end']:
-                    header_border = Border(
+                # Create thicker bottom border for end of week (Sunday)
+                current_border = border
+                if day_of_week == 6:  # Sunday
+                    current_border = Border(
                         left=Side(style='thin'),
-                        right=Side(style='medium'),
+                        right=Side(style='thin'),
                         top=Side(style='thin'),
-                        bottom=Side(style='thin')
+                        bottom=Side(style='medium')  # Thicker bottom border
                     )
-                ws[f'{col}3'].border = header_border
-    
-    # Add date header
-    ws['A2'] = 'Date'
-    ws['A2'].alignment = center_aligned
-    ws['A2'].font = Font(bold=True)
-    ws['A2'].border = border
-    
-    # Generate dates for the month
-    num_days = calendar.monthrange(year, month)[1]
-    start_date = datetime(year, month, 1)
-    dates = [(start_date + timedelta(days=i)).strftime('%a, %b %-d %Y') 
-             for i in range(num_days)]
-    
-    # Add dates and empty cells
-    for i, date in enumerate(dates, start=4):  # Start from row 4 (after headers)
-        # Get the day of the week (0 = Monday, 6 = Sunday)
-        current_date = start_date + timedelta(days=i-4)
-        day_of_week = current_date.weekday()
-        
-        # Create thicker bottom border for end of week (Sunday)
-        current_border = border
-        if day_of_week == 6:  # Sunday
-            current_border = Border(
-                left=Side(style='thin'),
-                right=Side(style='thin'),
-                top=Side(style='thin'),
-                bottom=Side(style='medium')  # Thicker bottom border
-            )
-        
-        # Add date
-        ws[f'A{i}'] = date
-        ws[f'A{i}'].alignment = left_aligned
-        ws[f'A{i}'].border = current_border
-        
-        # Add empty cells for all columns
-        for col in range(2, current_col):
-            cell = ws.cell(row=i, column=col)
+                
+                # Add date
+                ws[f'A{i}'] = date
+                ws[f'A{i}'].alignment = left_aligned
+                ws[f'A{i}'].border = current_border
+                
+                # Add empty cells for all columns
+                for col in range(2, len(freq_config['columns']) + 2):
+                    cell = ws.cell(row=i, column=col)
+                    cell.border = current_border
+                    cell.alignment = center_aligned
             
-            # Check if this column is the last column before a new task section
-            is_section_boundary = False
-            for section_name, frequencies in config.items():
-                for freq_name, freq_config in frequencies.items():
-                    freq_span = section_spans[(section_name, freq_name)]
-                    if col == freq_span['end'] and col < section_spans[section_name]['end']:
-                        is_section_boundary = True
+            # Add "Reviewed by" section
+            review_row = len(dates) + 5
+            ws[f'A{review_row}'] = 'Reviewed by'
+            ws[f'A{review_row}'].font = Font(bold=True)
             
-            # Create border with thick right edge if it's a section boundary
-            cell_border = current_border
-            if is_section_boundary:
-                cell_border = Border(
-                    left=current_border.left,
-                    right=Side(style='medium'),
-                    top=current_border.top,
-                    bottom=current_border.bottom
-                )
+            # Add signature lines
+            fields = ['Sign:', 'Name:', 'Date:']
+            for i, field in enumerate(fields):
+                current_row = review_row + i + 2
+                ws[f'A{current_row}'] = field
+                ws.merge_cells(f'B{current_row}:D{current_row}')
+                ws[f'B{current_row}'].border = Border(bottom=Side(style='thin'))
             
-            cell.border = cell_border
-            cell.alignment = center_aligned
-    
-    # Add "Reviewed by" section
-    review_row = len(dates) + 6
-    ws[f'A{review_row}'] = 'Reviewed by'
-    ws[f'A{review_row}'].font = Font(bold=True)
-    
-    # Add signature lines
-    fields = ['Sign:', 'Name:', 'Date:']
-    for i, field in enumerate(fields):
-        current_row = review_row + i + 2
-        ws[f'A{current_row}'] = field
-        ws.merge_cells(f'B{current_row}:D{current_row}')
-        ws[f'B{current_row}'].border = Border(bottom=Side(style='thin'))
-    
-    # Set column widths
-    ws.column_dimensions['A'].width = 20
-    for col in range(2, current_col):
-        ws.column_dimensions[get_column_letter(col)].width = 12
-    
-    # Set row heights for headers
-    ws.row_dimensions[1].height = 30
-    ws.row_dimensions[2].height = 45  # Increased height for description row
+            # Set column widths
+            ws.column_dimensions['A'].width = 20
+            for col in range(2, len(freq_config['columns']) + 2):
+                ws.column_dimensions[get_column_letter(col)].width = 12
+            
+            # Set row heights for headers
+            ws.row_dimensions[1].height = 30  # Description row
+            ws.row_dimensions[2].height = 30  # Room numbers
     
     # Save the workbook
     wb.save(output_filename)
 
 def normalize_string(s: str) -> str:
-    """Normalize string by removing extra spaces and converting to lowercase"""
-    # Remove all spaces and convert to lowercase
-    return ''.join(s.lower().split())
+    """
+    Normalize a string by converting to lowercase and standardizing spaces.
+    Special handling for:
+    - Frequencies with '2x' or 'twice'
+    - Room numbers with commas or letters
+    - Multiple rooms in a single string
+    
+    Args:
+        s (str): String to normalize
+    
+    Returns:
+        str: Normalized string
+    """
+    # Convert to lowercase and strip whitespace
+    s = s.lower().strip()
+    
+    # Special handling for frequencies with '2x' or 'twice'
+    if '2x ' in s:
+        parts = s.split('2x ')
+        return '2x ' + ' '.join(parts[1].split())
+    elif 'twice ' in s:
+        parts = s.split('twice ')
+        return 'twice ' + ' '.join(parts[1].split())
+    
+    # Special handling for room numbers
+    if any(c.isdigit() for c in s):  # If string contains numbers (likely a room number)
+        # Remove spaces around commas and preserve letters after numbers
+        parts = [part.strip() for part in s.split(',')]
+        normalized_parts = []
+        for part in parts:
+            # Keep letters that are directly after numbers (e.g., '8.77a')
+            # but normalize any other spaces
+            cleaned = ' '.join(part.split())
+            normalized_parts.append(cleaned)
+        return ','.join(normalized_parts)
+    
+    # For other cases (like frequencies without '2x'), normalize spaces
+    return ' '.join(s.split())
 
 def write_unmatched_tasks(unmatched_records: list, excel_file: str, month: int, year: int):
     """Write unmatched tasks to a review file"""
@@ -340,6 +310,7 @@ def populate_report_data(excel_file: str, completion_data_csv: str, month: int, 
     import pandas as pd
     from openpyxl import load_workbook
     from openpyxl.styles import Alignment
+    import os.path
     
     # Create target date object
     target_date = datetime(year, month, 1)
@@ -348,9 +319,9 @@ def populate_report_data(excel_file: str, completion_data_csv: str, month: int, 
     try:
         df = pd.read_csv(completion_data_csv)
     except FileNotFoundError:
-        raise FileNotFoundError(f"Completion data file not found: {completion_data_csv}")
+        raise FileNotFoundError(f"Completion data file not found: {os.path.basename(completion_data_csv)}")
     except pd.errors.EmptyDataError:
-        raise ValueError(f"Completion data file is empty: {completion_data_csv}")
+        raise ValueError(f"Completion data file is empty: {os.path.basename(completion_data_csv)}")
     except Exception as e:
         raise ValueError(f"Error reading completion data file: {str(e)}")
     
@@ -378,7 +349,7 @@ def populate_report_data(excel_file: str, completion_data_csv: str, month: int, 
         config_type = 'idf'
         config = load_config('configs/idf_config.json')
     else:
-        raise ValueError(f"Unable to determine config type from filename: {os.path.basename(excel_file)}")
+        raise ValueError(f"Unable to determine config type from filename: {filename}")
     
     # Filter data for the target month/year and config type
     df['Year/Month'] = df['Datetime'].dt.strftime('%Y-%m')
@@ -395,34 +366,60 @@ def populate_report_data(excel_file: str, completion_data_csv: str, month: int, 
     # Load the existing Excel file
     try:
         wb = load_workbook(excel_file)
-        ws = wb.active
     except Exception as e:
-        raise ValueError(f"Error loading Excel template: {str(e)}")
+        raise ValueError(f"Error loading Excel template: {os.path.basename(excel_file)}")
     
-    # Create a mapping of room numbers to column indices
-    column_mapping = {}
-    current_col = 2  # Start from column B
-    
-    for section_name, frequencies in config.items():
-        for freq_name, freq_config in frequencies.items():
-            for i, room in enumerate(freq_config['columns']):
-                # Store with normalized frequency and room number
-                column_mapping[(normalize_string(freq_name), normalize_string(room))] = current_col + i
-            current_col += len(freq_config['columns'])
+    # Create a case-insensitive mapping of sheet names
+    sheet_name_mapping = {name.lower(): name for name in wb.sheetnames}
     
     # Track statistics for reporting
     total_records = len(df_filtered)
     matched_records = 0
     unmatched_records = []
     
+    # Create column mappings for each sheet/frequency
+    sheet_mappings = {}
+    for section_name, frequencies in config.items():
+        for freq_name, freq_config in frequencies.items():
+            # Create mapping for this frequency
+            column_mapping = {}
+            for i, room in enumerate(freq_config['columns'], start=2):  # Start from column B
+                column_mapping[normalize_string(room)] = i
+            normalized_freq = normalize_string(freq_name)
+            sheet_mappings[normalized_freq] = column_mapping
+    
     # Process each completion record
     for _, row in df_filtered.iterrows():
         # Format the date string to match Excel format
         completion_date = row['Datetime'].strftime('%a, %b %-d %Y')
         
+        # Get task frequency and room number (normalized)
+        raw_freq = row['Frequency']
+        task_freq = normalize_string(raw_freq)
+        room_number = normalize_string(str(row['Room Number']))
+        
+        # Get the corresponding sheet name (case-insensitive lookup)
+        actual_sheet_name = sheet_name_mapping.get(task_freq)
+        if actual_sheet_name is None:
+            unmatched_records.append(f"No sheet found for frequency '{raw_freq}'")
+            continue
+        
+        ws = wb[actual_sheet_name]
+        column_mapping = sheet_mappings.get(task_freq)
+        
+        if not column_mapping:
+            unmatched_records.append(f"No column mapping found for frequency '{raw_freq}'")
+            continue
+        
+        # Find the column for this room
+        column = column_mapping.get(room_number)
+        if column is None:
+            unmatched_records.append(f"No matching column for room '{room_number}' in {raw_freq} sheet")
+            continue
+        
         # Find the row for this date
         date_cell = None
-        for row_idx in range(4, ws.max_row + 1):
+        for row_idx in range(3, ws.max_row + 1):  # Start from row 3 (after headers)
             if ws.cell(row=row_idx, column=1).value == completion_date:
                 date_cell = row_idx
                 break
@@ -431,27 +428,18 @@ def populate_report_data(excel_file: str, completion_data_csv: str, month: int, 
             unmatched_records.append(f"Date not found: {completion_date}")
             continue
         
-        # Get task frequency and room number (normalized)
-        task_freq = normalize_string(row['Frequency'])
-        room_number = normalize_string(str(row['Room Number']))
+        # Add the completion data (full name)
+        cell = ws.cell(row=date_cell, column=column)
+        cell.value = row['Name']
+        cell.alignment = Alignment(horizontal='center', vertical='center', wrap_text=True)
         
-        # Find the column for this task type and room
-        column = column_mapping.get((task_freq, room_number))
+        # Adjust column width if needed
+        current_width = ws.column_dimensions[get_column_letter(column)].width
+        name_width = len(row['Name']) + 2  # Add some padding
+        if name_width > current_width:
+            ws.column_dimensions[get_column_letter(column)].width = min(name_width, 20)  # Cap at 20 characters
         
-        if column is not None:
-            # Add the completion data (full name)
-            cell = ws.cell(row=date_cell, column=column)
-            cell.value = row['Name']
-            # Center align the text and adjust column width if needed
-            cell.alignment = Alignment(horizontal='center', vertical='center', wrap_text=True)
-            # Adjust column width to fit the name
-            current_width = ws.column_dimensions[get_column_letter(column)].width
-            name_width = len(row['Name']) + 2  # Add some padding
-            if name_width > current_width:
-                ws.column_dimensions[get_column_letter(column)].width = min(name_width, 20)  # Cap at 20 characters
-            matched_records += 1
-        else:
-            unmatched_records.append(f"No matching column for frequency '{task_freq}' and room '{room_number}'")
+        matched_records += 1
     
     # Save the workbook back to the same file
     try:
